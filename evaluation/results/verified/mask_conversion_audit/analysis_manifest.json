@@ -1,0 +1,71 @@
+{
+  "analysis": "mask conversion fault audit",
+  "command": [
+    "<CONDA_ENVS>\\cellproject\\python.exe",
+    "<PROJECT_ROOT>\\code\\mask_conversion_audit.py",
+    "--dataset-root",
+    "<ALFI_DATA>",
+    "--converter",
+    "<ALFI_DATA>\\convert_masks.py",
+    "--diagnostic",
+    "<ALFI_DATA>\\convert_step_check.py",
+    "--raw-check",
+    "<ALFI_DATA>\\raw_mask_check.py",
+    "--output",
+    "<PROJECT_ROOT>\\results\\verified\\mask_conversion_audit"
+  ],
+  "environment": {
+    "numpy": "2.2.6",
+    "platform": "Windows-10-10.0.22631-SP0",
+    "python": "3.10.20",
+    "scikit_image": "0.25.2"
+  },
+  "historical_evidence": [
+    {
+      "path": "<ALFI_DATA>\\convert_masks.py",
+      "sha256": "7c3b103def49f57ccdd5cae0525c364c144522daba13fc875e736e46dc41cb99"
+    },
+    {
+      "path": "<ALFI_DATA>\\convert_step_check.py",
+      "sha256": "1afb80400ec22df3d0404b729e32c1ad60ae3df089b5c3a1d5911d33a77a9650"
+    },
+    {
+      "path": "<ALFI_DATA>\\raw_mask_check.py",
+      "sha256": "a72b6dd8050f15320f0d45cdc6852391aae8b71a41b41d4cf4ef24284a1d3cda"
+    }
+  ],
+  "input_collections": {
+    "raw_masks": {
+      "aggregate_sha256": "5fbe97b7fac208b6f9a0ff456b66ee0193563ba7036566dfde9d781297294f1e",
+      "count": 345
+    },
+    "stored_class_masks": {
+      "aggregate_sha256": "6e7ca047c39d0d541ca7dd600199645ba6a55db557bc6fb7751022f93ad6a910",
+      "count": 345
+    },
+    "stored_instance_masks": {
+      "aggregate_sha256": "1aab965287e99c066a4cc9951d90c1bede3b94e1761a2231f1a849cdbf3c5d60",
+      "count": 345
+    }
+  },
+  "interpretation_boundary": "The mechanism and current outputs are verified. The audit does not attribute the fault to a specific historical model-training run because the pre-fix production source was not preserved in version control.",
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\mask_conversion_audit\\mask_comparison.csv",
+      "sha256": "dd6e390175d5dcc593a72388294297bac87b42a5511751b0305de8a066f25a4a"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\mask_conversion_audit\\value_mapping.csv",
+      "sha256": "07f6af258681a950d29ce493ff2fba581063684631a48de312bd7a3c4fd2c5c9"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\mask_conversion_audit\\conversion_summary.json",
+      "sha256": "c8503d04f55a3ab298cf8c315cb8f39154a595d69d7bd6742fab7d12296b4209"
+    }
+  ],
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\code\\mask_conversion_audit.py",
+    "sha256": "d8c99fcf2dc97b226387f52a8127a776d38d015d3c63717b75db2cdc2e8903c7"
+  }
+}

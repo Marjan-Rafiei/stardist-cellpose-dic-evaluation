@@ -1,0 +1,28 @@
+{
+  "inputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\random_forest_audit\\analysis_manifest.json",
+      "sha256": "db5b76c7d3f6f6731a12490cca65757beb58adf8b01f6869bf102dbd3d0ea322"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\random_forest_audit\\benchmark_metrics.csv",
+      "sha256": "ce087d33b8502ef636f9c1293e0fba42a722e7e74d9f46e92cde139e1b9960a0"
+    }
+  ],
+  "notes": "MI04 validation only. Logistic Regression is one simple untuned benchmark, not part of a model leaderboard. No MI05 data were used.",
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\random_forest_audit\\figures\\mi04_classifier_benchmark_confusion_matrices.pdf",
+      "sha256": "4bef67936404693cf3f6c50eebd3b3878f797bef54256f111c537715237ae56e"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\random_forest_audit\\figures\\mi04_classifier_benchmark_confusion_matrices.png",
+      "sha256": "c9c9a53c5175747ae35a14655b8c6828e4d3785d0c900aaf76d1d81aace2eecb"
+    }
+  ],
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\scripts_figures\\plot_classifier_benchmark.py",
+    "sha256": "0f50c6548c1178837481757865f09dd93d3c78dd3923d4ed04d3f0c8bc935e0a"
+  }
+}

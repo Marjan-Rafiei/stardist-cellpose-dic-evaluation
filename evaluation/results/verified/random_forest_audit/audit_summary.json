@@ -1,0 +1,215 @@
+{
+  "comparison": {
+    "answer": "The Random Forest meaningfully improves MI04 macro F1 over the simple linear benchmark, while Logistic Regression attains higher mitotic recall at the cost of many interphase false positives.",
+    "logistic_regression_macro_f1": 0.7615904365904366,
+    "macro_f1_difference": 0.13298821509495673,
+    "random_forest_macro_f1": 0.8945786516853933,
+    "scope": "MI04 validation only; not a model leaderboard and not independent-experiment uncertainty"
+  },
+  "feature_construction": {
+    "aspect_ratio": "major_axis_length divided by minor_axis_length; zero only if minor axis is zero",
+    "features": [
+      "area",
+      "perimeter",
+      "eccentricity",
+      "solidity",
+      "extent",
+      "major_axis_length",
+      "minor_axis_length",
+      "aspect_ratio"
+    ],
+    "source": "scikit-image regionprops on ground-truth instance masks"
+  },
+  "leakage_audit": {
+    "cross_sequence_exact_duplicates": "none found in prior dataset audit",
+    "mi05_used_for_training_validation_or_benchmark": false,
+    "remaining_limit": "MI04 is one temporally related sequence and historical MI05 use prevents describing MI05 as pristine unseen test data",
+    "sequence_split": "pass"
+  },
+  "logistic_benchmark": {
+    "parameters": {
+      "class_weight": "balanced",
+      "intercept": 17.427179016375266,
+      "iterations_used": 968,
+      "max_iter": 50000,
+      "penalty": null,
+      "random_state": 42,
+      "solver": "lbfgs",
+      "tol": 1e-09
+    },
+    "preprocessing": "same median-only imputation and raw feature order as the Random Forest; no scaling and no regularization",
+    "probability_decision": "predict selects the class with highest probability; no threshold was tuned",
+    "selection": "single preregistered-style simple benchmark; no hyperparameter search and no MI05 use"
+  },
+  "missing_values": {
+    "imputation": "median imputer fitted on MI01 to MI03 only; no missing values were observed, so no value was replaced in the audited data",
+    "training_by_feature": {
+      "area": 0,
+      "aspect_ratio": 0,
+      "eccentricity": 0,
+      "extent": 0,
+      "major_axis_length": 0,
+      "minor_axis_length": 0,
+      "perimeter": 0,
+      "solidity": 0
+    },
+    "validation_by_feature": {
+      "area": 0,
+      "aspect_ratio": 0,
+      "eccentricity": 0,
+      "extent": 0,
+      "major_axis_length": 0,
+      "minor_axis_length": 0,
+      "perimeter": 0,
+      "solidity": 0
+    }
+  },
+  "random_forest": {
+    "limitations": "flexible and less interpretable; one validation sequence cannot establish generalization or optimality",
+    "parameters": {
+      "class_weight": "balanced",
+      "n_estimators": 300,
+      "n_jobs": 1,
+      "other_parameters": "scikit-learn defaults; no documented hyperparameter search",
+      "random_state": 42
+    },
+    "probability_decision": "predict selects the class with highest mean tree probability; no separate probability threshold was tuned",
+    "why_used": "handles nonlinear thresholds and feature interactions, accepts mixed-scale raw morphology after median imputation, supports balanced class weights, and provides a deterministic fitted baseline"
+  },
+  "schema_version": "1.0",
+  "split": {
+    "forbidden_sequence": "MI05",
+    "training_frames": 205,
+    "training_instances": 2747,
+    "training_sequences": [
+      "MI01",
+      "MI02",
+      "MI03"
+    ],
+    "validation_frames": 69,
+    "validation_instances": 556,
+    "validation_sequence": "MI04"
+  },
+  "strongest_feature_correlations": [
+    {
+      "absolute_spearman_correlation": 0.9956363658699805,
+      "feature_a": "eccentricity",
+      "feature_b": "aspect_ratio",
+      "spearman_correlation": 0.9956363658699805,
+      "split": "training"
+    },
+    {
+      "absolute_spearman_correlation": 0.9120795726687019,
+      "feature_a": "area",
+      "feature_b": "perimeter",
+      "spearman_correlation": 0.9120795726687019,
+      "split": "training"
+    },
+    {
+      "absolute_spearman_correlation": 0.8665791341536433,
+      "feature_a": "perimeter",
+      "feature_b": "major_axis_length",
+      "spearman_correlation": 0.8665791341536433,
+      "split": "training"
+    },
+    {
+      "absolute_spearman_correlation": 0.8211613761491932,
+      "feature_a": "area",
+      "feature_b": "minor_axis_length",
+      "spearman_correlation": 0.8211613761491932,
+      "split": "training"
+    },
+    {
+      "absolute_spearman_correlation": 0.7003144146865609,
+      "feature_a": "area",
+      "feature_b": "major_axis_length",
+      "spearman_correlation": 0.7003144146865609,
+      "split": "training"
+    },
+    {
+      "absolute_spearman_correlation": 0.6464302572803731,
+      "feature_a": "eccentricity",
+      "feature_b": "minor_axis_length",
+      "spearman_correlation": -0.6464302572803731,
+      "split": "training"
+    },
+    {
+      "absolute_spearman_correlation": 1.0,
+      "feature_a": "eccentricity",
+      "feature_b": "aspect_ratio",
+      "spearman_correlation": 1.0,
+      "split": "validation"
+    },
+    {
+      "absolute_spearman_correlation": 0.8728000900513988,
+      "feature_a": "area",
+      "feature_b": "perimeter",
+      "spearman_correlation": 0.8728000900513988,
+      "split": "validation"
+    },
+    {
+      "absolute_spearman_correlation": 0.7998227358236658,
+      "feature_a": "eccentricity",
+      "feature_b": "minor_axis_length",
+      "spearman_correlation": -0.7998227358236658,
+      "split": "validation"
+    },
+    {
+      "absolute_spearman_correlation": 0.7998227358236658,
+      "feature_a": "minor_axis_length",
+      "feature_b": "aspect_ratio",
+      "spearman_correlation": -0.7998227358236658,
+      "split": "validation"
+    },
+    {
+      "absolute_spearman_correlation": 0.7944287795427213,
+      "feature_a": "perimeter",
+      "feature_b": "major_axis_length",
+      "spearman_correlation": 0.7944287795427213,
+      "split": "validation"
+    },
+    {
+      "absolute_spearman_correlation": 0.7266352515542033,
+      "feature_a": "eccentricity",
+      "feature_b": "major_axis_length",
+      "spearman_correlation": 0.7266352515542033,
+      "split": "validation"
+    }
+  ],
+  "target": {
+    "assignment": "majority valid class-mask pixels within each ground-truth instance",
+    "classes": {
+      "1": "interphase",
+      "2": "mitotic"
+    },
+    "interpretation_limit": "interphase masks describe nuclei and mitotic masks describe whole-cell regions",
+    "name": "ALFI annotation-class recovery from ground-truth-mask morphology"
+  },
+  "validations": {
+    "all_training_features_finite": true,
+    "all_validation_features_finite": true,
+    "classifier_hash_matches_manifest": true,
+    "config_test_sequence_is_mi05": true,
+    "config_training_sequences_exact": true,
+    "config_validation_sequence_exact": true,
+    "dataset_audit_has_no_blocking_issue": true,
+    "feature_order_exact": true,
+    "no_duplicate_training_instances": true,
+    "no_duplicate_validation_instances": true,
+    "no_mi05_in_training_or_validation": true,
+    "no_missing_training_features": true,
+    "no_missing_validation_features": true,
+    "rf_class_weight_matches_config": true,
+    "rf_imputer_is_median": true,
+    "rf_n_estimators_match_config": true,
+    "rf_n_jobs_match_config": true,
+    "rf_pipeline_steps_exact": true,
+    "rf_predictions_match_saved": true,
+    "rf_seed_matches_config": true,
+    "training_rows_hash_matches_manifest": true,
+    "training_rows_match_saved": true,
+    "validation_features_match_saved": true,
+    "validation_hash_matches_manifest": true,
+    "validation_identifiers_and_targets_match_saved": true
+  }
+}

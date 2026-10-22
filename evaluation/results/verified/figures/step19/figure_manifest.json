@@ -1,0 +1,96 @@
+{
+  "inputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classifier_v1\\validation_predictions.csv",
+      "sha256": "3cb57c4e86240baba64a4dc7c91af31868cd9e09310ebde241b96d4b3f169597"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\comparison_summary.csv",
+      "sha256": "4e1761283325874e5f78a4d536356282e78bf9c464ac5c70c990b8c3033aae78"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\counts_ratio_validation\\agreement_by_frame.csv",
+      "sha256": "660a6d2ef5ca595ca80297503fba2095d07ecc2fd5f532b81c0796ebb3326301"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\counts_ratio_validation\\agreement_summary.csv",
+      "sha256": "7625a4534a0be258ff716086f29165264e19d55cd851b64e92e5873b8c217647"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\feature_importance_audit\\grouped_importance_summary.csv",
+      "sha256": "c02f8961d8e6881b64f779edb1faf96f2b4d5feb9bb8cccd2291741b2d8987ff"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\feature_importance_audit\\individual_importance_stability.csv",
+      "sha256": "e1cdbde8e7b7ce38b278319abc3658cb806e05777921aad9bb717fc26f49687c"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\per_frame\\per_frame_plot_data.csv",
+      "sha256": "a148b9d52b7c69a9f0bfbc1172881b7d0c80b79acb338e03817228248b8117c0"
+    }
+  ],
+  "notes": "Step 19 result figures; ratios are percentages and method colors follow the approved palette.",
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\step19\\classifier_confusion_matrices.pdf",
+      "sha256": "fd8fea9d08de60fd074f377136843b64e25f29d4bc2955e37ac1e25c8defe575"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\step19\\classifier_confusion_matrices.png",
+      "sha256": "a7dcb4ceba63bf4a8df1e7cf8cdbbf06b21fe3d0c9c9ae0e66d1bb4930136891"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\step19\\mi05_cell_count_validation.pdf",
+      "sha256": "2ee1573995a2903bb02c505cfa7ea6b066cdd34c287869e8edc8f806662ccc41"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\step19\\mi05_cell_count_validation.png",
+      "sha256": "1874db5d684db77b49a952c760fa91894f7317adfc68b5ae1132d21ee29b6cc5"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\step19\\mi05_classification_comparison.pdf",
+      "sha256": "db3b5e9e1c9f2a824d748236cb7a596b1b4f72ca8957335cc4462567c8ef6e32"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\step19\\mi05_classification_comparison.png",
+      "sha256": "2f0534c1ba98187825f51a1beb17438cbc58285ab9d9a43d800abbefeef315a6"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\step19\\mi05_detection_comparison.pdf",
+      "sha256": "5d0a73f7183e8c09c7d4579160831fcec77ceb84d5a1f270f3de7c1cf6c4f066"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\step19\\mi05_detection_comparison.png",
+      "sha256": "731f8d8629229b4fe329c420afb4aa6489dae4159793a287d93608661a995335"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\step19\\mi05_mitotic_ratio_validation.pdf",
+      "sha256": "025a999c1838792f66a43ba085be357def857ef1d2dfac0139d2009b21c62a71"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\step19\\mi05_mitotic_ratio_validation.png",
+      "sha256": "6272bb500806bda081df45cab405ed9e84920fd16425321f267d0a7025e0899d"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\step19\\mi05_temporal_segmentation_metrics.pdf",
+      "sha256": "9bb26c9bbb89ac7c123359513e7cfee5348c51966ffc3704f8472829c9ec0bc9"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\step19\\mi05_temporal_segmentation_metrics.png",
+      "sha256": "3d8244c4d019506c0a4bea39c4b5252aeffeb421f1c980f3703bc8375a839807"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\step19\\permutation_importance_stability_and_groups.pdf",
+      "sha256": "6ba28ce43a38db8ec88c851cf0f0283321fc3169245e9a73e4fbf30fbdf7f73f"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\step19\\permutation_importance_stability_and_groups.png",
+      "sha256": "1faddd2e35fe22137b8ee2aaebd79bca6f4a40a8a958a552b9c2fa3595b6646d"
+    }
+  ],
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\scripts_figures\\build_step19_result_figures.py",
+    "sha256": "dab45e6c4ea02c9007df5a8a57282c84f51ec1c11918699e7a4e0f8bd34f706e"
+  }
+}

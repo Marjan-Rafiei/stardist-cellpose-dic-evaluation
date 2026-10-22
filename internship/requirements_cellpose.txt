@@ -1,0 +1,10 @@
+# Environment "cellpose_env" (Python 3.10)
+# Used by: run_cellpose_all.py, run_cellpose_all_v2.py, test_cellpose.py,
+#          test_diameter_compare.py, timing_test.py, timing_test_cyto3.py
+cellpose==3.1.1.3
+numpy==2.0.2
+scikit-image==0.25.2
+scikit-learn==1.7.2
+scipy==1.15.3
+pandas==2.3.3
+pillow==12.3.0

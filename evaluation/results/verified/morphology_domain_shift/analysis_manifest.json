@@ -1,0 +1,75 @@
+{
+  "actions_performed": {
+    "classifier_fitting": false,
+    "feature_selection": false,
+    "model_inference": false,
+    "threshold_tuning": false
+  },
+  "command": [
+    "<PROJECT_ROOT>\\code\\morphology_domain_shift.py",
+    "--results-root",
+    "results/verified",
+    "--sequence",
+    "MI05",
+    "--transition-summary",
+    "results/verified/classification_transitions/transition_summary.csv",
+    "--output-dir",
+    "results/verified/morphology_domain_shift"
+  ],
+  "inputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_auto\\matched_instances.csv",
+      "sha256": "f34b41431e33e6102f58533b4f93f8ab2c4e9abf86065957fb72eb6e8fcb9ca9"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_fixed\\matched_instances.csv",
+      "sha256": "5de81e91fbbfc829d53770655added19e53412c353e54d5eed8e446df81ee8e4"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classification_transitions\\transition_summary.csv",
+      "sha256": "3de219ae0f81f1e4ba055ae76a120e0fc3c8d9a3786d02e6c161373a80cf1ee0"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\matched_instances.csv",
+      "sha256": "58daeff3eb28904d8a2c171bfe746db366f21cb85f699ed36956884cf62a8e32"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\morphology_domain_shift\\feature_shift_summary.csv",
+      "sha256": "5283f78e96d1c93efa12834e674e49e4f2ac8d7d66b0db939587376a8591fd33"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\morphology_domain_shift\\paired_feature_differences.csv",
+      "sha256": "32205d6ca7be0299930419b876308436f367febbd5f3113ef66b10b324608cd8"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\morphology_domain_shift\\common_subset_feature_shift_summary.csv",
+      "sha256": "82b558ddb338b30666095846288070ef1d2f9c4ac03ed5e2ab8dacb975298309"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\morphology_domain_shift\\median_relative_shift_table.tex",
+      "sha256": "9414b80cd2e4bfafc2053d32c8d72e253b151d64e2ca45a25a459dae0b1cc605"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\morphology_domain_shift\\analysis_summary.json",
+      "sha256": "91c1877ef3357be0d0870b6a0dc5e4282be15fe44b247758ad7830873d10af4b"
+    }
+  ],
+  "packages": {
+    "Pillow": "12.3.0",
+    "joblib": "1.6.0",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scikit-image": "0.25.2",
+    "scikit-learn": "1.7.2",
+    "scipy": "1.15.3"
+  },
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\code\\morphology_domain_shift.py",
+    "sha256": "5d5588be8c143e43b5b90d1bcffc89654061c665080cdcadd48fd393c65b4719"
+  },
+  "sequence": "MI05",
+  "status": "verified paired MI05 morphology-domain shift analysis"
+}

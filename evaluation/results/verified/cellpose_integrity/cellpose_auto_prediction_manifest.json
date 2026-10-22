@@ -1,0 +1,845 @@
+{
+  "config": {
+    "path": "<PROJECT_ROOT>\\code\\configs\\cellpose_saved_predictions.json",
+    "sha256": "dc20ae29caff57db06e1c8e5018f85324e413b681b1fe4f7625ad06ceeb494d9"
+  },
+  "empty_frames": [],
+  "errors": [],
+  "files": [
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0001",
+      "instances": 5,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0001.png",
+      "sha256": "e80f84f1f00612c772b84c2afd803acac55f5f701ffbbde8541f424fb8c627f0",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0002",
+      "instances": 3,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0002.png",
+      "sha256": "4f092428e0e2fed299a182c451f45a648e2fb6b12c22b9a7deea35a9e4533866",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0003",
+      "instances": 4,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0003.png",
+      "sha256": "296e9cc5c2fc4978c698ef77f5c4671da2d41495a9b9ad746847b62ce86f1899",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0004",
+      "instances": 3,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0004.png",
+      "sha256": "b37a43a52f386075b92b394128ac7e374eee51c58ef9748f33f37ed919d79812",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0005",
+      "instances": 5,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0005.png",
+      "sha256": "24ec2e972df233a465a56e719a6715db159a8f9618c2e31aa0cc37abebbb7b1a",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0006",
+      "instances": 3,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0006.png",
+      "sha256": "29b0a4ba07f2c85433d7f56da029fce1e81e949513e5143c170b7fc70e43a74b",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0007",
+      "instances": 4,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0007.png",
+      "sha256": "09b512b4958880f00a105db72909029d49c2c4382929ba8014b62c50f5bc72cc",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0008",
+      "instances": 3,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0008.png",
+      "sha256": "538474b44c95ebe0abc90dbc099b3b7f4642f5502b9b9b3b3476fd91bce3dedc",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0009",
+      "instances": 5,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0009.png",
+      "sha256": "aee49dd1235e5d2f262bf42c1f7bdadddd4ce5ba955c30406a60c4a5b397549e",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0010",
+      "instances": 6,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0010.png",
+      "sha256": "fc689b921c60e1349b1a4d6ea8d334f7e0f4d3b9334a8a805e11c0db562d4122",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0011",
+      "instances": 4,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0011.png",
+      "sha256": "ea109251ec55a6b4e72824c2ee060b22c6609fbc1ccb56bbdec8908b974885a0",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0012",
+      "instances": 8,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0012.png",
+      "sha256": "0e1d5c07ad1046abfb1516670ca2e76daebb37d671a727d08ca442646918b768",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0013",
+      "instances": 4,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0013.png",
+      "sha256": "b5c47c84e02867d63e4d02e48f816bfea3cc28261ecef981893c4dc567de55ea",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0014",
+      "instances": 4,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0014.png",
+      "sha256": "c693f65aeca21f88daf643c193795f2143be4cb064f831758658d5c020dfd1e0",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0015",
+      "instances": 6,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0015.png",
+      "sha256": "af92554e2672dbd35a3896a69bbe78860908a7386968a6ff56caa41dee46f300",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0016",
+      "instances": 10,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0016.png",
+      "sha256": "d1fc29f0a2a7c150f909dfaf226aa53cdcee9a59d50789d317277f301699c552",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0017",
+      "instances": 8,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0017.png",
+      "sha256": "8f00903973183cf319f564cd997d50822800119c01743276a0a64780df8fb42b",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0018",
+      "instances": 6,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0018.png",
+      "sha256": "11a3ab32f52aff6a8ebc43f7655c3f4dbba3b90b4bfcbb30c0b53c04ddc682b5",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0019",
+      "instances": 7,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0019.png",
+      "sha256": "7afb470697230f843006e4687176a65beaf2e9d41cc831939384a640030da3a7",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0020",
+      "instances": 9,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0020.png",
+      "sha256": "417f7229b5989692294377580052bf3614b009d52a06ea8501894cc82f623e06",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0021",
+      "instances": 10,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0021.png",
+      "sha256": "19fd965777120b26449da34e31f0d3d5731fb85bab20eccfc900c50ae76d3f7b",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0022",
+      "instances": 7,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0022.png",
+      "sha256": "d43364ee4c15bd5b7eda4a556f8be3e2d90d8c5007479fe1f577fed4aea9d8cd",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0023",
+      "instances": 6,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0023.png",
+      "sha256": "77fd1629f68a2bed0a2c398879104fba8c9c4d8c5a8be5a734afde7d46f0e1db",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0024",
+      "instances": 6,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0024.png",
+      "sha256": "52e80f2976728766a146a25de739a6ab285af5d5fc3ec5adee6895e545929903",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0025",
+      "instances": 6,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0025.png",
+      "sha256": "35beb210dfdf000b40b9aff94a019734bce173a2ec1baf50e3461c9c159e9b00",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0026",
+      "instances": 9,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0026.png",
+      "sha256": "3571d66daf2ed9081fe345f45248e69635383cdd14be97f22f1ce848502b0936",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0027",
+      "instances": 7,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0027.png",
+      "sha256": "a69dae322b9f7c8440ec9508912fd3031456a993b218b19f38fad5f86f825e4d",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0028",
+      "instances": 7,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0028.png",
+      "sha256": "3c7b510992f2d721c2e93e2c09963222e45a2b808eee601376b8782b490e41f7",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0029",
+      "instances": 6,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0029.png",
+      "sha256": "50930f2ecd0cd61967dcff0419b84284273528ca9c5ba6b70280484b51ceca73",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0030",
+      "instances": 6,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0030.png",
+      "sha256": "2e3cf00f25a9a589b6903f62e5e22fe121add23a5ae59a22c1d40865dab63955",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0031",
+      "instances": 8,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0031.png",
+      "sha256": "c0bc6763fe9b5b9bda7ed782e4d3de07a02949dc75c891ac3870abdb6b3c9491",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0032",
+      "instances": 10,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0032.png",
+      "sha256": "233d0391a7d9da76e83054d4176012f8d79674e70b4064e443f1453341cc1899",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0033",
+      "instances": 5,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0033.png",
+      "sha256": "645c9dff2761f9b85260377d73c06bdb2f346f0624dfc40c9469f3701a29a537",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0034",
+      "instances": 8,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0034.png",
+      "sha256": "66cdbdc19ef3627da50fcab81befd19100ae2a2c606c97bf74fc63a156d7e897",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0035",
+      "instances": 8,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0035.png",
+      "sha256": "55b74691e7bf55075f8c95d21d5c9e0808ea1802057d66bdeeae31107d00dc3d",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0036",
+      "instances": 6,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0036.png",
+      "sha256": "b9ef0e06fe9197838886a753ac32472d56770f786a6aa3152a8939c9b0c3cdc6",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0037",
+      "instances": 9,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0037.png",
+      "sha256": "91321f4da523383025ae436776f9279c2ea1e72c29db7532f79497f6aee9fb15",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0038",
+      "instances": 8,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0038.png",
+      "sha256": "a3dcd000d083bbf58e439b3aa8727213cf3bc3595071be77393a9048d539c333",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0039",
+      "instances": 8,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0039.png",
+      "sha256": "494051e99719ff26321ce8e36688137c97440853e04cb666366335b98601f60c",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0040",
+      "instances": 7,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0040.png",
+      "sha256": "eb27c3ae59ebfd5cc76b774d2f4684fd84c23522c9373e0b27d9901934356a97",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0041",
+      "instances": 7,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0041.png",
+      "sha256": "eec36b6fb3794c9cae21bf26de8dbbc6ae5463de81b6d8e1c942fc81ed275ffc",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0042",
+      "instances": 7,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0042.png",
+      "sha256": "b43650178a5e6594e90266dcc20b02669e546f9ad8091054e04e56ee802ed95e",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0043",
+      "instances": 8,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0043.png",
+      "sha256": "d95a87aedf334464b09ae01927ca02a5eec802c841f165de212e713d351d38f1",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0044",
+      "instances": 8,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0044.png",
+      "sha256": "fcf6c9852f10b4ea3c406a8242f72e10c99b1b0766e1f764a89b64b1439b4fbf",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0045",
+      "instances": 7,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0045.png",
+      "sha256": "5ac7b48cd782e355704b5e4a5fe5f56385ccd7f6aa01bcbfe6e94dc828ec8c34",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0046",
+      "instances": 9,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0046.png",
+      "sha256": "d719a4d7ff494cc97ab1cda3a815fce9b860eec92af2fd8704aa221f1e728008",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0047",
+      "instances": 11,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0047.png",
+      "sha256": "1b3e6bc66380faedc1b7e163f82d70415eb7d968b4df558809a440223de9796f",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0048",
+      "instances": 8,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0048.png",
+      "sha256": "dd961912a1b61e888ac9e339a84e9622268266bf207651d149ba186694d7192b",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0049",
+      "instances": 9,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0049.png",
+      "sha256": "0e5b1162f47c4b9d00977065adfd77e1c8b4ff59e258c640063356bbff5d2951",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0050",
+      "instances": 9,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0050.png",
+      "sha256": "0310b566864cee76756a8442c43b28771ea449c55abf08e320fa7703770c14cf",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0051",
+      "instances": 8,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0051.png",
+      "sha256": "0576fe69b4a152e60a604808a59113b79dad388f20729313a311a616267436c0",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0052",
+      "instances": 6,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0052.png",
+      "sha256": "e5168e1a4d199ee658935abe97f84eb3ab0967454f77c4a13eb99c572610ab9d",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0053",
+      "instances": 7,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0053.png",
+      "sha256": "99bcc056dedd2b3509839f4c94da02d409960574acfeaa73ee96ad1dab3c3588",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0054",
+      "instances": 8,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0054.png",
+      "sha256": "8fa6cc694d31d6f48ab6779701a428664ed1185d1270b5d5fa9fd1ea420260dd",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0055",
+      "instances": 7,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0055.png",
+      "sha256": "c66972050c1025d345cdc0a7bbb2f85e310e1494b560d148776f24e23c6f4e6a",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0056",
+      "instances": 7,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0056.png",
+      "sha256": "a26319a6422f8cf512abeb1261f72c06ae7769a30b840cb8f036f51ce24612a2",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0057",
+      "instances": 8,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0057.png",
+      "sha256": "7280d217a6c78a01a3a4b4d6db9cbef0ff8354921f4db5923255992753694d13",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0058",
+      "instances": 7,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0058.png",
+      "sha256": "15c52f72bca2f6c011be378ca735e0501f25c8b40a361c3508091a740b5fec33",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0059",
+      "instances": 8,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0059.png",
+      "sha256": "ee19b6a818ab5cacdd16ec1c03ce1dbe8f9e465839bd738f47a9a704c85ad861",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0060",
+      "instances": 7,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0060.png",
+      "sha256": "123dd6abde635c6278554b573d4db0eea3856c8ae7edca55dcd654523765c122",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0061",
+      "instances": 9,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0061.png",
+      "sha256": "33ecee4ab8d8a8dbe42b5ec351d05318c946e6c34182296a09ccfbd1be643b7f",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0062",
+      "instances": 7,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0062.png",
+      "sha256": "29bd2fa65d11306200179b5fe38c05a8319066653318ae3e87ea656097c11524",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0063",
+      "instances": 5,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0063.png",
+      "sha256": "ebc4b8452b511dae1faa5d74ffdab4d05acc1ea22087f3fd902882a7e631e3f0",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0064",
+      "instances": 5,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0064.png",
+      "sha256": "5b9970f84b63b38cc804cbae2eb0940ce87eac3b0116655d38385ad1c3a85768",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0065",
+      "instances": 7,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0065.png",
+      "sha256": "39751d86c1f7a397dc8344da832d5bf137118927ccb1325e01f1df2b4c205e72",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0066",
+      "instances": 6,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0066.png",
+      "sha256": "63e7f2036b316fc7cc436030c21401a18bb98b095ca129e4721ac98816cd0fa1",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0067",
+      "instances": 3,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0067.png",
+      "sha256": "7b9c350e77d1377dc58937a7f21a794f340fd51f1c5fca7c5ce124b966e8b0af",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0068",
+      "instances": 8,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0068.png",
+      "sha256": "a891cf3521c8c721b8d31cd5b026a906e35da3e76fb219c5178636c1d36b1846",
+      "shape": [
+        320,
+        400
+      ]
+    },
+    {
+      "contiguous": true,
+      "dtype": "int64",
+      "frame_id": "MI05_0069",
+      "instances": 7,
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0069.png",
+      "sha256": "4d7a540ba30b49e08940d688a7752d921f54dd1247fb10a9354981cac2c41279",
+      "shape": [
+        320,
+        400
+      ]
+    }
+  ],
+  "frame_count": 69,
+  "schema_version": "1.0",
+  "sequence": "MI05",
+  "source_directory": "<ALFI_DATA>\\MI05\\Cellpose_masks",
+  "status": "pass",
+  "system_name": "cellpose_auto",
+  "total_instances": 467
+}

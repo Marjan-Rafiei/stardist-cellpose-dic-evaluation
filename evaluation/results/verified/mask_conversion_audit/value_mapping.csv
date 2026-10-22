@@ -1,0 +1,4 @@
+input_uint8,faulty_unconditional_output,corrected_output,passes_mitotic_threshold_after_fault
+0,0,0,false
+128,128,128,false
+255,1,255,false

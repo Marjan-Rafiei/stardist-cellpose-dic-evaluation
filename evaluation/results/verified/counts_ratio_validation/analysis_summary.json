@@ -1,0 +1,86 @@
+{
+  "interpretation": {
+    "classification": "matched classification-error counts do not label false-positive classes but demonstrate that close aggregate ratios can coexist with known class errors",
+    "count": "bias and MAE measure agreement; correlation is supplementary and cannot establish agreement",
+    "ratio": "pooled and signed errors can look small through opposing per-frame errors and denominator weighting",
+    "temporal": "early, middle, and late thirds are descriptive summaries of one related sequence, not independent experimental groups"
+  },
+  "ratio_close_definition": "absolute per-frame ratio error at most 5.0 percentage points; descriptive tolerance, not a biological accuracy standard",
+  "schema_version": "1.0",
+  "sequence": "MI05",
+  "systems": {
+    "cellpose_auto": {
+      "count": {
+        "aggregate_error": -273,
+        "bias": -3.9565217391304346,
+        "mae": 3.9855072463768115,
+        "pearson_correlation_supplementary": 0.5199518443648568
+      },
+      "ratio": {
+        "cancellation_fraction": 0.6230257638277445,
+        "frame_bias": 0.04584501649710145,
+        "frame_mae": 0.12161312922231884,
+        "pearson_correlation_supplementary": 0.5189008397847484,
+        "pooled_error": 0.049100063661091486
+      },
+      "ratio_close_cases": {
+        "frames": 20,
+        "threshold": 0.05,
+        "with_final_matched_classification_error": 15,
+        "with_wrong_count": 18
+      }
+    },
+    "cellpose_fixed": {
+      "count": {
+        "aggregate_error": -265,
+        "bias": -3.8405797101449277,
+        "mae": 3.8405797101449277,
+        "pearson_correlation_supplementary": 0.7152578334951516
+      },
+      "ratio": {
+        "cancellation_fraction": 0.8414032584115169,
+        "frame_bias": 0.018379366207246384,
+        "frame_mae": 0.11588741372086958,
+        "pearson_correlation_supplementary": 0.4335809820441299,
+        "pooled_error": 0.02532005689900424
+      },
+      "ratio_close_cases": {
+        "frames": 23,
+        "threshold": 0.05,
+        "with_final_matched_classification_error": 18,
+        "with_wrong_count": 23
+      }
+    },
+    "stardist_saved": {
+      "count": {
+        "aggregate_error": -126,
+        "bias": -1.826086956521739,
+        "mae": 2.1739130434782608,
+        "pearson_correlation_supplementary": 0.1193031717955083
+      },
+      "ratio": {
+        "cancellation_fraction": 0.3428198111532693,
+        "frame_bias": -0.14908042842985508,
+        "frame_mae": 0.22684863445362322,
+        "pearson_correlation_supplementary": -0.5230591165755318,
+        "pooled_error": -0.13360331015054144
+      },
+      "ratio_close_cases": {
+        "frames": 7,
+        "threshold": 0.05,
+        "with_final_matched_classification_error": 5,
+        "with_wrong_count": 7
+      }
+    }
+  },
+  "validations": {
+    "all_ground_truth_ratios_defined": true,
+    "all_predicted_ratios_defined": true,
+    "common_frame_set": true,
+    "mi05_only": true,
+    "stored_count_errors_match": true,
+    "stored_ratio_errors_match": true,
+    "systems_exact": true,
+    "temporal_thirds_cover_all_rows": true
+  }
+}

@@ -1,0 +1,13 @@
+system,error_type,count
+cellpose_auto,classifier_error_present_on_ground_truth_shape,43
+cellpose_auto,false_negative,527
+cellpose_auto,false_positive,254
+cellpose_auto,segmentation_induced_class_flip,22
+cellpose_fixed,classifier_error_present_on_ground_truth_shape,43
+cellpose_fixed,false_negative,531
+cellpose_fixed,false_positive,266
+cellpose_fixed,segmentation_induced_class_flip,27
+stardist_saved,classifier_error_present_on_ground_truth_shape,48
+stardist_saved,false_negative,244
+stardist_saved,false_positive,118
+stardist_saved,segmentation_induced_class_flip,125

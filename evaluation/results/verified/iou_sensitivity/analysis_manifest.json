@@ -1,0 +1,1223 @@
+{
+  "aggregation": "pooled TP, FP, FN and matched-IoU support across 69 frames",
+  "command": [
+    "<PROJECT_ROOT>\\code\\iou_sensitivity.py",
+    "--ground-truth-root",
+    "<ALFI_DATA>\\MI05\\Masks_converted",
+    "--prediction-source",
+    "stardist_saved=<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions",
+    "--prediction-source",
+    "cellpose_auto=<ALFI_DATA>\\MI05\\Cellpose_masks",
+    "--prediction-source",
+    "cellpose_fixed=<ALFI_DATA>\\MI05\\Cellpose_masks_v2",
+    "--reference-results-root",
+    "<PROJECT_ROOT>\\results\\verified",
+    "--sequence",
+    "MI05",
+    "--threshold",
+    "0.30",
+    "--threshold",
+    "0.40",
+    "--threshold",
+    "0.50",
+    "--threshold",
+    "0.60",
+    "--threshold",
+    "0.70",
+    "--output-dir",
+    "<PROJECT_ROOT>\\results\\verified\\iou_sensitivity"
+  ],
+  "inputs": [
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0001.png",
+      "sha256": "e80f84f1f00612c772b84c2afd803acac55f5f701ffbbde8541f424fb8c627f0"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0002.png",
+      "sha256": "4f092428e0e2fed299a182c451f45a648e2fb6b12c22b9a7deea35a9e4533866"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0003.png",
+      "sha256": "296e9cc5c2fc4978c698ef77f5c4671da2d41495a9b9ad746847b62ce86f1899"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0004.png",
+      "sha256": "b37a43a52f386075b92b394128ac7e374eee51c58ef9748f33f37ed919d79812"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0005.png",
+      "sha256": "24ec2e972df233a465a56e719a6715db159a8f9618c2e31aa0cc37abebbb7b1a"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0006.png",
+      "sha256": "29b0a4ba07f2c85433d7f56da029fce1e81e949513e5143c170b7fc70e43a74b"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0007.png",
+      "sha256": "09b512b4958880f00a105db72909029d49c2c4382929ba8014b62c50f5bc72cc"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0008.png",
+      "sha256": "538474b44c95ebe0abc90dbc099b3b7f4642f5502b9b9b3b3476fd91bce3dedc"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0009.png",
+      "sha256": "aee49dd1235e5d2f262bf42c1f7bdadddd4ce5ba955c30406a60c4a5b397549e"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0010.png",
+      "sha256": "fc689b921c60e1349b1a4d6ea8d334f7e0f4d3b9334a8a805e11c0db562d4122"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0011.png",
+      "sha256": "ea109251ec55a6b4e72824c2ee060b22c6609fbc1ccb56bbdec8908b974885a0"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0012.png",
+      "sha256": "0e1d5c07ad1046abfb1516670ca2e76daebb37d671a727d08ca442646918b768"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0013.png",
+      "sha256": "b5c47c84e02867d63e4d02e48f816bfea3cc28261ecef981893c4dc567de55ea"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0014.png",
+      "sha256": "c693f65aeca21f88daf643c193795f2143be4cb064f831758658d5c020dfd1e0"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0015.png",
+      "sha256": "af92554e2672dbd35a3896a69bbe78860908a7386968a6ff56caa41dee46f300"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0016.png",
+      "sha256": "d1fc29f0a2a7c150f909dfaf226aa53cdcee9a59d50789d317277f301699c552"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0017.png",
+      "sha256": "8f00903973183cf319f564cd997d50822800119c01743276a0a64780df8fb42b"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0018.png",
+      "sha256": "11a3ab32f52aff6a8ebc43f7655c3f4dbba3b90b4bfcbb30c0b53c04ddc682b5"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0019.png",
+      "sha256": "7afb470697230f843006e4687176a65beaf2e9d41cc831939384a640030da3a7"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0020.png",
+      "sha256": "417f7229b5989692294377580052bf3614b009d52a06ea8501894cc82f623e06"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0021.png",
+      "sha256": "19fd965777120b26449da34e31f0d3d5731fb85bab20eccfc900c50ae76d3f7b"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0022.png",
+      "sha256": "d43364ee4c15bd5b7eda4a556f8be3e2d90d8c5007479fe1f577fed4aea9d8cd"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0023.png",
+      "sha256": "77fd1629f68a2bed0a2c398879104fba8c9c4d8c5a8be5a734afde7d46f0e1db"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0024.png",
+      "sha256": "52e80f2976728766a146a25de739a6ab285af5d5fc3ec5adee6895e545929903"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0025.png",
+      "sha256": "35beb210dfdf000b40b9aff94a019734bce173a2ec1baf50e3461c9c159e9b00"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0026.png",
+      "sha256": "3571d66daf2ed9081fe345f45248e69635383cdd14be97f22f1ce848502b0936"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0027.png",
+      "sha256": "a69dae322b9f7c8440ec9508912fd3031456a993b218b19f38fad5f86f825e4d"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0028.png",
+      "sha256": "3c7b510992f2d721c2e93e2c09963222e45a2b808eee601376b8782b490e41f7"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0029.png",
+      "sha256": "50930f2ecd0cd61967dcff0419b84284273528ca9c5ba6b70280484b51ceca73"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0030.png",
+      "sha256": "2e3cf00f25a9a589b6903f62e5e22fe121add23a5ae59a22c1d40865dab63955"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0031.png",
+      "sha256": "c0bc6763fe9b5b9bda7ed782e4d3de07a02949dc75c891ac3870abdb6b3c9491"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0032.png",
+      "sha256": "233d0391a7d9da76e83054d4176012f8d79674e70b4064e443f1453341cc1899"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0033.png",
+      "sha256": "645c9dff2761f9b85260377d73c06bdb2f346f0624dfc40c9469f3701a29a537"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0034.png",
+      "sha256": "66cdbdc19ef3627da50fcab81befd19100ae2a2c606c97bf74fc63a156d7e897"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0035.png",
+      "sha256": "55b74691e7bf55075f8c95d21d5c9e0808ea1802057d66bdeeae31107d00dc3d"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0036.png",
+      "sha256": "b9ef0e06fe9197838886a753ac32472d56770f786a6aa3152a8939c9b0c3cdc6"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0037.png",
+      "sha256": "91321f4da523383025ae436776f9279c2ea1e72c29db7532f79497f6aee9fb15"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0038.png",
+      "sha256": "a3dcd000d083bbf58e439b3aa8727213cf3bc3595071be77393a9048d539c333"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0039.png",
+      "sha256": "494051e99719ff26321ce8e36688137c97440853e04cb666366335b98601f60c"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0040.png",
+      "sha256": "eb27c3ae59ebfd5cc76b774d2f4684fd84c23522c9373e0b27d9901934356a97"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0041.png",
+      "sha256": "eec36b6fb3794c9cae21bf26de8dbbc6ae5463de81b6d8e1c942fc81ed275ffc"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0042.png",
+      "sha256": "b43650178a5e6594e90266dcc20b02669e546f9ad8091054e04e56ee802ed95e"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0043.png",
+      "sha256": "d95a87aedf334464b09ae01927ca02a5eec802c841f165de212e713d351d38f1"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0044.png",
+      "sha256": "fcf6c9852f10b4ea3c406a8242f72e10c99b1b0766e1f764a89b64b1439b4fbf"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0045.png",
+      "sha256": "5ac7b48cd782e355704b5e4a5fe5f56385ccd7f6aa01bcbfe6e94dc828ec8c34"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0046.png",
+      "sha256": "d719a4d7ff494cc97ab1cda3a815fce9b860eec92af2fd8704aa221f1e728008"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0047.png",
+      "sha256": "1b3e6bc66380faedc1b7e163f82d70415eb7d968b4df558809a440223de9796f"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0048.png",
+      "sha256": "dd961912a1b61e888ac9e339a84e9622268266bf207651d149ba186694d7192b"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0049.png",
+      "sha256": "0e5b1162f47c4b9d00977065adfd77e1c8b4ff59e258c640063356bbff5d2951"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0050.png",
+      "sha256": "0310b566864cee76756a8442c43b28771ea449c55abf08e320fa7703770c14cf"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0051.png",
+      "sha256": "0576fe69b4a152e60a604808a59113b79dad388f20729313a311a616267436c0"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0052.png",
+      "sha256": "e5168e1a4d199ee658935abe97f84eb3ab0967454f77c4a13eb99c572610ab9d"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0053.png",
+      "sha256": "99bcc056dedd2b3509839f4c94da02d409960574acfeaa73ee96ad1dab3c3588"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0054.png",
+      "sha256": "8fa6cc694d31d6f48ab6779701a428664ed1185d1270b5d5fa9fd1ea420260dd"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0055.png",
+      "sha256": "c66972050c1025d345cdc0a7bbb2f85e310e1494b560d148776f24e23c6f4e6a"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0056.png",
+      "sha256": "a26319a6422f8cf512abeb1261f72c06ae7769a30b840cb8f036f51ce24612a2"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0057.png",
+      "sha256": "7280d217a6c78a01a3a4b4d6db9cbef0ff8354921f4db5923255992753694d13"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0058.png",
+      "sha256": "15c52f72bca2f6c011be378ca735e0501f25c8b40a361c3508091a740b5fec33"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0059.png",
+      "sha256": "ee19b6a818ab5cacdd16ec1c03ce1dbe8f9e465839bd738f47a9a704c85ad861"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0060.png",
+      "sha256": "123dd6abde635c6278554b573d4db0eea3856c8ae7edca55dcd654523765c122"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0061.png",
+      "sha256": "33ecee4ab8d8a8dbe42b5ec351d05318c946e6c34182296a09ccfbd1be643b7f"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0062.png",
+      "sha256": "29bd2fa65d11306200179b5fe38c05a8319066653318ae3e87ea656097c11524"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0063.png",
+      "sha256": "ebc4b8452b511dae1faa5d74ffdab4d05acc1ea22087f3fd902882a7e631e3f0"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0064.png",
+      "sha256": "5b9970f84b63b38cc804cbae2eb0940ce87eac3b0116655d38385ad1c3a85768"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0065.png",
+      "sha256": "39751d86c1f7a397dc8344da832d5bf137118927ccb1325e01f1df2b4c205e72"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0066.png",
+      "sha256": "63e7f2036b316fc7cc436030c21401a18bb98b095ca129e4721ac98816cd0fa1"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0067.png",
+      "sha256": "7b9c350e77d1377dc58937a7f21a794f340fd51f1c5fca7c5ce124b966e8b0af"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0068.png",
+      "sha256": "a891cf3521c8c721b8d31cd5b026a906e35da3e76fb219c5178636c1d36b1846"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0069.png",
+      "sha256": "4d7a540ba30b49e08940d688a7752d921f54dd1247fb10a9354981cac2c41279"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0001.png",
+      "sha256": "41d6b16851d3e6ee8eeb284c203c90ac3e4f0d3bffe0eb9f704a7066847c8194"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0002.png",
+      "sha256": "e5aa3a5f4aebeb28f1efcf8504d8f1e3d12d6be99900094a72ff6cf60466d694"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0003.png",
+      "sha256": "d42ed85d54cd4a4896a485b737a33b275c5b7e64e9f52b8475bd67e75b80b404"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0004.png",
+      "sha256": "6031929c6e1606bc0d430249e750e96f9876619b55328c9efb1f88fa08f0fe90"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0005.png",
+      "sha256": "10a4c28e991ad8716c6342f5fbf333cbfd71a987fefce5c61362641fd9de593c"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0006.png",
+      "sha256": "e92cb9a752f74e3a40205a6fdf1db0964c73fd30e69c5fb988de14e7cb2c70ae"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0007.png",
+      "sha256": "1b972aa6a3d3a6b8e66456bff61ac1a613bf21538a718a6acb9bdfaded322234"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0008.png",
+      "sha256": "186989cee464c9e94188c54e498d95e6c29c2247fee61208bf5b2d547a621880"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0009.png",
+      "sha256": "a38f04fb2e9385223c982a64cf76268af1939d38feffc7534f8bb784501389f8"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0010.png",
+      "sha256": "6c4eeb128fecbdd09c3b1ba0e31a9bb7ddd7d8eb3241830605efcc2c0ae1e7a3"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0011.png",
+      "sha256": "55dd3dd68414570a8a07f0d74d740a7cb799930446e7a38de0c183602e8b4a53"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0012.png",
+      "sha256": "bdb3f1fd50dcae6d9cdebb62b3687a193627a8e4421dba1e8849715178d6af26"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0013.png",
+      "sha256": "e9f4be47c44510c3aaec718801db5cec66f34f732deebdb43c20f37c0f1a11e5"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0014.png",
+      "sha256": "de5ffcda2884dbf455e4ba5b01ccb38836c2ad9b170aaddb783869cceb7add42"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0015.png",
+      "sha256": "2fec612237fdea501fde412ef27c3e045c877ea387438fb42b32bea220eaae4d"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0016.png",
+      "sha256": "d4189f5e741f2aa687152e45794fd8a714c30edc5b11ff8c83b56e40ae62f548"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0017.png",
+      "sha256": "e06377f762d5cd421fc23d6f2e6640d96b88368d5f2f231d5d4b33eea2cfc531"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0018.png",
+      "sha256": "97b89f2e05f28e2a1d870b7d99b7cc10e71fa165602ac50d5db633a2ecdb6586"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0019.png",
+      "sha256": "2f83446a5316afb8b7423a8f3e8e4ca97d1ab20ac6c2db84c3df24dd6c90dda0"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0020.png",
+      "sha256": "69cfd1158a9175be146c8300b2e5cca1cb96b03971ae2214cf293f3044b511b0"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0021.png",
+      "sha256": "b57c2c47013bde6a7a798d300a59b58d19607932630be9b725bff9885f3cbc8b"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0022.png",
+      "sha256": "31e978ccb1d7d6816bd443dc2e3a2fae5b48e160ded8ef8409200cf606dc8157"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0023.png",
+      "sha256": "327bed6cbf7a2a859bebdcffb18a0f889eaa36b2f3fbe08840353a8b840748a3"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0024.png",
+      "sha256": "177b255a993f2f117d8ceed1a93ce2d7c03ba9e53196b5b697a2b9fcc342182d"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0025.png",
+      "sha256": "4f229970334f9297e1ae254083a81aa4b5f2e1e9025cd12e36485951df5508bc"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0026.png",
+      "sha256": "b8e26598ca692a087c6cf92119cb5fdda38e6b85b8a9ec4f9fcf33b45c732875"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0027.png",
+      "sha256": "ffbfc3a722245b8b3523735700293c5fc473f4a8bb7915784ace4d0e4b305d6e"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0028.png",
+      "sha256": "feb1ee6b9937c2da53e273a6ec84b82e002d9ad47d111d33dbcac50f55cc7635"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0029.png",
+      "sha256": "6d54335dcb0720816c24d2c0a947d897c11075da95ee54e676ef49414a84df39"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0030.png",
+      "sha256": "8bfb7b208de5dc90fb11a7fa9f0d6be780e8560efffc5d478e93d62ab13ae858"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0031.png",
+      "sha256": "0a33d4a5c2946523d7393ba1650736c608fd243516125c79cb9e436a72194bdb"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0032.png",
+      "sha256": "7eae2e8dcc88d85405ae3ad11dcbdf59905f0a3371684d2ae2a9cbab51159b70"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0033.png",
+      "sha256": "80e4e55f7e725ba9dfc482391e82f4a424ed7224a82f8f198858fa5942dc0837"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0034.png",
+      "sha256": "212a60df36338fcf961d811a5fc513ba40a753f52448b3a59cfd5c42de299d6b"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0035.png",
+      "sha256": "a39806a499361a1f4bbcd5810743e8d057a7d670f9001c6bde0d7d64f1cc9826"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0036.png",
+      "sha256": "b0b59637e5b34c53ca4eac5e360eb4938e743fbadb6610f41137c5123d9b4153"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0037.png",
+      "sha256": "dfd057843b817849bc8019b3530724f7d35a1bf19f62f25ed81a501e8c4f9431"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0038.png",
+      "sha256": "e8b01ba6b54f22d443eb43831b0e639f2fe2e2608d8424ea665dbb5c66c3fe98"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0039.png",
+      "sha256": "a06fc3f50c18e7712466d215020fd021132edf8c845d97f9343b2ef5fb631e5d"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0040.png",
+      "sha256": "5456ece9837d04ca6eaa8f9e248a1cddd16aafbf786cd4337249ad7b28e00fe3"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0041.png",
+      "sha256": "671a5035ad8545da0f18336d632f3e90d1012f698c411d94bd1fe618af3330f4"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0042.png",
+      "sha256": "336235638e42f591c2d64271f80e061cc8ab44a4e1e750e66aadd7e6c3193455"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0043.png",
+      "sha256": "67c764df6e350ca08a3a57b0a3e8a5337f8128ed5e17649a099767c10dda4648"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0044.png",
+      "sha256": "e321d75a91b954cbe6a062602d3bff99c4c803da15469c092446f985b26863a3"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0045.png",
+      "sha256": "cd8d7ca28e28bf055fcfaa0d22cdd80b34d04ddaaffe9073ba4e2b15f09af258"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0046.png",
+      "sha256": "53adc277967304284bda87ae6a1868e0c496dcdab5fe354afe5b3cc830380a8b"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0047.png",
+      "sha256": "b41eb2d443a3fd735aa70f04772b15b81fd52ad55779ce07425aa2e5de02e235"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0048.png",
+      "sha256": "1cf837555ed5e6f9109c628e9128009633964076beea781be499b3735197a7e0"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0049.png",
+      "sha256": "91a1a7fe9328ae5e84677ad79289912e3570fbf998d0c69a597f9c2ef4c5ed98"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0050.png",
+      "sha256": "94ff83404b8eac2a91e1974aca9f029b0962c4b82585f2983e2e8727e462c070"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0051.png",
+      "sha256": "40278614cef6a347d9cc895d15414ec591e8cf9c2dc0f66e9b57f72c68f02534"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0052.png",
+      "sha256": "f351edf30d7faf17229688fc2e7ed5d797c132b2ca7cf9ea2637f28eb3e4522e"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0053.png",
+      "sha256": "27e2e0a4448b157225c5f8af836c0b3a5fb6a6c228b247f2b1bfe91b260a0472"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0054.png",
+      "sha256": "db0b6ea267234b82e5cd47bfdf24327e076478f8778f2cc0deb67bb17473f96d"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0055.png",
+      "sha256": "82faeb781e7b0864ac1ad10435ff8fd9b9fb0fa91a9dd21e2bcf03c7f4d94dec"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0056.png",
+      "sha256": "accb195bab1adc40d9adcef2f501c97525b7118e9bc807b573f53813f5a32f05"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0057.png",
+      "sha256": "b66e755ab0bbaf5f9f29922eec38a31061fad06149aef5b30d124fe6d7b3fa69"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0058.png",
+      "sha256": "c2a7fbec0d29ca3b98f1e4c704e703cce2058e7ce574e48f17b2e78665dc5d1e"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0059.png",
+      "sha256": "ff5a385b9ce821b8af31dea3bbb946a38ac9ddb2b1115fa57dfebf4f293a0ea7"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0060.png",
+      "sha256": "e3eef784f514f2fa829e6138014647eed5a60db516dce6171e3086b1d2e55783"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0061.png",
+      "sha256": "9e3f0849882c5f2a6dc3e684e137d3494f80988d3114d777471f50360b7fcb0b"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0062.png",
+      "sha256": "51cb2760d683e82a8b34f301b1fb84adaea797672c6cdcf52529fe8b3a9f3df8"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0063.png",
+      "sha256": "1bc401e6b562d1b7d8f7739153baab22b9c41feacc3370530a1297a74665b96b"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0064.png",
+      "sha256": "f72bd5a85e9b8595497a01176b59d7d4628d77e8950f4f0a105c8a3557582046"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0065.png",
+      "sha256": "7921d9b47d56fd9b54a99fd770b77764a2c519e1aac0919d5c40992729e0b47a"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0066.png",
+      "sha256": "1c0b8c403048258d25ba632b7d78261646b23493f26da308211cc6dd842d6d12"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0067.png",
+      "sha256": "214450cc68be7b1a7a6f8a0c0ca159acb9fd9bb7ac3bfd50288633fcd1e69235"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0068.png",
+      "sha256": "76efbe6204395c3d5ac1544ae0d232b467ccc394fe35ac15798a48cac2a31825"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0069.png",
+      "sha256": "1bc77c121543b69da2138c6c5fcc8eeb9f66df61effca14bf80a07eafc32a310"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0001.png",
+      "sha256": "05dabe298c228e4e235599f9b207b2d21c980780c48aaaaa3c036a830893a52e"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0002.png",
+      "sha256": "d85b6506143a6fb94f93971d00052313da5d2115811306a9913b1351dcb0affe"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0003.png",
+      "sha256": "0b40c9fb740844608fed0cbacecc7a2b6a49020e87e2137629d323a2f301b568"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0004.png",
+      "sha256": "4b95f5d514a395d55184bc078014655fa38f7defc32499e64c25cec2ba66f6d2"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0005.png",
+      "sha256": "a015a3b945318136d418d420307f768ee86ac5c84290ca627e5a46044e96f1cb"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0006.png",
+      "sha256": "a9e20ffaeab8c6466dd68c367e656cd313a6e4f1ed77e3f2b66a145de3fbf463"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0007.png",
+      "sha256": "5b671e331bff129b8c07168452053d1819c949e2096620c5cc8de38003bf2923"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0008.png",
+      "sha256": "c21a709271e5aba0796a429c8975fb9575d7ccd470531c0f7e009aee5e3925d0"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0009.png",
+      "sha256": "87f015aec9c54517f04ddb52000da7222c168a7dbb979545d036b470d413e597"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0010.png",
+      "sha256": "eee256c69fc91ece73bdc3fc80a912ee5f257ae7925c2cc42af563544be15e39"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0011.png",
+      "sha256": "0f6e0fbf4f6130641fe9df6fdd1252ed65af7667ed78bf49a2ab8930d92acfcc"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0012.png",
+      "sha256": "73458a9ccf9f8d85a6ab2763aeb1f2f3f06ee3e0faf3983ee34491ba1053f405"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0013.png",
+      "sha256": "9de6d81da42bb0b8ea21d017d414c003cb81ff1bd120d3453d1d3498a1969bcc"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0014.png",
+      "sha256": "da6539fcc6f3f3bc6ce2df352798bbaf4e525fd20b14d7371c6d55f826455da6"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0015.png",
+      "sha256": "b2084221ac3e15e607c8afd660b6ffe4f6997344689a9f65781bf11ce91ec9c1"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0016.png",
+      "sha256": "ef864615fb6ef7c63634cb1c99bf69c2d1132dd97aecdfd37b4b6fc9724d1414"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0017.png",
+      "sha256": "d5eba0a8309254896dead53678c8b81b82bf2b21b2f9502b2d90bcf28457d583"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0018.png",
+      "sha256": "4d6cf201b2f7de0f7dd5cd1244f0e2c1852d2806cdfcd0d43e1585f38bcb2ec9"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0019.png",
+      "sha256": "73f0c677f1060ff15fd301ffbe22d333a9459eea2303b6019f62b7bbed0f3fc9"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0020.png",
+      "sha256": "cca9e3e9333b95c979518ea4dc6d878890099fa11f07028acc307bf449140f8d"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0021.png",
+      "sha256": "0bc8e3e094ae2a2eacbe9f0228837104121fe71be0e55b74842dde5bc65dfcd9"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0022.png",
+      "sha256": "8eb9cedf3175f787ecc49a5911753ebbd3b59428aaaa77df5c7dd0149d65aa4e"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0023.png",
+      "sha256": "eca497d1a559b16633766710d2645a6a2da7f5678dd835974f1116755bd39d5d"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0024.png",
+      "sha256": "2113fc0e5f2a101fed4fa7ce476fe465f5a4e12fb5f6ef75107d8829e64849fb"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0025.png",
+      "sha256": "2f5cd67ec634b731d50f442006a7a722e485473841bfc49786752f2be0e4bc83"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0026.png",
+      "sha256": "94e0ec806f75174f66abe10cec54b9d708d978038330df19f1a8b8ad26c84304"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0027.png",
+      "sha256": "4d31da295bc8303d1ca53a0dcac219f058ccf0f78099f116e8b2474fcc89a191"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0028.png",
+      "sha256": "36a6479133474b91f326dc2918cb10b46b6c00d410443f4e2ba42208b7e361da"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0029.png",
+      "sha256": "eb613982d94031b25c224874de50a2cb057fdf430858209cd73795096989a874"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0030.png",
+      "sha256": "020bd8d876fa4a078a6b52ac332f2aead2b808e3b7bfac9bf418e74caa493adf"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0031.png",
+      "sha256": "ce44434002a78b8cde689fd3cedb4bc7f381488477d8cff891125bef1a94009a"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0032.png",
+      "sha256": "e87b15f3fd567f85ee23d5c72b1097ce0ffcdfa437eaaf599c918c71802c216e"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0033.png",
+      "sha256": "5dae1c92ff95250ac88a32a246d6f025382a714bed6a9434afc6c7f3f530f12c"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0034.png",
+      "sha256": "c45a85ac89b8cae23993785cc9d6b21055e1cc6820b76c7945f5b2b783f4312d"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0035.png",
+      "sha256": "04dd58a437835a2c0a8fd49df99785b9b756c6392d4a85b4eaaee1ff0a7389d2"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0036.png",
+      "sha256": "65caba041bd66fb05a35e7acd945efc08185887e70e7a6be9bd8f3c570382394"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0037.png",
+      "sha256": "7e2cf769dc81e7a8a64d2520fe450cb6b5646c21c2d45434ad4f19b048fe09c9"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0038.png",
+      "sha256": "507a56f4f44b62525118e2bae8d8dcf73fd3dc8a374ec5510c2ec6ee6b15c643"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0039.png",
+      "sha256": "6f6051cb2bdfdd32db816356e12ccfbd9a4213bb2fa743f1ab5d53a8d6b5a78e"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0040.png",
+      "sha256": "1321b11bb6c34bf7e09578100ea71077f825c58d7c0824414ce78dcb0c420958"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0041.png",
+      "sha256": "7b7880a9cabe5b2b7996075f4fb8ad6b256d8d6bd1c8224ba6a8df6325bf3a74"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0042.png",
+      "sha256": "bead556d3ee79ab00d6ea773b4879e7360f5d7b7d52e7005592b137b9e540258"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0043.png",
+      "sha256": "e8bc83b5109aa41318ce18ed01430136696650f2e1573d364f338e79ed28e9ce"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0044.png",
+      "sha256": "e06634e2813a922788c1fe52cf4e93e0ebfcb85419683a330699b311a6d4b34e"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0045.png",
+      "sha256": "d73fc9ea76b39cdd331c7eec53f10c1d93767deac2e342617647d7c87f51d6b1"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0046.png",
+      "sha256": "0bba4b2694d783e82b650db3f0219ebf9d0a2723726fb11db131e8e53672dc8b"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0047.png",
+      "sha256": "4f3f8d8688fedb7715ab0e4d8217827a64823c739e8c133248904181847c1630"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0048.png",
+      "sha256": "dd89c2856c91d8d86a778e7d0f08eb95298137e581fe3110d9da6feed4ea3f2a"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0049.png",
+      "sha256": "c2d5ddd672ae7ae8e039296556c0d1e39cfd0c68c90823dc59e150bece5af7b9"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0050.png",
+      "sha256": "f1c95b89a3ebf3df85295ec2b50dfba1a92208fdcddd8f2a5b0334da36584be3"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0051.png",
+      "sha256": "2464c0874af958fa6f8a2bd7e31b5e436c522db3d706ed4ed6f2e40ee0a87f0f"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0052.png",
+      "sha256": "1286addf652aea45736b1192de420302628fbeb5cfe339a9ba1e662f9c72ce06"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0053.png",
+      "sha256": "e98a1c04c3f840f21e5b07b499bdf0553249f5eea97b8e9fc86b23a2e4c1c957"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0054.png",
+      "sha256": "ec92a5601e3e16b26e25a48f62fa47985ae3fa4855aedd370c8600e919a19916"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0055.png",
+      "sha256": "2235725dcb02356fafc9cfe80dd0130cb06df5c2d45236dbd7ff0f52d3a1f10a"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0056.png",
+      "sha256": "9f9eec88f1bbcce315ffe558d43c36a0aeea2169cf83021aba9dca9594454f81"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0057.png",
+      "sha256": "40588fdce168350c22fda8d4231edabaa01e418a3eaaf35ef26ce62d61d301d4"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0058.png",
+      "sha256": "0f6fbaf2e486cf8256d67f7ac35afde56c4d73883b55e0266a80531a2f252d46"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0059.png",
+      "sha256": "67f710d484cbd48b51c92648cfa7f3ad77d2200fc1b2e18f8e438d6236c13ee7"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0060.png",
+      "sha256": "e1ec8de58371458e60e3e65af5849eed45d922a203a876fc7225e48290cc430e"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0061.png",
+      "sha256": "d7bfd5843ff02e64e7f996a5b61bc9e74f13048a5f9edacf7a02cac9d795224a"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0062.png",
+      "sha256": "4b176913720c867c0a81682bb3fee165322d79a8dd596bccc79e6e374379fff0"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0063.png",
+      "sha256": "f8956976b0429a6c0c8e5a6761d06e3a459d06687a28be8167bf1d33cdd54a19"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0064.png",
+      "sha256": "17a0e3dc7a9461d0bb457a4274d388a71c24bb3b930d18ba926302bf8b494382"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0065.png",
+      "sha256": "e6f2b5431b0ec66d9bad3af9da62266b48cc72004d4a851fddaacb795384a31d"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0066.png",
+      "sha256": "fcf59813f2cbdce50f1e2c8ac8d507f1edf3b4c60eadd5ac4ca5fc148255add3"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0067.png",
+      "sha256": "43acd04af9300a505d23e46939b2b982c69f4270140da28191085f7a6e455d4a"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0068.png",
+      "sha256": "037efb2c7848b0fd426878dead33817216aea15e9312385029feb284372d000a"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0069.png",
+      "sha256": "2a14ba8eb054da5d18a7a49e65e25751e5eb809a0208235ea69ab63711e311d2"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0001.png",
+      "sha256": "d28fdac7be1924bd72742691d7faf14bf47cdfc3155e13e6611927acbd83a8dd"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0002.png",
+      "sha256": "eb00f4a090a26e46f98577a600bf4331f87146b90f8804e6e547ff41633a3d1b"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0003.png",
+      "sha256": "d88760ee39dd9789522352fc6892e323ac0453b310e263513ba36116ed41ba3f"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0004.png",
+      "sha256": "db87540a6ccab6b897a3bc1f04e50cf7365c5e8fd047e1c311d61d312a06c938"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0005.png",
+      "sha256": "2b197e7a24198e02a80aa4bf0278ad8f3fce45cfa754f647be9f60c1953c6d7f"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0006.png",
+      "sha256": "93f695a0b4acd4ff5671c03c1ebbf339f2ce7e4ceb0d02552838fd8615c20373"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0007.png",
+      "sha256": "8ac33359810a0297ef18ddc6925f9308469157f4b1b400d1e2b97950ddec21d7"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0008.png",
+      "sha256": "bbb0c76e60f204b6c3bd097f450a0b72a5c40c465077ba43b965cbcdf4b06ce1"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0009.png",
+      "sha256": "9e2225f1b419ae01ffe7c02cb19ceb97f773b20286c1e7a9dbedd55d366c91f3"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0010.png",
+      "sha256": "84e3128208e75e0006c11f76c5334745377e1f97b7dd80e71c74fa9a2819b09d"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0011.png",
+      "sha256": "bba2acc7e5a28135976a3bfe6094d0f87a6b2ac5ad0ce1c34d1610cadc7ca256"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0012.png",
+      "sha256": "8c448358122101347eb4085f14854f600e06e331e3d008d188c5721ddb34490e"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0013.png",
+      "sha256": "4f13b7d008acb537daee90a48bd400833e45bb2a4a52c5177bce60cfd85d1f00"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0014.png",
+      "sha256": "100daa0c3db214cd51cbf996d90990f0742b219e9e52b63f3537a20acd03b526"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0015.png",
+      "sha256": "c8e14c31d06e541588e8b19cd67c9e0cdaaf19ac8d96e9ae4d6c47fc0d93e8c9"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0016.png",
+      "sha256": "8ddbd9bfcc5177ea3376b79da86529c0979daf466c89d88a95e9f966cc8ad073"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0017.png",
+      "sha256": "8d9e8cc58ed57b629f9cb3e90597b5e8a2c52b4302040d0e37a02f9cf3677de2"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0018.png",
+      "sha256": "d3096bd9f606b7de5f9e5e119b7547e549018e3a8fc8bf00f4d4edd651b9f543"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0019.png",
+      "sha256": "4c89d723ee4d149a7ccccf8faaed1a9c95f136a7fc523376f5dd7478520510d8"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0020.png",
+      "sha256": "ec6a5428c007c5ac9fada41255ce1f11d877a5c8e4db779e0b51eec2280057f1"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0021.png",
+      "sha256": "e3b8eddc9db5c8b0e9a028e3dbb74988ed0961372de342033ddc4c2873fd8ede"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0022.png",
+      "sha256": "58c262c1fd73564bd5622227aa79f7c54fef8e07c6977bb778d947a69894c63c"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0023.png",
+      "sha256": "8177137f52c6d737421bf7296792d443da26e84e67f76242e0f53ec15f19bc42"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0024.png",
+      "sha256": "be1d4e9efc6e8ba4b17e285f05ad50efac6d63fb621c892e1a71d2e6261058fb"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0025.png",
+      "sha256": "39a8dd473d438ead9e87e090eb73448cc111a5744be76e52ac697db63a411cb1"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0026.png",
+      "sha256": "4f06d7d1f945cc58994de37d93367879073b24e297fdc876d75263d259a59f3e"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0027.png",
+      "sha256": "15ed14869c1062a9997a19dad30609f923f3f2655d5b7dc83bcced3bc9399b7b"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0028.png",
+      "sha256": "ca4f225264efc5bd4dd9d0664b2ae74a55da96511730325b062393fe1358a18a"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0029.png",
+      "sha256": "af1c381fb7dbca3714cfff2fd24a30ae1cbaccfb676f13b5adac2149e378835e"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0030.png",
+      "sha256": "743d36696453c2c0896a4f97446b7a70aba676bc98c973edeeae347f6bc26650"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0031.png",
+      "sha256": "2c8e3ba8e5d0d842e5338643642d8002dd80b6843a881160ee68ed61bc1bc342"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0032.png",
+      "sha256": "9c0b76d93191159362c382d7ea314c5ca01435287ce53743cf49b69beb3aa134"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0033.png",
+      "sha256": "479ecd043556f766ea5b55d07dd726e6f2a18c018353064d0be2e9fa3945dece"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0034.png",
+      "sha256": "edaa4525dfbbc865da44afd29fb991ec0bddcbe2481aa2d245a98f86e0724110"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0035.png",
+      "sha256": "6f4c0ce78c6c81d2e7f4d4b273dead3240f625dc5fcebc03e35839683dd5b49a"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0036.png",
+      "sha256": "d9c781f69c0265cc23b4747fa05cad7dd569343579a6a65c272b36fad548422d"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0037.png",
+      "sha256": "e18e6ba7461ed6b0b058e52fb6f1a0e6afd6be44f7bcb9c583df2913c5c5d86f"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0038.png",
+      "sha256": "709d9faff748cfb8d39ddc261dc5391d24b5a897e9451d4a4c6a5741b62902a7"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0039.png",
+      "sha256": "6eba5a2f172bff3eba8f3fc4f4fe44905d5ac2631122041c791fe980aa0a57d0"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0040.png",
+      "sha256": "0345c1e38058f12148dacb5ada2a565ac7e7a76ac71ab6fde3b39011af068890"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0041.png",
+      "sha256": "501f0a5d18f73f2d633def8c83b5edb17ed034778a9ef5b396bef1c4b68a0baf"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0042.png",
+      "sha256": "a7518570f1af233c2edcd0a39aeeb9a83305659637d10652b2f0056baa200821"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0043.png",
+      "sha256": "5016ebba14f94402d2dab681817dde0c411845da64e0b5e934145ccc45a69050"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0044.png",
+      "sha256": "8cfc39a363b2addf1c2a625e16b57eac5150979faf08821234e47fa7b65e15f1"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0045.png",
+      "sha256": "a9da57c2ddf91c43a1410d83bf56c86405460ab66cf724b2f3188a76ac4c58aa"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0046.png",
+      "sha256": "9df44d778e19b027f50e2a4b03c183dd686cd651e61f85d7dce9cc34e76158fb"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0047.png",
+      "sha256": "ce79937db2c1944eefbdd95a8a88dbf042396e3128d0158c47f31c156f04c0c7"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0048.png",
+      "sha256": "28ee591bfb9da3a2f2fd4ef16c438fe6534fd1a6776e9e89c26050d13026c78c"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0049.png",
+      "sha256": "d8f8ef919efcbf63c8f38bfafaaf3294aef99efe33f1bda83646c1f6f73e9d26"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0050.png",
+      "sha256": "dfa0ebe8d31e5f9fa4523bafcab981364f6da2a6ce2096630b37d62182bf8c93"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0051.png",
+      "sha256": "6e3bdc12bbd5252f701a625e5c80830ed335570581dfee2a6cdf66e119cf08b8"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0052.png",
+      "sha256": "9b439623ded68f5a56b7694b4bac0ce5122ee57f39f25db39dad685b10ede439"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0053.png",
+      "sha256": "7efdd3aa25b09e72a96a7ab183c6eeceb4416e1b1caf48a882de1368384699f7"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0054.png",
+      "sha256": "5283cdd63498d2dd63a8d8445b31e0eb17798ac1b915de76a5207d38bbc7d24c"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0055.png",
+      "sha256": "21b3b076c80ed2ae46737eea559a612b9b4ffc68677efdfb5e6acf8cbd0e66eb"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0056.png",
+      "sha256": "4c984667a681930c9ef47b5a8f57b83f0dd9dacdc558843ed52052ef212767ba"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0057.png",
+      "sha256": "00d7ef3ca5e406bd60c81bde069da2b2bac6fff8465dccc6c1ebb6b3d71cae9d"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0058.png",
+      "sha256": "cfdab1d754ef34d42de706ee748ed8c8e24f80b280e5e64b9e6be852aa8c7823"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0059.png",
+      "sha256": "a44c0d591cadccde2dd50e37568aec9cdf25f3a9f01aba19e8e7bbfad4cfb2de"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0060.png",
+      "sha256": "449d6c37479cfac36efe88c53caa0f97fb9ba75c6df8cda1c49fcc0a652c7678"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0061.png",
+      "sha256": "c687bd5b7cbe0c38076a3084563a44d9cc852b8fdcecd2d13d62d9adb2edaafa"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0062.png",
+      "sha256": "d3be449548b12ca22a2c2e31d9f7673f8797c86c9de7ce11976cdfa0006322de"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0063.png",
+      "sha256": "20181eff6c37446c1ca00df0a26d8f27c49fa7e186148da05619ef8c42d5df9b"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0064.png",
+      "sha256": "3ec2a945fd30f6aa1484e5cedf3d10582fe3391c7a9424137005ae2fb6e992fe"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0065.png",
+      "sha256": "61622438575a5b5ce8aaf81e8e26869139f8dbc0f320094ebb0fbc1172b7fdd0"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0066.png",
+      "sha256": "f81c9b08e816f3f7c19b19446662d64a01f6ac6ebc78b799a874733052462749"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0067.png",
+      "sha256": "38193b6214bc893534cfc92d97752d61857e415b7861e7e992c880ab4177b6b0"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0068.png",
+      "sha256": "327626cb1b4266566af86bd5a13743167bb354f196affa8929df7e01560a94d8"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0069.png",
+      "sha256": "4241c5dff1646a08b92ad82941261bdb744129c129204b9dad728350ed65d944"
+    }
+  ],
+  "interpretation": "retrospective MI05 sensitivity analysis; no model or configuration selection",
+  "matching": "threshold-aware optimal one-to-one assignment; maximize eligible match count, then total IoU",
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\iou_sensitivity\\iou_sensitivity_metrics.csv",
+      "sha256": "cb22e9e5c2fc3d07346093935b38b0f172e90190e1df3077550e892d698ad1c8"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\iou_sensitivity\\iou_sensitivity_table.tex",
+      "sha256": "de5583b5e266fe9914d988a410201d0b7b0b2870b86824f0b139fc50970b2511"
+    }
+  ],
+  "packages": {
+    "Pillow": "12.3.0",
+    "joblib": "1.6.0",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scikit-image": "0.25.2",
+    "scikit-learn": "1.7.2",
+    "scipy": "1.15.3"
+  },
+  "primary_threshold": 0.5,
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\code\\iou_sensitivity.py",
+    "sha256": "a6b58f47ca80740664850ae46ddfda1018d5c7738c99d4af7e81b16786fc637e"
+  },
+  "sequence": "MI05",
+  "status": "verified matching-threshold sensitivity from frozen prediction masks",
+  "thresholds": [
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7
+  ],
+  "validations": {
+    "counts_monotonic_with_threshold": {
+      "cellpose_auto": true,
+      "cellpose_fixed": true,
+      "stardist_saved": true
+    },
+    "primary_rows_match_verified_results": {
+      "cellpose_auto": {
+        "checks": {
+          "f1": true,
+          "fn": true,
+          "fp": true,
+          "mean_matched_iou": true,
+          "pq": true,
+          "precision": true,
+          "recall": true,
+          "tp": true
+        },
+        "reference": "<PROJECT_ROOT>\\results\\verified\\cellpose_auto\\metrics_summary.json",
+        "reference_sha256": "5e40038b971bc6d8d128b8cadeea6b501b3805aeb7a5eb6685d1e30279026947"
+      },
+      "cellpose_fixed": {
+        "checks": {
+          "f1": true,
+          "fn": true,
+          "fp": true,
+          "mean_matched_iou": true,
+          "pq": true,
+          "precision": true,
+          "recall": true,
+          "tp": true
+        },
+        "reference": "<PROJECT_ROOT>\\results\\verified\\cellpose_fixed\\metrics_summary.json",
+        "reference_sha256": "255f97427b0ebf1806492409af23119c8c94f4ef86a6c92316fef7a175def003"
+      },
+      "stardist_saved": {
+        "checks": {
+          "f1": true,
+          "fn": true,
+          "fp": true,
+          "mean_matched_iou": true,
+          "pq": true,
+          "precision": true,
+          "recall": true,
+          "tp": true
+        },
+        "reference": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\metrics_summary.json",
+        "reference_sha256": "9c431ddca5e7d40da3a8a9a8672c413ec79c00e377589c5de34a5e97c1f2f4a3"
+      }
+    }
+  }
+}

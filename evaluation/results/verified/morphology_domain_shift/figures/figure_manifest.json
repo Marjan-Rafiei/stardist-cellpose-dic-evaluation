@@ -1,0 +1,28 @@
+{
+  "inputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\morphology_domain_shift\\analysis_manifest.json",
+      "sha256": "3db7ef32b79b64ecae4accb0356e8ba6bd66bb2310f3f2e1274f471523a85a4e"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\morphology_domain_shift\\feature_shift_summary.csv",
+      "sha256": "5283f78e96d1c93efa12834e674e49e4f2ac8d7d66b0db939587376a8591fd33"
+    }
+  ],
+  "notes": "Paired matched-instance morphology shifts. Relative eccentricity changes can be sensitive to small ground-truth values; raw signed and absolute differences are retained in verified outputs.",
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\morphology_domain_shift\\figures\\mi05_morphology_domain_shift.pdf",
+      "sha256": "f95f685619f617e5c9efde6323212cd1e25b797887af4d3e59767c206998eabb"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\morphology_domain_shift\\figures\\mi05_morphology_domain_shift.png",
+      "sha256": "255f46ddd074eb229b1d555a2e608d0fd21eb69e59bfe61f4691c82621021c4a"
+    }
+  ],
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\scripts_figures\\plot_morphology_domain_shift.py",
+    "sha256": "423e65dbd3e554983f540f176746519fb0f5e75dd856842fa4abf9276e6f23a1"
+  }
+}

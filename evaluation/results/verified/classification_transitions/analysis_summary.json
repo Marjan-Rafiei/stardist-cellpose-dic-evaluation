@@ -1,0 +1,92 @@
+{
+  "analysis": "classification correctness transition from ground-truth-mask morphology to predicted-mask morphology",
+  "interpretation": {
+    "incorrect_to_correct": "An altered predicted-mask feature vector crossed the locked classifier decision boundary into the annotation class. This is an accidental transition, not a beneficial biological effect.",
+    "scope": "Matched MI05 instances only; transitions do not include unmatched annotated or predicted instances.",
+    "target": "ALFI annotation-class recovery, with different annotated compartments for interphase and mitotic objects."
+  },
+  "schema_version": "1.0",
+  "sequence": "MI05",
+  "systems": {
+    "cellpose_auto": {
+      "accuracy_change": -0.023474178403755874,
+      "accuracy_change_percentage_points": -2.3474178403755874,
+      "classifier_output_changes": 39,
+      "correct_to_correct": 131,
+      "correct_to_incorrect": 22,
+      "gt_shape_accuracy": 0.7183098591549296,
+      "gt_shape_correct": 153,
+      "incorrect_to_correct": 17,
+      "incorrect_to_incorrect": 43,
+      "matched_instances": 213,
+      "net_correct_count_change": -5,
+      "pred_shape_accuracy": 0.6948356807511737,
+      "pred_shape_correct": 148
+    },
+    "cellpose_fixed": {
+      "accuracy_change": -0.038277511961722466,
+      "accuracy_change_percentage_points": -3.8277511961722466,
+      "classifier_output_changes": 46,
+      "correct_to_correct": 120,
+      "correct_to_incorrect": 27,
+      "gt_shape_accuracy": 0.7033492822966507,
+      "gt_shape_correct": 147,
+      "incorrect_to_correct": 19,
+      "incorrect_to_incorrect": 43,
+      "matched_instances": 209,
+      "net_correct_count_change": -8,
+      "pred_shape_accuracy": 0.6650717703349283,
+      "pred_shape_correct": 139
+    },
+    "stardist_saved": {
+      "accuracy_change": -0.19556451612903225,
+      "accuracy_change_percentage_points": -19.556451612903224,
+      "classifier_output_changes": 153,
+      "correct_to_correct": 295,
+      "correct_to_incorrect": 125,
+      "gt_shape_accuracy": 0.8467741935483871,
+      "gt_shape_correct": 420,
+      "incorrect_to_correct": 28,
+      "incorrect_to_incorrect": 48,
+      "matched_instances": 496,
+      "net_correct_count_change": -97,
+      "pred_shape_accuracy": 0.6512096774193549,
+      "pred_shape_correct": 323
+    }
+  },
+  "validations": {
+    "cellpose_auto": {
+      "accuracy_change_matches_transition_balance": true,
+      "correct_to_incorrect_matches_error_rows": true,
+      "correct_to_incorrect_matches_historical_flip_flag": true,
+      "four_categories_sum_to_matches": true,
+      "gt_shape_accuracy_matches_raw_flag": true,
+      "incorrect_to_incorrect_matches_persistent_error_rows": true,
+      "output_changes_match_step8": true,
+      "pred_shape_accuracy_matches_classifier_summary": true,
+      "pred_shape_accuracy_matches_raw_flag": true
+    },
+    "cellpose_fixed": {
+      "accuracy_change_matches_transition_balance": true,
+      "correct_to_incorrect_matches_error_rows": true,
+      "correct_to_incorrect_matches_historical_flip_flag": true,
+      "four_categories_sum_to_matches": true,
+      "gt_shape_accuracy_matches_raw_flag": true,
+      "incorrect_to_incorrect_matches_persistent_error_rows": true,
+      "output_changes_match_step8": true,
+      "pred_shape_accuracy_matches_classifier_summary": true,
+      "pred_shape_accuracy_matches_raw_flag": true
+    },
+    "stardist_saved": {
+      "accuracy_change_matches_transition_balance": true,
+      "correct_to_incorrect_matches_error_rows": true,
+      "correct_to_incorrect_matches_historical_flip_flag": true,
+      "four_categories_sum_to_matches": true,
+      "gt_shape_accuracy_matches_raw_flag": true,
+      "incorrect_to_incorrect_matches_persistent_error_rows": true,
+      "output_changes_match_step8": true,
+      "pred_shape_accuracy_matches_classifier_summary": true,
+      "pred_shape_accuracy_matches_raw_flag": true
+    }
+  }
+}

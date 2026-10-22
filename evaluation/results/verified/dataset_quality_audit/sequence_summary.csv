@@ -1,0 +1,6 @@
+sequence,role,images,raw_masks,instance_masks,class_masks,aligned_frames,annotation_only_masks,annotated_instances_all_masks,annotated_instances_aligned_frames,sequence_sha256
+MI01,classifier_training,67,69,69,69,67,2,936,911,0358d97014971a4c509177f853a18d0bce357b73ceae35f88fc8560fd97a192b
+MI02,classifier_training,69,69,69,69,69,0,953,953,8ceb986ba847111b1aa7a8e39f89e06dcc641b096c1c8b0b9db9a60f0fa8d9bf
+MI03,classifier_training,69,69,69,69,69,0,883,883,a5440b5306a2a54c531f257eed1669248045b8283037fcb266443da1490e8eef
+MI04,classifier_validation_and_lock,69,69,69,69,69,0,556,556,a02d713be929ab9a19137860d9d1bffb46785ca8023780466847db97f1a73f6d
+MI05,retrospective_final_comparison,69,69,69,69,69,0,740,740,2b639d9e4868b9f9400ffae907af59ed7e73f152640c82b2771bfff0efb0a4e9

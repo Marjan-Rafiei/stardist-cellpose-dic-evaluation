@@ -1,0 +1,16 @@
+seed,group,features,importance_mean,importance_std,rank
+42,elongation,eccentricity;aspect_ratio,0.2719103672,0.01344456404,1
+42,size,area;perimeter;major_axis_length;minor_axis_length,0.1807159603,0.01200426034,2
+42,compactness,solidity;extent,0.04424461687,0.00963907599,3
+43,elongation,eccentricity;aspect_ratio,0.2704234639,0.01177957574,1
+43,size,area;perimeter;major_axis_length;minor_axis_length,0.174151886,0.01473242839,2
+43,compactness,solidity;extent,0.03966319653,0.007209127121,3
+44,elongation,eccentricity;aspect_ratio,0.2724675198,0.01988285768,1
+44,size,area;perimeter;major_axis_length;minor_axis_length,0.1770862697,0.01644215399,2
+44,compactness,solidity;extent,0.03930594901,0.00875154688,3
+45,elongation,eccentricity;aspect_ratio,0.2782190653,0.01641064461,1
+45,size,area;perimeter;major_axis_length;minor_axis_length,0.1736407848,0.01124818023,2
+45,compactness,solidity;extent,0.03838840899,0.01016041711,3
+46,elongation,eccentricity;aspect_ratio,0.2723844876,0.01655761881,1
+46,size,area;perimeter;major_axis_length;minor_axis_length,0.1844722924,0.01227681981,2
+46,compactness,solidity;extent,0.0395553943,0.01157072874,3

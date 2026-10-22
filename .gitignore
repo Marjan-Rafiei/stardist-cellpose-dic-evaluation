@@ -1,0 +1,27 @@
+# Python junk
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.Rhistory
+
+# ALFI data (download it separately, see README)
+MI0*/
+data/
+*.tif
+*.tiff
+
+# Training logs and large generated files
+**/logs/
+evaluation/results/verified/stardist_saved/predictions/*.png
+
+# Secrets and editor settings
+.env
+.vscode/
+.idea/
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz

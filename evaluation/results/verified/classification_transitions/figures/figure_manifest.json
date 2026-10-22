@@ -1,0 +1,28 @@
+{
+  "inputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classification_transitions\\analysis_manifest.json",
+      "sha256": "89452fd9de3898bf43e6797d7a2e19e48f1882dd6fb77682ffe5a2aa20279f84"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classification_transitions\\transition_counts.csv",
+      "sha256": "ef5ee0085cb14ad567fc17fb07cb01c67a846a921df6afff289f67f7a0977a43"
+    }
+  ],
+  "notes": "Matched MI05 instances only. Common percentage scale across all three matrices. Incorrect-to-correct is not interpreted as a beneficial biological effect.",
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classification_transitions\\figures\\mi05_classification_transition_matrices.pdf",
+      "sha256": "5f9aebd2876975a0a277c36743bf322f586b05dca901f5bb73418f300214feea"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classification_transitions\\figures\\mi05_classification_transition_matrices.png",
+      "sha256": "8a1007ed8bab5808eb33c185d50aa57ac9e04ccacf69d6bbae700e5a2718abf6"
+    }
+  ],
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\scripts_figures\\plot_classification_transitions.py",
+    "sha256": "b38c09f25231082dec8f28615b789143e1e15ecf3dce085d288452932c69ca18"
+  }
+}

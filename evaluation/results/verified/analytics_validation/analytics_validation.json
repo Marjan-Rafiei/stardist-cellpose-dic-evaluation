@@ -1,0 +1,86 @@
+{
+  "annotation_compartment_limit": "interphase masks are nuclei and mitotic masks are whole-cell regions",
+  "interpretation": "descriptive ALFI annotation-class analytics; not a causal treatment analysis",
+  "schema_version": "1.0",
+  "sequence": "MI05",
+  "systems": {
+    "cellpose_auto": {
+      "error_type_counts": {
+        "classifier_error_present_on_ground_truth_shape": 43,
+        "false_negative": 527,
+        "false_positive": 254,
+        "segmentation_induced_class_flip": 22
+      },
+      "frames": 69,
+      "ground_truth_pooled_mitotic_ratio": 0.23783783783783785,
+      "ground_truth_shape_classifier_accuracy_on_matches": 0.7183098591549296,
+      "ground_truth_total": 740,
+      "matched_class_accuracy": 0.6948356807511737,
+      "matched_instances": 213,
+      "mean_absolute_frame_count_error": 3.9855072463768115,
+      "mean_absolute_frame_mitotic_ratio_error": 0.12161312922285507,
+      "mean_frame_mitotic_ratio_error": 0.04584501649627536,
+      "predicted_pooled_mitotic_ratio": 0.28693790149892934,
+      "predicted_total": 467,
+      "segmentation_induced_class_flips": 22,
+      "source_hashes": {
+        "error_cases": "1608f49dd301234a86d2952d975c61667ae32ba49287714d67727e4e0f1ee2de",
+        "matched_instances": "f34b41431e33e6102f58533b4f93f8ab2c4e9abf86065957fb72eb6e8fcb9ca9",
+        "metrics_by_frame": "f707b01fa575ad0b73511f199c10a26541b4cf89f869f3c39420591fdbf5f23a"
+      },
+      "total_count_error": -273
+    },
+    "cellpose_fixed": {
+      "error_type_counts": {
+        "classifier_error_present_on_ground_truth_shape": 43,
+        "false_negative": 531,
+        "false_positive": 266,
+        "segmentation_induced_class_flip": 27
+      },
+      "frames": 69,
+      "ground_truth_pooled_mitotic_ratio": 0.23783783783783785,
+      "ground_truth_shape_classifier_accuracy_on_matches": 0.7033492822966507,
+      "ground_truth_total": 740,
+      "matched_class_accuracy": 0.6650717703349283,
+      "matched_instances": 209,
+      "mean_absolute_frame_count_error": 3.8405797101449277,
+      "mean_absolute_frame_mitotic_ratio_error": 0.11588741371484058,
+      "mean_frame_mitotic_ratio_error": 0.018379366206608697,
+      "predicted_pooled_mitotic_ratio": 0.2631578947368421,
+      "predicted_total": 475,
+      "segmentation_induced_class_flips": 27,
+      "source_hashes": {
+        "error_cases": "495991de4625d8c981e760b3ba6f7209630615774b45e2edc425520f1a544e1c",
+        "matched_instances": "5de81e91fbbfc829d53770655added19e53412c353e54d5eed8e446df81ee8e4",
+        "metrics_by_frame": "731ae9b053f94ebdcb53ee97d4de23bbd2e9b4467305e28a40a66b98dd3f5581"
+      },
+      "total_count_error": -265
+    },
+    "stardist_saved": {
+      "error_type_counts": {
+        "classifier_error_present_on_ground_truth_shape": 48,
+        "false_negative": 244,
+        "false_positive": 118,
+        "segmentation_induced_class_flip": 125
+      },
+      "frames": 69,
+      "ground_truth_pooled_mitotic_ratio": 0.23783783783783785,
+      "ground_truth_shape_classifier_accuracy_on_matches": 0.8467741935483871,
+      "ground_truth_total": 740,
+      "matched_class_accuracy": 0.6512096774193549,
+      "matched_instances": 496,
+      "mean_absolute_frame_count_error": 2.1739130434782608,
+      "mean_absolute_frame_mitotic_ratio_error": 0.22684863445768114,
+      "mean_frame_mitotic_ratio_error": -0.14908042842608699,
+      "predicted_pooled_mitotic_ratio": 0.10423452768729642,
+      "predicted_total": 614,
+      "segmentation_induced_class_flips": 125,
+      "source_hashes": {
+        "error_cases": "85c824df6b41ebfe9d43331e9638fb31d578240cfc1bbe60c1e8e61e8d3a9156",
+        "matched_instances": "58daeff3eb28904d8a2c171bfe746db366f21cb85f699ed36956884cf62a8e32",
+        "metrics_by_frame": "7b887c3a4734a338cff79927858e3d42decee234cddcc3239fcb59bd31648332"
+      },
+      "total_count_error": -126
+    }
+  }
+}

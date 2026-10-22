@@ -1,0 +1,7 @@
+split,feature_a,feature_b,spearman_correlation,absolute_spearman_correlation
+training,eccentricity,aspect_ratio,0.9956363659,0.9956363659
+training,area,perimeter,0.9120795727,0.9120795727
+training,perimeter,major_axis_length,0.8665791342,0.8665791342
+training,area,minor_axis_length,0.8211613761,0.8211613761
+validation,eccentricity,aspect_ratio,1,1
+validation,area,perimeter,0.8728257198,0.8728257198

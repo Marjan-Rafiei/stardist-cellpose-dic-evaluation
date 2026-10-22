@@ -1,0 +1,153 @@
+{
+  "autocorrelation": {
+    "characteristics": [
+      {
+        "first_lag_abs_below_0_2": 14,
+        "first_nonpositive_lag": null,
+        "lag_1": 0.9485528823332063,
+        "quantity": "gt_total",
+        "system": "ground_truth"
+      },
+      {
+        "first_lag_abs_below_0_2": 11,
+        "first_nonpositive_lag": 14,
+        "lag_1": 0.9030126789700355,
+        "quantity": "gt_mitotic_ratio",
+        "system": "ground_truth"
+      },
+      {
+        "first_lag_abs_below_0_2": 7,
+        "first_nonpositive_lag": 12,
+        "lag_1": 0.7257832499363526,
+        "quantity": "f1",
+        "system": "stardist_saved"
+      },
+      {
+        "first_lag_abs_below_0_2": 4,
+        "first_nonpositive_lag": 5,
+        "lag_1": 0.7594793487974515,
+        "quantity": "pred_total",
+        "system": "stardist_saved"
+      },
+      {
+        "first_lag_abs_below_0_2": 12,
+        "first_nonpositive_lag": null,
+        "lag_1": 0.8607077242223304,
+        "quantity": "fn",
+        "system": "stardist_saved"
+      },
+      {
+        "first_lag_abs_below_0_2": 4,
+        "first_nonpositive_lag": 5,
+        "lag_1": 0.3318221547581488,
+        "quantity": "matched_iou",
+        "system": "stardist_saved"
+      },
+      {
+        "first_lag_abs_below_0_2": 9,
+        "first_nonpositive_lag": 11,
+        "lag_1": 0.7505492067450669,
+        "quantity": "f1",
+        "system": "cellpose_auto"
+      },
+      {
+        "first_lag_abs_below_0_2": 7,
+        "first_nonpositive_lag": 13,
+        "lag_1": 0.46514474548824414,
+        "quantity": "pred_total",
+        "system": "cellpose_auto"
+      },
+      {
+        "first_lag_abs_below_0_2": 14,
+        "first_nonpositive_lag": null,
+        "lag_1": 0.8889446415647231,
+        "quantity": "fn",
+        "system": "cellpose_auto"
+      },
+      {
+        "first_lag_abs_below_0_2": 1,
+        "first_nonpositive_lag": 1,
+        "lag_1": -0.01565102455014328,
+        "quantity": "matched_iou",
+        "system": "cellpose_auto"
+      },
+      {
+        "first_lag_abs_below_0_2": 9,
+        "first_nonpositive_lag": 12,
+        "lag_1": 0.7800484215907366,
+        "quantity": "f1",
+        "system": "cellpose_fixed"
+      },
+      {
+        "first_lag_abs_below_0_2": 9,
+        "first_nonpositive_lag": 14,
+        "lag_1": 0.6334737166691009,
+        "quantity": "pred_total",
+        "system": "cellpose_fixed"
+      },
+      {
+        "first_lag_abs_below_0_2": 14,
+        "first_nonpositive_lag": null,
+        "lag_1": 0.9062095936158905,
+        "quantity": "fn",
+        "system": "cellpose_fixed"
+      },
+      {
+        "first_lag_abs_below_0_2": 4,
+        "first_nonpositive_lag": 6,
+        "lag_1": 0.30068721618508615,
+        "quantity": "matched_iou",
+        "system": "cellpose_fixed"
+      }
+    ],
+    "estimator": "sum((x[t]-mean)*(x[t-lag]-mean)) divided by sum((x[t]-mean)^2)",
+    "interpretation": "descriptive finite-sequence diagnostics; trends or nonstationarity may contribute to persistence",
+    "max_lag": 15
+  },
+  "bootstrap": {
+    "candidate_block_lengths": [
+      5,
+      7,
+      10,
+      14
+    ],
+    "chosen_block_length": 10,
+    "chosen_f1_intervals": {
+      "cellpose_auto": {
+        "interval_width": 0.18744074345442913,
+        "percentile_2_5": 0.2803015801197271,
+        "percentile_97_5": 0.46774232357415624,
+        "point_estimate": 0.35294117647058826
+      },
+      "cellpose_fixed": {
+        "interval_width": 0.19473797806833665,
+        "percentile_2_5": 0.26883235090152563,
+        "percentile_97_5": 0.4635703289698623,
+        "point_estimate": 0.3440329218106996
+      },
+      "stardist_saved": {
+        "interval_width": 0.19019754149802315,
+        "percentile_2_5": 0.6304776471556537,
+        "percentile_97_5": 0.8206751886536768,
+        "point_estimate": 0.7326440177252584
+      }
+    },
+    "diagnostic_block_length": 14,
+    "diagnostic_reason": "Annotation counts, annotated mitotic ratio, and false negatives decay more slowly; 14 is reported as sensitivity, not selected, because it leaves only about five nonoverlapping block lengths in 69 frames.",
+    "interval": "2.5th and 97.5th percentiles",
+    "method": "non-circular moving-block frame bootstrap",
+    "replicates": 2000,
+    "sampling_alignment": "Each replicate uses the same sampled frame indices for every system within a block length.",
+    "seed": 42,
+    "selection_rule": "Use 10 frames because F1 autocorrelation first falls below an absolute value of 0.2 by lag 7 for StarDist and lag 9 for both Cellpose configurations; 10 is the shortest evaluated length that covers all three F1 decay points."
+  },
+  "n_frames": 69,
+  "rationale_audit": {
+    "classification": "undocumented pragmatic choice",
+    "finding": "The project plan specified 7 but recorded no literature citation, autocorrelation calculation, or selection rule.",
+    "original_block_length": 7
+  },
+  "schema_version": "1.0",
+  "scope_statement": "These bootstrap intervals represent temporal variability within MI05. They do not directly estimate performance uncertainty across independent experiments or cell lines.",
+  "sequence": "MI05"
+}

@@ -1,0 +1,44 @@
+{
+  "inputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\feature_importance_audit\\analysis_manifest.json",
+      "sha256": "ef09a2dad8edaa7dd89bd43fad74f6614aa3f76ed3413ef24f89ee285a054f7e"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\feature_importance_audit\\feature_correlations.csv",
+      "sha256": "18391b29fb6cd9ac21ef3b63e9f577c584c186acaacf15f8b17de852b8ccf81a"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\feature_importance_audit\\grouped_importance_summary.csv",
+      "sha256": "c02f8961d8e6881b64f779edb1faf96f2b4d5feb9bb8cccd2291741b2d8987ff"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\feature_importance_audit\\individual_importance_stability.csv",
+      "sha256": "e1cdbde8e7b7ce38b278319abc3658cb806e05777921aad9bb717fc26f49687c"
+    }
+  ],
+  "notes": "MI04 feature-importance audit. Error bars show shuffle variability, not confidence intervals; importance is predictive and noncausal.",
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\feature_importance_audit\\figures\\feature_correlation_heatmaps.pdf",
+      "sha256": "a10f5597f197e93031d5b90296b2fd380331884c70926ac5ce5adb1c40c1c483"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\feature_importance_audit\\figures\\feature_correlation_heatmaps.png",
+      "sha256": "24b8cee8550f02ddfa50ec4d874b69e043384c41dd493b23ea7e6344856a7bfc"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\feature_importance_audit\\figures\\permutation_importance_stability_and_groups.pdf",
+      "sha256": "ef737102faa2e10c6de0ca5329c4a4dbd33a7012ee173f824056408ec3d5e8cb"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\feature_importance_audit\\figures\\permutation_importance_stability_and_groups.png",
+      "sha256": "0623498e6815e121baa3728d8991205511b76c28dafc03cedb0bc3c6ad984142"
+    }
+  ],
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\scripts_figures\\plot_feature_importance_audit.py",
+    "sha256": "35c720f97d0fe24bf3dd044a8162281f3a889e84401e790be0ff71384fe13b56"
+  }
+}

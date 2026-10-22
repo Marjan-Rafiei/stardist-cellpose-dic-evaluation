@@ -1,0 +1,13 @@
+system,frame_id,error_count,selection_reason
+cellpose_auto,MI05_0055,19,highest false-negative count
+cellpose_auto,MI05_0032,15,highest false-positive count
+cellpose_auto,MI05_0047,16,highest annotation-class error count
+cellpose_auto,MI05_0057,15,lowest mean IoU among matched instances
+cellpose_fixed,MI05_0055,20,highest false-negative count
+cellpose_fixed,MI05_0069,20,highest false-positive count
+cellpose_fixed,MI05_0016,8,highest annotation-class error count
+cellpose_fixed,MI05_0054,16,lowest mean IoU among matched instances
+stardist_saved,MI05_0051,13,highest false-negative count
+stardist_saved,MI05_0031,12,highest false-positive count
+stardist_saved,MI05_0015,5,highest annotation-class error count
+stardist_saved,MI05_0001,6,lowest mean IoU among matched instances

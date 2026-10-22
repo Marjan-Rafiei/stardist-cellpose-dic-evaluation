@@ -1,0 +1,13 @@
+system,transition,transition_label,count,percent_of_matches,gt_shape_correct,pred_shape_correct
+stardist_saved,correct_to_correct,correct to correct,295,0.5947580645,True,True
+stardist_saved,correct_to_incorrect,correct to incorrect,125,0.252016129,True,False
+stardist_saved,incorrect_to_incorrect,incorrect to incorrect,48,0.09677419355,False,False
+stardist_saved,incorrect_to_correct,incorrect to correct,28,0.0564516129,False,True
+cellpose_auto,correct_to_correct,correct to correct,131,0.6150234742,True,True
+cellpose_auto,correct_to_incorrect,correct to incorrect,22,0.103286385,True,False
+cellpose_auto,incorrect_to_incorrect,incorrect to incorrect,43,0.2018779343,False,False
+cellpose_auto,incorrect_to_correct,incorrect to correct,17,0.07981220657,False,True
+cellpose_fixed,correct_to_correct,correct to correct,120,0.5741626794,True,True
+cellpose_fixed,correct_to_incorrect,correct to incorrect,27,0.1291866029,True,False
+cellpose_fixed,incorrect_to_incorrect,incorrect to incorrect,43,0.2057416268,False,False
+cellpose_fixed,incorrect_to_correct,incorrect to correct,19,0.09090909091,False,True

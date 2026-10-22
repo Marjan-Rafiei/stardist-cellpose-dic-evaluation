@@ -1,0 +1,32 @@
+{
+  "inputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\counts_ratio_validation\\agreement_by_frame.csv",
+      "sha256": "660a6d2ef5ca595ca80297503fba2095d07ecc2fd5f532b81c0796ebb3326301"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\counts_ratio_validation\\agreement_summary.csv",
+      "sha256": "7625a4534a0be258ff716086f29165264e19d55cd851b64e92e5873b8c217647"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\counts_ratio_validation\\analysis_manifest.json",
+      "sha256": "92000f96c35f13e5aa3c07f1d42482cea0fdcdcff387544fd24c81f5cc7c5bb3"
+    }
+  ],
+  "notes": "MI05 descriptive per-frame agreement. The five-percentage-point band is an operational case-finding tolerance, not a biological accuracy standard.",
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\counts_ratio_validation\\figures\\mi05_count_ratio_agreement.pdf",
+      "sha256": "f242ac79353efbcc4ec7e82b366aea8e9ba73f10abf5d8f7e0b6878972cc7934"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\counts_ratio_validation\\figures\\mi05_count_ratio_agreement.png",
+      "sha256": "f0ba249c70d769b60a931d796717bbdb3fd453b24858b55cbd32cb34e86e955d"
+    }
+  ],
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\scripts_figures\\plot_counts_ratio_validation.py",
+    "sha256": "89855ae227b9524700a99263c6e5aba54bcff5488ef665b244df4d7f0c6d8eb0"
+  }
+}

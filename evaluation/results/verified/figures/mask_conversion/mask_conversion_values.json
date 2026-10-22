@@ -1,0 +1,20 @@
+{
+  "explanation": "uint8 multiplication by 255 wraps 255 to 1; the fixed path does not rescale masks already in 0..255",
+  "fixed_values": [
+    0,
+    128,
+    255
+  ],
+  "historical_unconditional_scaling_values": [
+    0,
+    1,
+    128
+  ],
+  "input_path": "<ALFI_DATA>\\MI01\\Masks\\M_MI01_0001.png",
+  "input_sha256": "944e6f9c84818d98500afa4e53f4e9c2ed59d8429a345ad6586da4f8361259e2",
+  "raw_values": [
+    0,
+    128,
+    255
+  ]
+}

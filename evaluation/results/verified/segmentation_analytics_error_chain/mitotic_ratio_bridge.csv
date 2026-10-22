@@ -1,0 +1,16 @@
+system,stage_order,stage,stage_label,mitotic_numerator,total_denominator,mitotic_ratio,change_from_prior,description
+stardist_saved,0,ground_truth,Ground truth,176,740,0.2378378378,,All annotated instances and annotation classes.
+stardist_saved,1,matched_gt_only,Matched GT only,159,496,0.3205645161,0.08272667829,Unmatched annotated instances are removed; matched instances keep annotation classes.
+stardist_saved,2,false_positives_added,Add false positives,163,614,0.2654723127,-0.05509220343,Unmatched predictions are added with their predicted annotation classes.
+stardist_saved,3,gt_shape_classifier,GT-shape classifier,137,614,0.2231270358,-0.04234527687,Matched annotation classes are replaced by classifier outputs from ground-truth morphology.
+stardist_saved,4,pred_shape_classifier,Pred-shape classifier,64,614,0.1042345277,-0.1188925081,"Matched classifier outputs use predicted-mask morphology, yielding the observed prediction ratio."
+cellpose_auto,0,ground_truth,Ground truth,176,740,0.2378378378,,All annotated instances and annotation classes.
+cellpose_auto,1,matched_gt_only,Matched GT only,165,213,0.7746478873,0.5368100495,Unmatched annotated instances are removed; matched instances keep annotation classes.
+cellpose_auto,2,false_positives_added,Add false positives,185,467,0.3961456103,-0.378502277,Unmatched predictions are added with their predicted annotation classes.
+cellpose_auto,3,gt_shape_classifier,GT-shape classifier,129,467,0.2762312634,-0.1199143469,Matched annotation classes are replaced by classifier outputs from ground-truth morphology.
+cellpose_auto,4,pred_shape_classifier,Pred-shape classifier,134,467,0.2869379015,0.01070663812,"Matched classifier outputs use predicted-mask morphology, yielding the observed prediction ratio."
+cellpose_fixed,0,ground_truth,Ground truth,176,740,0.2378378378,,All annotated instances and annotation classes.
+cellpose_fixed,1,matched_gt_only,Matched GT only,167,209,0.7990430622,0.5612052244,Unmatched annotated instances are removed; matched instances keep annotation classes.
+cellpose_fixed,2,false_positives_added,Add false positives,185,475,0.3894736842,-0.409569378,Unmatched predictions are added with their predicted annotation classes.
+cellpose_fixed,3,gt_shape_classifier,GT-shape classifier,127,475,0.2673684211,-0.1221052632,Matched annotation classes are replaced by classifier outputs from ground-truth morphology.
+cellpose_fixed,4,pred_shape_classifier,Pred-shape classifier,125,475,0.2631578947,-0.004210526316,"Matched classifier outputs use predicted-mask morphology, yielding the observed prediction ratio."

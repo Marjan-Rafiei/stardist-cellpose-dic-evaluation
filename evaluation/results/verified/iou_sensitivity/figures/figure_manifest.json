@@ -1,0 +1,28 @@
+{
+  "inputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\iou_sensitivity\\analysis_manifest.json",
+      "sha256": "2f654c1b2433b0d7e48e1dd26b086ffb20253917e8ea4c99d0cdf4fc93181648"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\iou_sensitivity\\iou_sensitivity_metrics.csv",
+      "sha256": "cb22e9e5c2fc3d07346093935b38b0f172e90190e1df3077550e892d698ad1c8"
+    }
+  ],
+  "notes": "Frozen MI05 predictions; threshold sensitivity only. Colors and redundant line styles follow the thesis method identity.",
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\iou_sensitivity\\figures\\mi05_iou_sensitivity.pdf",
+      "sha256": "f8cbe88b9cd333b7d537bc1790fb57a6fa0ba1b1661eaa0b2be47656b303f23a"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\iou_sensitivity\\figures\\mi05_iou_sensitivity.png",
+      "sha256": "3a2a849150445f91f1e95b2ff7a522e85800333261dd8c993ed62ac9cc4a15c4"
+    }
+  ],
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\scripts_figures\\plot_iou_sensitivity.py",
+    "sha256": "8d67672b0ae231cf0517543723c9b0a0ddd77c9dbd28e7f24fca332c78c2baee"
+  }
+}

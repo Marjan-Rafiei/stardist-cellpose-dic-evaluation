@@ -1,0 +1,36 @@
+{
+  "inputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\temporal_bootstrap\\analysis_manifest.json",
+      "sha256": "66c9e449e7141ac53c3d553535cb27fc7a8250db4d2ce949a268f72bfad4e47e"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\temporal_bootstrap\\analysis_summary.json",
+      "sha256": "c2f59d3f56a0bacdd6bfbae892affdbea6c8e3388fa4cdfde8dd3a334e5f04aa"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\temporal_bootstrap\\autocorrelation.csv",
+      "sha256": "d2e6468a829f29b04686ff4f4b191848e2daab500adc8d18f300ec27e7b0e635"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\temporal_bootstrap\\bootstrap_interval_sensitivity.csv",
+      "sha256": "84b0df62b04e53d62ac0982f3b7ba1ec0dc72059c754dfc62d58f38b95949fc7"
+    }
+  ],
+  "notes": "Descriptive MI05 temporal diagnostics. Intervals are not uncertainty across independent experiments or cell lines.",
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\temporal_bootstrap\\figures\\mi05_temporal_bootstrap_sensitivity.pdf",
+      "sha256": "2288c2bc8f1ee6edc4e4d92745d603977fa1d7e03dd63d6032538dd059d08763"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\temporal_bootstrap\\figures\\mi05_temporal_bootstrap_sensitivity.png",
+      "sha256": "1c1241bb6fd789951a0f7f43e5920084bc86477466078f041178ab8f73c6ed6c"
+    }
+  ],
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\scripts_figures\\plot_temporal_bootstrap_audit.py",
+    "sha256": "7a83a20bc2eb1376fc3bd60d22564aac1394ef9f5418290750940154657d87a9"
+  }
+}

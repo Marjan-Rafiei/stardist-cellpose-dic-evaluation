@@ -1,0 +1,36 @@
+{
+  "inputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classifier_v1\\diagnostics\\classifier_diagnostics.json",
+      "sha256": "99393ff47517a03cc4323ff31415346d26e7b81657968f39ce12beee6c2e4c55"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classifier_v1\\diagnostics\\permutation_importance.csv",
+      "sha256": "e55aff84c2ceef1789727a24855f236823224a10335a7ae2dcce13b8a679c02f"
+    }
+  ],
+  "notes": "Classifier figures generated from locked MI04 diagnostic outputs.",
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classifier_v1\\diagnostics\\figures\\classifier_confusion_matrices.pdf",
+      "sha256": "cd9e9edf748854fab1cbdeb40a49c140d632b527edf739f82d4b91a05a2af626"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classifier_v1\\diagnostics\\figures\\classifier_confusion_matrices.png",
+      "sha256": "f3627740b24464dfcd0e3382ca5aede6ef0b7a402396bd7a1e0c846c6350c46d"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classifier_v1\\diagnostics\\figures\\classifier_permutation_importance.pdf",
+      "sha256": "7bc56efab8a0faaac1ecd124422e4697dab08bf3b96106b6b5102509a4bb3b2e"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classifier_v1\\diagnostics\\figures\\classifier_permutation_importance.png",
+      "sha256": "a4a40afba327098479affe99b1c70695db3ea2b68ae46944b646458e5c2b6356"
+    }
+  ],
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\scripts_figures\\plot_classifier_diagnostics.py",
+    "sha256": "221b0312db669d811ee3b4e54227a5b65f5377452639d54929473d8ec0199d35"
+  }
+}

@@ -1,0 +1,817 @@
+{
+  "command": "<PROJECT_ROOT>\\code\\run_stardist_inference.py --dataset-root <ALFI_DATA> --sequence MI05 --model-dir <ALFI_DATA>\\models\\mitosis_model --output-dir <PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions",
+  "created_utc": "2026-09-18T22:41:44.327247+00:00",
+  "determinism_environment": {
+    "OMP_NUM_THREADS": "1",
+    "TF_DETERMINISTIC_OPS": "1",
+    "TF_ENABLE_ONEDNN_OPTS": "0",
+    "TF_NUM_INTEROP_THREADS": "1",
+    "TF_NUM_INTRAOP_THREADS": "1"
+  },
+  "inputs": [
+    {
+      "frame_id": "MI05_0001",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0001.png",
+      "sha256": "8a8d84b83393f771876f8906e0b8a34b59e323a81b6225b820811a2dad139ae4"
+    },
+    {
+      "frame_id": "MI05_0002",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0002.png",
+      "sha256": "171061d886e75657f70cc4252d80da2eeadc989691a9a5ad6624f6c9b1eb4f99"
+    },
+    {
+      "frame_id": "MI05_0003",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0003.png",
+      "sha256": "14f22b11a411e25f18d73751b809787abfad7950e8f13f8d0a9839c996339c10"
+    },
+    {
+      "frame_id": "MI05_0004",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0004.png",
+      "sha256": "900fa7b0d0bce0622e340bf6b19df32a21ce320657539b449500e8f1a2957222"
+    },
+    {
+      "frame_id": "MI05_0005",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0005.png",
+      "sha256": "9235f11c4ba899a3ab7f5c96e25515762560d06991f7722129c8dfeca085f24c"
+    },
+    {
+      "frame_id": "MI05_0006",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0006.png",
+      "sha256": "6aa598b78761690251f1092c761b17962f6901e6781936446c9a5fd07967ddab"
+    },
+    {
+      "frame_id": "MI05_0007",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0007.png",
+      "sha256": "ee883cdcd06148d75292aaf5e6b06c00c1efe3aa467256213be21a88768ecdbf"
+    },
+    {
+      "frame_id": "MI05_0008",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0008.png",
+      "sha256": "9e0fd0600c3e9ad47988be99f72e039e37ff1bd0d111fd28640e540b4b6c57eb"
+    },
+    {
+      "frame_id": "MI05_0009",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0009.png",
+      "sha256": "139a48645d19a79cccae61e8cbfbee26b80e52a7f4bda5889933987dd078cefb"
+    },
+    {
+      "frame_id": "MI05_0010",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0010.png",
+      "sha256": "93b6e3f56a2886a0c2e77fb066ab2d96c30a65522a25571673a7fb54bb38af0c"
+    },
+    {
+      "frame_id": "MI05_0011",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0011.png",
+      "sha256": "3e759b5d614d6067638f443a89a4a6406d4df1755d0c3f463de20be4e3762e2c"
+    },
+    {
+      "frame_id": "MI05_0012",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0012.png",
+      "sha256": "d77cd702fa6367f7034cb0ad5a2ed5fc197d8ba0bca4c513a0bff1448c50585f"
+    },
+    {
+      "frame_id": "MI05_0013",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0013.png",
+      "sha256": "4b4edb603a92934422332f2c356c475ebffe580bc82c50f616441eb878a5d8c0"
+    },
+    {
+      "frame_id": "MI05_0014",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0014.png",
+      "sha256": "a66638d72f66dfdecb697298c2242ba3154a64b2b10c5cb5262bacb4dc632e62"
+    },
+    {
+      "frame_id": "MI05_0015",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0015.png",
+      "sha256": "ca36d7d84765fcdf5c206cb5f94f57c737622d3da3f81478062c907294c0e896"
+    },
+    {
+      "frame_id": "MI05_0016",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0016.png",
+      "sha256": "d9ded219db9ce23c52a6d3cf42d733e28e57a574394f8689f17f5eb545beff60"
+    },
+    {
+      "frame_id": "MI05_0017",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0017.png",
+      "sha256": "4f117dc1df61c29e507817d5190f7fc2cd82d2b6112d9191b3416f1415a569a3"
+    },
+    {
+      "frame_id": "MI05_0018",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0018.png",
+      "sha256": "e69052ac06215b78f3da620db4822f2c1cf997545fa13bef97b4111cad538fc5"
+    },
+    {
+      "frame_id": "MI05_0019",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0019.png",
+      "sha256": "2c2f27b0752083634b16f78eaa03909d281ecd97eb1b5afdb266d03b10cf840e"
+    },
+    {
+      "frame_id": "MI05_0020",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0020.png",
+      "sha256": "5475b2b3316b37e6ec3c68399a338aab728da0795df8a928fb8d9f63dfe25303"
+    },
+    {
+      "frame_id": "MI05_0021",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0021.png",
+      "sha256": "1b1fecd5ac5cec94bc311437bfbea0788875e6202434762337f3887a4447ce82"
+    },
+    {
+      "frame_id": "MI05_0022",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0022.png",
+      "sha256": "e54a69fa787677c75fa266eb07a60d3fa1521c1073796ad5b7a5b09db155d6f9"
+    },
+    {
+      "frame_id": "MI05_0023",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0023.png",
+      "sha256": "85d161b0d4c53c249d899a3ceafa29b7d0fe53ed65850f3c96971208007e9dd3"
+    },
+    {
+      "frame_id": "MI05_0024",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0024.png",
+      "sha256": "d985d863ae924ba68ce4daeb2a14b2e15d5a5acbcfb822e9573560b384c56997"
+    },
+    {
+      "frame_id": "MI05_0025",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0025.png",
+      "sha256": "849c790bd504a41cd6fbbe68e6a054f857d58722f74b03b6bc4990fe3817a57a"
+    },
+    {
+      "frame_id": "MI05_0026",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0026.png",
+      "sha256": "47297d23e02f3f736eb1d43140035999b406297851299c9cfccb77a05ce3f13e"
+    },
+    {
+      "frame_id": "MI05_0027",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0027.png",
+      "sha256": "88c074ed9ba28288d248bb31c7cb8da402ef770684125578579c28aee29e7839"
+    },
+    {
+      "frame_id": "MI05_0028",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0028.png",
+      "sha256": "46b8d3bb1220fddc7fe5cb926327dc36b3d333cbae7fc0c0468266a01bdd1913"
+    },
+    {
+      "frame_id": "MI05_0029",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0029.png",
+      "sha256": "31622724c5d9c3a9dc4e13af80ca1a6b7b9923f16df622f10022d7e194e966d8"
+    },
+    {
+      "frame_id": "MI05_0030",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0030.png",
+      "sha256": "daf78bb373323823e9c5ddcf0dc231bf7bb35490b336a4563eebf40b14b5613a"
+    },
+    {
+      "frame_id": "MI05_0031",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0031.png",
+      "sha256": "e2f3858e1f07a48c8252e75ba8a8764976c5814a1fcf851ae096f4bf0089b6ff"
+    },
+    {
+      "frame_id": "MI05_0032",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0032.png",
+      "sha256": "f1b4dfba1ccbd6af6e0c2fd38fb93938179f798289d26814c1532454bc88ac62"
+    },
+    {
+      "frame_id": "MI05_0033",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0033.png",
+      "sha256": "b694c60fd3edcc1f89c0959ab34cb01f957b64928261e0f3854bdce671d2c975"
+    },
+    {
+      "frame_id": "MI05_0034",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0034.png",
+      "sha256": "d2d63404cdccc8cd107c9fa03d78cf94d0416e78114167633bf6f323f3ecbfd1"
+    },
+    {
+      "frame_id": "MI05_0035",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0035.png",
+      "sha256": "888f697560781696bbe5986d7ed116f9d42d0327cb4eebfd050582ff976bf08a"
+    },
+    {
+      "frame_id": "MI05_0036",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0036.png",
+      "sha256": "590778d4138fd7a56455ef630b43bda46d7dfaa8e4bd3fa6480c2d648774aae8"
+    },
+    {
+      "frame_id": "MI05_0037",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0037.png",
+      "sha256": "8dc545b5f94b74a38de48dd69bcacab9130176c7db12bd51c4848a80949bb84d"
+    },
+    {
+      "frame_id": "MI05_0038",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0038.png",
+      "sha256": "e6164239277438302333cf134537d7ec417a95aa5e3fd2d74f478725e8c57622"
+    },
+    {
+      "frame_id": "MI05_0039",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0039.png",
+      "sha256": "9b72b11c79ff53532ba2588cbccd8022eefa6b5e5369180ceae242cfd7c6bac3"
+    },
+    {
+      "frame_id": "MI05_0040",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0040.png",
+      "sha256": "53708308606498c09d07e20731cf3eca8246596411c0e46856786997d510857a"
+    },
+    {
+      "frame_id": "MI05_0041",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0041.png",
+      "sha256": "ed1651f1332f03e64badfdc9694dd194b6d2b21f43e607e99fa8457c0e2f6b29"
+    },
+    {
+      "frame_id": "MI05_0042",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0042.png",
+      "sha256": "f71571529d05a1321eb6076bdac04ea88f7696a8f67e2dfac896b5a7d5e61c29"
+    },
+    {
+      "frame_id": "MI05_0043",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0043.png",
+      "sha256": "f4885475d622e1710275d45d32875e48b2a28bf6b22fe198b3226a344463fadb"
+    },
+    {
+      "frame_id": "MI05_0044",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0044.png",
+      "sha256": "7ac71222740621189624624377953add34ce1c3e0668d9e50e9c55d5a21aacf6"
+    },
+    {
+      "frame_id": "MI05_0045",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0045.png",
+      "sha256": "ebb9f5191ca5e399b40ed15d1102697113d98df33b9a0f85b7d043cc16be752d"
+    },
+    {
+      "frame_id": "MI05_0046",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0046.png",
+      "sha256": "7f95ddb92dac0f2f5ec93d37010772cf445b4d09ca8582319b589217c458b938"
+    },
+    {
+      "frame_id": "MI05_0047",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0047.png",
+      "sha256": "ecf40b667ba0f81bc42b954aaa99dcf55185bbc04d6b575d6bc36ed3a578745c"
+    },
+    {
+      "frame_id": "MI05_0048",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0048.png",
+      "sha256": "391cd34a7548644467946193f61764dd0f68dcaf851110c1b97dfbf36f821d77"
+    },
+    {
+      "frame_id": "MI05_0049",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0049.png",
+      "sha256": "80ab8127129ab097d15db8dbebd113a48800d3f23dcc7077d37bf457c4bfd476"
+    },
+    {
+      "frame_id": "MI05_0050",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0050.png",
+      "sha256": "9252c29225a4fba85734eed94a1adbf97f8fd3aafc8af72cc545dc9e0f311807"
+    },
+    {
+      "frame_id": "MI05_0051",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0051.png",
+      "sha256": "b83548c654b131bf8057fddf22b404b95e56f4388cdc9e0aa12eee62a0ec54a7"
+    },
+    {
+      "frame_id": "MI05_0052",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0052.png",
+      "sha256": "bfce9cace0cf02ad506a841e7f646095c9cfaec05644ede44037e9dbbf8bf727"
+    },
+    {
+      "frame_id": "MI05_0053",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0053.png",
+      "sha256": "0f8ccac03f71216601ec2682f21be3e450015f9f50f2f79edc34ef726e73e334"
+    },
+    {
+      "frame_id": "MI05_0054",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0054.png",
+      "sha256": "45a5954efc3938283716f1430a6d570354631d47404f43c18899356d8ab6c2a9"
+    },
+    {
+      "frame_id": "MI05_0055",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0055.png",
+      "sha256": "5db2c87a93fc7401449acb5300d072583da224dc7b8a16645a9fa884aeff18ff"
+    },
+    {
+      "frame_id": "MI05_0056",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0056.png",
+      "sha256": "ec3c62b6a3b0f3c39771e09f3e612604deee4274d8fb6aad28b56a6dad454dac"
+    },
+    {
+      "frame_id": "MI05_0057",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0057.png",
+      "sha256": "c035f42c3d2f996606324fe5612bb75bc822560989b6308b3587e84f015d0ea1"
+    },
+    {
+      "frame_id": "MI05_0058",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0058.png",
+      "sha256": "4801a86ad9ef7c6a66a8e6f4bf38a5368e3d6aabebb67895d19dfdbd985a67eb"
+    },
+    {
+      "frame_id": "MI05_0059",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0059.png",
+      "sha256": "5110d2246ad9783a6c0e455c78b18bf4d7e9b32ae92e566857844bd7dd9bfe72"
+    },
+    {
+      "frame_id": "MI05_0060",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0060.png",
+      "sha256": "0af5c6db2ff905d689c6eeb2ecc6dd1643c4d4f54e32b889bc76e8b9400ed1b3"
+    },
+    {
+      "frame_id": "MI05_0061",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0061.png",
+      "sha256": "291f963d2786267d6932158dc8d190786339a852092035e3b0a55d7ae9ba063c"
+    },
+    {
+      "frame_id": "MI05_0062",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0062.png",
+      "sha256": "27009ac72b16acc9609499188e1a9be9624b80b434cf1662dc822f6902eff0e5"
+    },
+    {
+      "frame_id": "MI05_0063",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0063.png",
+      "sha256": "f27873eea4d45e514693d35bd48bcdc3e3d5597021b375cb8c553b51891591b3"
+    },
+    {
+      "frame_id": "MI05_0064",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0064.png",
+      "sha256": "ab58aa048551ff5c3f23fce47b050b2ca3b0ddcc198e3ad26734886b742c0cd2"
+    },
+    {
+      "frame_id": "MI05_0065",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0065.png",
+      "sha256": "46c5b9f3e077e44566565a92967844a1ea4d314764554a774ae624b8d2b36237"
+    },
+    {
+      "frame_id": "MI05_0066",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0066.png",
+      "sha256": "4b213b8552b7ea584b8bb2f2fd1392060984a00f5fc3aef2b930998e96470693"
+    },
+    {
+      "frame_id": "MI05_0067",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0067.png",
+      "sha256": "d85276041da819cb6dd64bbe5e6932e4da032f2b8c131a8541e270b084ac042b"
+    },
+    {
+      "frame_id": "MI05_0068",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0068.png",
+      "sha256": "207b843263db9cd1a8023ec190069a162b35063df187165c0c4c0b8baaafa3d7"
+    },
+    {
+      "frame_id": "MI05_0069",
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0069.png",
+      "sha256": "95f00bb6b872b763319ab53a1d358540ac51c500905e156e73d2c53bd96e3252"
+    }
+  ],
+  "model_files": [
+    {
+      "path": "<ALFI_DATA>\\models\\mitosis_model\\config.json",
+      "sha256": "eb5e3d5dae9d4944d5004536adddc612ea59f6ac19d49e2e2c6ec7fc74bb1a6c"
+    },
+    {
+      "path": "<ALFI_DATA>\\models\\mitosis_model\\thresholds.json",
+      "sha256": "d31217b6542d1cb80907e8eb3abb248059c789c6f58501d95fbbaa5a00aa781a"
+    },
+    {
+      "path": "<ALFI_DATA>\\models\\mitosis_model\\weights_best.h5",
+      "sha256": "0888532ba9874d7a33e10e54b2fb5994b28ea4bbefad7f4c34808fb526cd58d0"
+    }
+  ],
+  "normalization": {
+    "axis": [
+      0,
+      1
+    ],
+    "method": "csbdeep.normalize",
+    "percentile_high": 99.8,
+    "percentile_low": 1.0
+  },
+  "operation": "inference_only",
+  "outputs": [
+    {
+      "frame_id": "MI05_0001",
+      "instances": 8,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0001.png",
+      "sha256": "d28fdac7be1924bd72742691d7faf14bf47cdfc3155e13e6611927acbd83a8dd"
+    },
+    {
+      "frame_id": "MI05_0002",
+      "instances": 8,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0002.png",
+      "sha256": "eb00f4a090a26e46f98577a600bf4331f87146b90f8804e6e547ff41633a3d1b"
+    },
+    {
+      "frame_id": "MI05_0003",
+      "instances": 8,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0003.png",
+      "sha256": "d88760ee39dd9789522352fc6892e323ac0453b310e263513ba36116ed41ba3f"
+    },
+    {
+      "frame_id": "MI05_0004",
+      "instances": 7,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0004.png",
+      "sha256": "db87540a6ccab6b897a3bc1f04e50cf7365c5e8fd047e1c311d61d312a06c938"
+    },
+    {
+      "frame_id": "MI05_0005",
+      "instances": 8,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0005.png",
+      "sha256": "2b197e7a24198e02a80aa4bf0278ad8f3fce45cfa754f647be9f60c1953c6d7f"
+    },
+    {
+      "frame_id": "MI05_0006",
+      "instances": 8,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0006.png",
+      "sha256": "93f695a0b4acd4ff5671c03c1ebbf339f2ce7e4ceb0d02552838fd8615c20373"
+    },
+    {
+      "frame_id": "MI05_0007",
+      "instances": 8,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0007.png",
+      "sha256": "8ac33359810a0297ef18ddc6925f9308469157f4b1b400d1e2b97950ddec21d7"
+    },
+    {
+      "frame_id": "MI05_0008",
+      "instances": 8,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0008.png",
+      "sha256": "bbb0c76e60f204b6c3bd097f450a0b72a5c40c465077ba43b965cbcdf4b06ce1"
+    },
+    {
+      "frame_id": "MI05_0009",
+      "instances": 8,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0009.png",
+      "sha256": "9e2225f1b419ae01ffe7c02cb19ceb97f773b20286c1e7a9dbedd55d366c91f3"
+    },
+    {
+      "frame_id": "MI05_0010",
+      "instances": 7,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0010.png",
+      "sha256": "84e3128208e75e0006c11f76c5334745377e1f97b7dd80e71c74fa9a2819b09d"
+    },
+    {
+      "frame_id": "MI05_0011",
+      "instances": 9,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0011.png",
+      "sha256": "bba2acc7e5a28135976a3bfe6094d0f87a6b2ac5ad0ce1c34d1610cadc7ca256"
+    },
+    {
+      "frame_id": "MI05_0012",
+      "instances": 9,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0012.png",
+      "sha256": "8c448358122101347eb4085f14854f600e06e331e3d008d188c5721ddb34490e"
+    },
+    {
+      "frame_id": "MI05_0013",
+      "instances": 8,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0013.png",
+      "sha256": "4f13b7d008acb537daee90a48bd400833e45bb2a4a52c5177bce60cfd85d1f00"
+    },
+    {
+      "frame_id": "MI05_0014",
+      "instances": 9,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0014.png",
+      "sha256": "100daa0c3db214cd51cbf996d90990f0742b219e9e52b63f3537a20acd03b526"
+    },
+    {
+      "frame_id": "MI05_0015",
+      "instances": 9,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0015.png",
+      "sha256": "c8e14c31d06e541588e8b19cd67c9e0cdaaf19ac8d96e9ae4d6c47fc0d93e8c9"
+    },
+    {
+      "frame_id": "MI05_0016",
+      "instances": 9,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0016.png",
+      "sha256": "8ddbd9bfcc5177ea3376b79da86529c0979daf466c89d88a95e9f966cc8ad073"
+    },
+    {
+      "frame_id": "MI05_0017",
+      "instances": 9,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0017.png",
+      "sha256": "8d9e8cc58ed57b629f9cb3e90597b5e8a2c52b4302040d0e37a02f9cf3677de2"
+    },
+    {
+      "frame_id": "MI05_0018",
+      "instances": 9,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0018.png",
+      "sha256": "d3096bd9f606b7de5f9e5e119b7547e549018e3a8fc8bf00f4d4edd651b9f543"
+    },
+    {
+      "frame_id": "MI05_0019",
+      "instances": 10,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0019.png",
+      "sha256": "4c89d723ee4d149a7ccccf8faaed1a9c95f136a7fc523376f5dd7478520510d8"
+    },
+    {
+      "frame_id": "MI05_0020",
+      "instances": 11,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0020.png",
+      "sha256": "ec6a5428c007c5ac9fada41255ce1f11d877a5c8e4db779e0b51eec2280057f1"
+    },
+    {
+      "frame_id": "MI05_0021",
+      "instances": 10,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0021.png",
+      "sha256": "e3b8eddc9db5c8b0e9a028e3dbb74988ed0961372de342033ddc4c2873fd8ede"
+    },
+    {
+      "frame_id": "MI05_0022",
+      "instances": 11,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0022.png",
+      "sha256": "58c262c1fd73564bd5622227aa79f7c54fef8e07c6977bb778d947a69894c63c"
+    },
+    {
+      "frame_id": "MI05_0023",
+      "instances": 10,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0023.png",
+      "sha256": "8177137f52c6d737421bf7296792d443da26e84e67f76242e0f53ec15f19bc42"
+    },
+    {
+      "frame_id": "MI05_0024",
+      "instances": 9,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0024.png",
+      "sha256": "be1d4e9efc6e8ba4b17e285f05ad50efac6d63fb621c892e1a71d2e6261058fb"
+    },
+    {
+      "frame_id": "MI05_0025",
+      "instances": 9,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0025.png",
+      "sha256": "39a8dd473d438ead9e87e090eb73448cc111a5744be76e52ac697db63a411cb1"
+    },
+    {
+      "frame_id": "MI05_0026",
+      "instances": 10,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0026.png",
+      "sha256": "4f06d7d1f945cc58994de37d93367879073b24e297fdc876d75263d259a59f3e"
+    },
+    {
+      "frame_id": "MI05_0027",
+      "instances": 10,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0027.png",
+      "sha256": "15ed14869c1062a9997a19dad30609f923f3f2655d5b7dc83bcced3bc9399b7b"
+    },
+    {
+      "frame_id": "MI05_0028",
+      "instances": 11,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0028.png",
+      "sha256": "ca4f225264efc5bd4dd9d0664b2ae74a55da96511730325b062393fe1358a18a"
+    },
+    {
+      "frame_id": "MI05_0029",
+      "instances": 11,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0029.png",
+      "sha256": "af1c381fb7dbca3714cfff2fd24a30ae1cbaccfb676f13b5adac2149e378835e"
+    },
+    {
+      "frame_id": "MI05_0030",
+      "instances": 10,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0030.png",
+      "sha256": "743d36696453c2c0896a4f97446b7a70aba676bc98c973edeeae347f6bc26650"
+    },
+    {
+      "frame_id": "MI05_0031",
+      "instances": 11,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0031.png",
+      "sha256": "2c8e3ba8e5d0d842e5338643642d8002dd80b6843a881160ee68ed61bc1bc342"
+    },
+    {
+      "frame_id": "MI05_0032",
+      "instances": 10,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0032.png",
+      "sha256": "9c0b76d93191159362c382d7ea314c5ca01435287ce53743cf49b69beb3aa134"
+    },
+    {
+      "frame_id": "MI05_0033",
+      "instances": 10,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0033.png",
+      "sha256": "479ecd043556f766ea5b55d07dd726e6f2a18c018353064d0be2e9fa3945dece"
+    },
+    {
+      "frame_id": "MI05_0034",
+      "instances": 9,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0034.png",
+      "sha256": "edaa4525dfbbc865da44afd29fb991ec0bddcbe2481aa2d245a98f86e0724110"
+    },
+    {
+      "frame_id": "MI05_0035",
+      "instances": 9,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0035.png",
+      "sha256": "6f4c0ce78c6c81d2e7f4d4b273dead3240f625dc5fcebc03e35839683dd5b49a"
+    },
+    {
+      "frame_id": "MI05_0036",
+      "instances": 7,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0036.png",
+      "sha256": "d9c781f69c0265cc23b4747fa05cad7dd569343579a6a65c272b36fad548422d"
+    },
+    {
+      "frame_id": "MI05_0037",
+      "instances": 8,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0037.png",
+      "sha256": "e18e6ba7461ed6b0b058e52fb6f1a0e6afd6be44f7bcb9c583df2913c5c5d86f"
+    },
+    {
+      "frame_id": "MI05_0038",
+      "instances": 9,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0038.png",
+      "sha256": "709d9faff748cfb8d39ddc261dc5391d24b5a897e9451d4a4c6a5741b62902a7"
+    },
+    {
+      "frame_id": "MI05_0039",
+      "instances": 9,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0039.png",
+      "sha256": "6eba5a2f172bff3eba8f3fc4f4fe44905d5ac2631122041c791fe980aa0a57d0"
+    },
+    {
+      "frame_id": "MI05_0040",
+      "instances": 10,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0040.png",
+      "sha256": "0345c1e38058f12148dacb5ada2a565ac7e7a76ac71ab6fde3b39011af068890"
+    },
+    {
+      "frame_id": "MI05_0041",
+      "instances": 11,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0041.png",
+      "sha256": "501f0a5d18f73f2d633def8c83b5edb17ed034778a9ef5b396bef1c4b68a0baf"
+    },
+    {
+      "frame_id": "MI05_0042",
+      "instances": 10,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0042.png",
+      "sha256": "a7518570f1af233c2edcd0a39aeeb9a83305659637d10652b2f0056baa200821"
+    },
+    {
+      "frame_id": "MI05_0043",
+      "instances": 9,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0043.png",
+      "sha256": "5016ebba14f94402d2dab681817dde0c411845da64e0b5e934145ccc45a69050"
+    },
+    {
+      "frame_id": "MI05_0044",
+      "instances": 8,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0044.png",
+      "sha256": "8cfc39a363b2addf1c2a625e16b57eac5150979faf08821234e47fa7b65e15f1"
+    },
+    {
+      "frame_id": "MI05_0045",
+      "instances": 9,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0045.png",
+      "sha256": "a9da57c2ddf91c43a1410d83bf56c86405460ab66cf724b2f3188a76ac4c58aa"
+    },
+    {
+      "frame_id": "MI05_0046",
+      "instances": 9,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0046.png",
+      "sha256": "9df44d778e19b027f50e2a4b03c183dd686cd651e61f85d7dce9cc34e76158fb"
+    },
+    {
+      "frame_id": "MI05_0047",
+      "instances": 10,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0047.png",
+      "sha256": "ce79937db2c1944eefbdd95a8a88dbf042396e3128d0158c47f31c156f04c0c7"
+    },
+    {
+      "frame_id": "MI05_0048",
+      "instances": 10,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0048.png",
+      "sha256": "28ee591bfb9da3a2f2fd4ef16c438fe6534fd1a6776e9e89c26050d13026c78c"
+    },
+    {
+      "frame_id": "MI05_0049",
+      "instances": 11,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0049.png",
+      "sha256": "d8f8ef919efcbf63c8f38bfafaaf3294aef99efe33f1bda83646c1f6f73e9d26"
+    },
+    {
+      "frame_id": "MI05_0050",
+      "instances": 4,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0050.png",
+      "sha256": "dfa0ebe8d31e5f9fa4523bafcab981364f6da2a6ce2096630b37d62182bf8c93"
+    },
+    {
+      "frame_id": "MI05_0051",
+      "instances": 2,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0051.png",
+      "sha256": "6e3bdc12bbd5252f701a625e5c80830ed335570581dfee2a6cdf66e119cf08b8"
+    },
+    {
+      "frame_id": "MI05_0052",
+      "instances": 4,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0052.png",
+      "sha256": "9b439623ded68f5a56b7694b4bac0ce5122ee57f39f25db39dad685b10ede439"
+    },
+    {
+      "frame_id": "MI05_0053",
+      "instances": 2,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0053.png",
+      "sha256": "7efdd3aa25b09e72a96a7ab183c6eeceb4416e1b1caf48a882de1368384699f7"
+    },
+    {
+      "frame_id": "MI05_0054",
+      "instances": 3,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0054.png",
+      "sha256": "5283cdd63498d2dd63a8d8445b31e0eb17798ac1b915de76a5207d38bbc7d24c"
+    },
+    {
+      "frame_id": "MI05_0055",
+      "instances": 8,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0055.png",
+      "sha256": "21b3b076c80ed2ae46737eea559a612b9b4ffc68677efdfb5e6acf8cbd0e66eb"
+    },
+    {
+      "frame_id": "MI05_0056",
+      "instances": 9,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0056.png",
+      "sha256": "4c984667a681930c9ef47b5a8f57b83f0dd9dacdc558843ed52052ef212767ba"
+    },
+    {
+      "frame_id": "MI05_0057",
+      "instances": 9,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0057.png",
+      "sha256": "00d7ef3ca5e406bd60c81bde069da2b2bac6fff8465dccc6c1ebb6b3d71cae9d"
+    },
+    {
+      "frame_id": "MI05_0058",
+      "instances": 10,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0058.png",
+      "sha256": "cfdab1d754ef34d42de706ee748ed8c8e24f80b280e5e64b9e6be852aa8c7823"
+    },
+    {
+      "frame_id": "MI05_0059",
+      "instances": 11,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0059.png",
+      "sha256": "a44c0d591cadccde2dd50e37568aec9cdf25f3a9f01aba19e8e7bbfad4cfb2de"
+    },
+    {
+      "frame_id": "MI05_0060",
+      "instances": 11,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0060.png",
+      "sha256": "449d6c37479cfac36efe88c53caa0f97fb9ba75c6df8cda1c49fcc0a652c7678"
+    },
+    {
+      "frame_id": "MI05_0061",
+      "instances": 11,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0061.png",
+      "sha256": "c687bd5b7cbe0c38076a3084563a44d9cc852b8fdcecd2d13d62d9adb2edaafa"
+    },
+    {
+      "frame_id": "MI05_0062",
+      "instances": 11,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0062.png",
+      "sha256": "d3be449548b12ca22a2c2e31d9f7673f8797c86c9de7ce11976cdfa0006322de"
+    },
+    {
+      "frame_id": "MI05_0063",
+      "instances": 10,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0063.png",
+      "sha256": "20181eff6c37446c1ca00df0a26d8f27c49fa7e186148da05619ef8c42d5df9b"
+    },
+    {
+      "frame_id": "MI05_0064",
+      "instances": 10,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0064.png",
+      "sha256": "3ec2a945fd30f6aa1484e5cedf3d10582fe3391c7a9424137005ae2fb6e992fe"
+    },
+    {
+      "frame_id": "MI05_0065",
+      "instances": 9,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0065.png",
+      "sha256": "61622438575a5b5ce8aaf81e8e26869139f8dbc0f320094ebb0fbc1172b7fdd0"
+    },
+    {
+      "frame_id": "MI05_0066",
+      "instances": 10,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0066.png",
+      "sha256": "f81c9b08e816f3f7c19b19446662d64a01f6ac6ebc78b799a874733052462749"
+    },
+    {
+      "frame_id": "MI05_0067",
+      "instances": 10,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0067.png",
+      "sha256": "38193b6214bc893534cfc92d97752d61857e415b7861e7e992c880ab4177b6b0"
+    },
+    {
+      "frame_id": "MI05_0068",
+      "instances": 10,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0068.png",
+      "sha256": "327626cb1b4266566af86bd5a13743167bb354f196affa8929df7e01560a94d8"
+    },
+    {
+      "frame_id": "MI05_0069",
+      "instances": 10,
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0069.png",
+      "sha256": "4241c5dff1646a08b92ad82941261bdb744129c129204b9dad728350ed65d944"
+    }
+  ],
+  "packages": {
+    "Pillow": "12.3.0",
+    "csbdeep": "0.8.2",
+    "numpy": "2.2.6",
+    "stardist": "0.9.2",
+    "tensorflow": "2.21.0"
+  },
+  "platform": "Windows-10-10.0.22631-SP0",
+  "python": {
+    "executable": "<CONDA_ENVS>\\cellproject\\python.exe",
+    "version": "3.10.20"
+  },
+  "schema_version": "1.0",
+  "seed": 42,
+  "sequence": "MI05",
+  "thresholds": {
+    "nms": 0.3,
+    "probability": 0.7595198750495911
+  }
+}

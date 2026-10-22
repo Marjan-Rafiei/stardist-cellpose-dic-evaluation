@@ -1,0 +1,28 @@
+{
+  "inputs": [
+    {
+      "path": "<ALFI_DATA>\\MI01\\Masks\\M_MI01_0001.png",
+      "sha256": "944e6f9c84818d98500afa4e53f4e9c2ed59d8429a345ad6586da4f8361259e2"
+    }
+  ],
+  "notes": "Historical scaling is reproduced in memory only; no source mask is modified.",
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\mask_conversion\\mask_conversion_bug.pdf",
+      "sha256": "4fc2b06553d1cb2273434736b3965308cb99769e9e6e20ffc623fe4ed423c8e5"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\mask_conversion\\mask_conversion_bug.png",
+      "sha256": "ad41a38f40f896d2a48cb9264602f53191629935e07af219a524f476e736de62"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\mask_conversion\\mask_conversion_values.json",
+      "sha256": "6010a0ea8405149e59cb4c6906e7b95440b673a31ae4af82eb36a45f09e95b95"
+    }
+  ],
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\scripts_figures\\illustrate_mask_conversion.py",
+    "sha256": "a3d70817ba0fa517d058bac84ecd1bfc8d7118bd0b72eb114bc119e79a04b93d"
+  }
+}

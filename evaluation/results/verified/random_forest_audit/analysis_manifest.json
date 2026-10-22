@@ -1,0 +1,104 @@
+{
+  "actions_performed": {
+    "hyperparameter_search": false,
+    "logistic_regression_benchmark_fit": true,
+    "mi05_use": false,
+    "probability_threshold_tuning": false,
+    "random_forest_retraining": false
+  },
+  "command": [
+    "<PROJECT_ROOT>\\code\\random_forest_audit.py",
+    "--dataset-root",
+    "<ALFI_DATA>",
+    "--config",
+    "code/configs/classifier_v1.json",
+    "--classifier",
+    "results/verified/classifier_v1/classifier.joblib",
+    "--classifier-manifest",
+    "results/verified/classifier_v1/classifier_manifest.json",
+    "--training-rows",
+    "results/verified/classifier_v1/training_rows.csv",
+    "--validation-predictions",
+    "results/verified/classifier_v1/validation_predictions.csv",
+    "--dataset-manifest",
+    "results/verified/dataset_audit/dataset_manifest.json",
+    "--output-dir",
+    "results/verified/random_forest_audit"
+  ],
+  "dataset_root": "PATH/TO/ALFI_DATA",
+  "inputs": [
+    {
+      "path": "<PROJECT_ROOT>\\code\\configs\\classifier_v1.json",
+      "sha256": "9ea0906a115a3aa881c1d3f1345d58c799576b0911d4803ef85d4bc8c8c55471"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classifier_v1\\classifier.joblib",
+      "sha256": "da730e43228d5cb3f1fbff3e776837234912e8be97afae517c24cf942e42c4f3"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classifier_v1\\classifier_manifest.json",
+      "sha256": "2d1c167a627fd6f5245f9b405e7cea16621b235a4ed90474083a1ce290abc743"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classifier_v1\\training_rows.csv",
+      "sha256": "25a0b4d7c1ff69122752fe799b45b7a4e11bd2164bee4d900c78c75e53a2f160"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classifier_v1\\validation_predictions.csv",
+      "sha256": "3cb57c4e86240baba64a4dc7c91af31868cd9e09310ebde241b96d4b3f169597"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\dataset_audit\\dataset_manifest.json",
+      "sha256": "a004680d2ac59a0b66c7c36ce3d09fd9da988f2e256cad550801e97c2d4245bb"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\random_forest_audit\\benchmark_metrics.csv",
+      "sha256": "ce087d33b8502ef636f9c1293e0fba42a722e7e74d9f46e92cde139e1b9960a0"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\random_forest_audit\\benchmark_predictions.csv",
+      "sha256": "16120fe7e32bd7d348f1f7a78ab208eb0462041bdc4034a1fd7e358ae9dea2c1"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\random_forest_audit\\class_balance.csv",
+      "sha256": "8ab1db48444460daedb8ef3d39ac90c487d8d9db47efbe80f391dd5632e3d100"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\random_forest_audit\\feature_distributions.csv",
+      "sha256": "e24cde03e94af429ee6ee079ea1a346096b4733420c2718dbb941a031e93f42e"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\random_forest_audit\\feature_correlations.csv",
+      "sha256": "2af813abe3c7883cc9218d92640f0330a6df57221f359dbe6f9760a506976fe6"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\random_forest_audit\\logistic_coefficients.csv",
+      "sha256": "798cb627e46e5c13c17e205bffc6a2d2ca6e0c155e82d2783f6ccb66011c7d42"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\random_forest_audit\\benchmark_table.tex",
+      "sha256": "ef93e8575b4403b0198509137189cd421e38514ca6bb9acf8e296faed46db68c"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\random_forest_audit\\audit_summary.json",
+      "sha256": "5050e8634d4904dc50a13b45889f4a6fd2ea4d8888a8daa7964d3f452b85b39b"
+    }
+  ],
+  "packages": {
+    "Pillow": "12.3.0",
+    "joblib": "1.6.0",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scikit-image": "0.25.2",
+    "scikit-learn": "1.7.2",
+    "scipy": "1.15.3"
+  },
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\code\\random_forest_audit.py",
+    "sha256": "7426aa6243c482d464578d30b69aa869cd900b9420dac6c5aab48785ce9e622b"
+  },
+  "status": "verified Random Forest audit and single Logistic Regression benchmark"
+}

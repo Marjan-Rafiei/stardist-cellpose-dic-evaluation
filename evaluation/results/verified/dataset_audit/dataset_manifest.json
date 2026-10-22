@@ -1,0 +1,62 @@
+{
+  "alignment_errors_sha256": "778151fbf5b950fa471f8bafb2504fbea91a8b1b9af68035f0bd03c0dfca3b89",
+  "blocking_issue_count": 0,
+  "config": {
+    "path": "<PROJECT_ROOT>\\code\\configs\\dataset_v1.json",
+    "sha256": "daef7cd54e6fbe503630b9eeac23cc1bae5f9b1a8a21624237f1d0cc128610c7"
+  },
+  "counts": {
+    "MI01": {
+      "aligned_core": 67,
+      "class_mask": 69,
+      "image": 67,
+      "instance_mask": 69,
+      "raw_mask": 69
+    },
+    "MI02": {
+      "aligned_core": 69,
+      "class_mask": 69,
+      "image": 69,
+      "instance_mask": 69,
+      "raw_mask": 69
+    },
+    "MI03": {
+      "aligned_core": 69,
+      "class_mask": 69,
+      "image": 69,
+      "instance_mask": 69,
+      "raw_mask": 69
+    },
+    "MI04": {
+      "aligned_core": 69,
+      "class_mask": 69,
+      "image": 69,
+      "instance_mask": 69,
+      "raw_mask": 69
+    },
+    "MI05": {
+      "aligned_core": 69,
+      "class_mask": 69,
+      "image": 69,
+      "instance_mask": 69,
+      "raw_mask": 69
+    }
+  },
+  "dataset_inventory_sha256": "b74ec5e69747a88dace57e6b2117af9b4c919c946b3a28e3c997ef23550abbd0",
+  "dataset_root": "PATH/TO/ALFI_DATA",
+  "known_annotation_only_frames": [
+    "MI01_0001",
+    "MI01_0062"
+  ],
+  "known_issue_count": 2,
+  "schema_version": "1.0",
+  "sequences": [
+    "MI01",
+    "MI02",
+    "MI03",
+    "MI04",
+    "MI05"
+  ],
+  "status": "pass_with_known_annotation_only_frames",
+  "total_aligned_images": 343
+}

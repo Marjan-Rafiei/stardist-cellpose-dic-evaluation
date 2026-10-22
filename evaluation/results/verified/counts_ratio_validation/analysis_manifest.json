@@ -1,0 +1,80 @@
+{
+  "actions_performed": {
+    "classifier_training": false,
+    "descriptive_post_evaluation_analysis": true,
+    "model_inference": false,
+    "threshold_tuning": false
+  },
+  "command": [
+    "<PROJECT_ROOT>\\code\\counts_ratio_validation.py",
+    "--results-root",
+    "results\\verified",
+    "--analytics-by-frame",
+    "results\\verified\\analytics_validation\\analytics_by_frame.csv",
+    "--analytics-summary",
+    "results\\verified\\analytics_validation\\analytics_validation.json",
+    "--output-dir",
+    "results\\verified\\counts_ratio_validation",
+    "--ratio-close-threshold",
+    "0.05"
+  ],
+  "inputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\analytics_validation\\analytics_by_frame.csv",
+      "sha256": "312e41faf8802a1f044a20ac9d0b0d37a69027baa1952032ec327e25b012eee6"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\analytics_validation\\analytics_validation.json",
+      "sha256": "fddb11f0c2caa60598bfbb73b59e6a0c57a536c6d59210cc6fb9f563078aca93"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\matched_instances.csv",
+      "sha256": "58daeff3eb28904d8a2c171bfe746db366f21cb85f699ed36956884cf62a8e32"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_auto\\matched_instances.csv",
+      "sha256": "f34b41431e33e6102f58533b4f93f8ab2c4e9abf86065957fb72eb6e8fcb9ca9"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_fixed\\matched_instances.csv",
+      "sha256": "5de81e91fbbfc829d53770655added19e53412c353e54d5eed8e446df81ee8e4"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\counts_ratio_validation\\agreement_by_frame.csv",
+      "sha256": "660a6d2ef5ca595ca80297503fba2095d07ecc2fd5f532b81c0796ebb3326301"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\counts_ratio_validation\\agreement_summary.csv",
+      "sha256": "7625a4534a0be258ff716086f29165264e19d55cd851b64e92e5873b8c217647"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\counts_ratio_validation\\temporal_segment_summary.csv",
+      "sha256": "9f1859ac5b550e683f9c6bac16eeedf65a83329603e2a48ffbef56e17138a353"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\counts_ratio_validation\\cancellation_cases.csv",
+      "sha256": "6d8af9d6ffc9443b1ac5ef085ab36e059be9d6faafcb3f306cbba308d790744a"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\counts_ratio_validation\\analysis_summary.json",
+      "sha256": "b8d014dccd92005739d37f5bde94d82f7f765ad451d1254ed31a0316e0bc5117"
+    }
+  ],
+  "parameters": {
+    "ratio_close_threshold": 0.05,
+    "sequence": "MI05",
+    "temporal_segments": [
+      "early",
+      "middle",
+      "late"
+    ]
+  },
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\code\\counts_ratio_validation.py",
+    "sha256": "c59095d9eb38cff8181e825f51047411be2daafad065df1871d383e122908e6e"
+  },
+  "status": "verified MI05 per-frame count and mitotic annotation-ratio agreement audit"
+}

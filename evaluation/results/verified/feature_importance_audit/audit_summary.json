@@ -1,0 +1,109 @@
+{
+  "baseline_balanced_accuracy": 0.8921140401066161,
+  "claim_correction": {
+    "avoid": "Area is the most important biological determinant of mitosis.",
+    "preferred": "Within this fitted classifier and feature set, eccentricity produced the largest mean permutation-based decrease in MI04 balanced accuracy.",
+    "required_caveat": "Correlated features make individual rankings non-unique and can split, mask, or distort apparent importance."
+  },
+  "correlation": {
+    "high_pair_count": 6,
+    "strongest_pairs": [
+      {
+        "absolute_spearman_correlation": 0.9956363658699805,
+        "feature_a": "eccentricity",
+        "feature_b": "aspect_ratio",
+        "spearman_correlation": 0.9956363658699805,
+        "split": "training"
+      },
+      {
+        "absolute_spearman_correlation": 0.9120795726687019,
+        "feature_a": "area",
+        "feature_b": "perimeter",
+        "spearman_correlation": 0.9120795726687019,
+        "split": "training"
+      },
+      {
+        "absolute_spearman_correlation": 0.8665791341536433,
+        "feature_a": "perimeter",
+        "feature_b": "major_axis_length",
+        "spearman_correlation": 0.8665791341536433,
+        "split": "training"
+      },
+      {
+        "absolute_spearman_correlation": 0.8211613761491932,
+        "feature_a": "area",
+        "feature_b": "minor_axis_length",
+        "spearman_correlation": 0.8211613761491932,
+        "split": "training"
+      },
+      {
+        "absolute_spearman_correlation": 1.0,
+        "feature_a": "eccentricity",
+        "feature_b": "aspect_ratio",
+        "spearman_correlation": 1.0,
+        "split": "validation"
+      },
+      {
+        "absolute_spearman_correlation": 0.872825719793636,
+        "feature_a": "area",
+        "feature_b": "perimeter",
+        "spearman_correlation": 0.872825719793636,
+        "split": "validation"
+      }
+    ],
+    "threshold_for_high_pair": 0.8
+  },
+  "grouped_importance": {
+    "groups": {
+      "compactness": [
+        "solidity",
+        "extent"
+      ],
+      "elongation": [
+        "eccentricity",
+        "aspect_ratio"
+      ],
+      "size": [
+        "area",
+        "perimeter",
+        "major_axis_length",
+        "minor_axis_length"
+      ]
+    },
+    "limit": "group permutation can still create unrealistic combinations between groups and is not conditional permutation importance",
+    "method": "all features in a group receive the same row permutation, preserving their within-group joint structure",
+    "top_group": "elongation",
+    "top_mean_drop": 0.27308098075608095
+  },
+  "individual_importance": {
+    "all_rankings_identical_across_runs": false,
+    "interpretation": "predictive reliance within this fitted classifier and feature set; not causal or uniquely attributable biological importance",
+    "top_feature": "eccentricity",
+    "top_mean_drop": 0.20747993971448114
+  },
+  "schema_version": "1.0",
+  "scoring": "balanced_accuracy",
+  "sequence": "MI04",
+  "stability_design": {
+    "permutations_per_run": 20,
+    "runs": 5,
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "total_permutations_per_feature_or_group": 100
+  },
+  "validations": {
+    "all_features_present_each_run": true,
+    "all_group_drops_finite": true,
+    "all_groups_present_each_run": true,
+    "all_individual_drops_finite": true,
+    "feature_set_exact": true,
+    "mi05_used": false,
+    "saved_predictions_match": true,
+    "training_rows_match_saved": true
+  }
+}

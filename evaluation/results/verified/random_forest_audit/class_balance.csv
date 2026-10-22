@@ -1,0 +1,13 @@
+split,sequence,class_id,class_name,count,fraction,total
+training,all,1,interphase,2492,0.9071714598,2747
+training,all,2,mitotic,255,0.09282854023,2747
+training,MI01,1,interphase,814,0.8935236004,911
+training,MI01,2,mitotic,97,0.1064763996,911
+training,MI02,1,interphase,913,0.9580272823,953
+training,MI02,2,mitotic,40,0.04197271773,953
+training,MI03,1,interphase,765,0.8663646659,883
+training,MI03,2,mitotic,118,0.1336353341,883
+validation,all,1,interphase,353,0.6348920863,556
+validation,all,2,mitotic,203,0.3651079137,556
+validation,MI04,1,interphase,353,0.6348920863,556
+validation,MI04,2,mitotic,203,0.3651079137,556

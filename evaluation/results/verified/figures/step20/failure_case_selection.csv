@@ -1,0 +1,3 @@
+selection_rank,frame_id,selection_rule,summed_false_negatives,summed_false_positives,tie_break
+1,MI05_0055,highest summed false-negative count across the three systems,32,16,lowest frame identifier
+2,MI05_0069,"highest summed false-positive count across the three systems, excluding the first frame",30,17,lowest frame identifier

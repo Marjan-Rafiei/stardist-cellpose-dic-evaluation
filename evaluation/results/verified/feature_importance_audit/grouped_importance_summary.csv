@@ -1,0 +1,4 @@
+group,importance_mean,importance_std,permutations,between_run_std,minimum_run_mean,maximum_run_mean,median_rank,minimum_rank,maximum_rank,features
+elongation,0.2730809808,0.01608726711,100,0.002987226212,0.2704234639,0.2782190653,1,1,1,eccentricity;aspect_ratio
+size,0.1780134386,0.01409003017,100,0.004580167774,0.1736407848,0.1844722924,2,2,2,area;perimeter;major_axis_length;minor_axis_length
+compactness,0.04023151314,0.00979517775,100,0.002298848833,0.03838840899,0.04424461687,3,3,3,solidity;extent

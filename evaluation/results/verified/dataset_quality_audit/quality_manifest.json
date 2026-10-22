@@ -1,0 +1,57 @@
+{
+  "command": "<CONDA_ENVS>\\cellproject\\python.exe <PROJECT_ROOT>\\code\\dataset_quality_audit.py --config code\\configs\\dataset_quality_v1.json --prior-audit-dir results\\verified\\dataset_audit --thesis-macros thesis\\generated\\results_values.tex --output results\\verified\\dataset_quality_audit",
+  "config": {
+    "path": "<PROJECT_ROOT>\\code\\configs\\dataset_quality_v1.json",
+    "sha256": "28ec21941990d3be7c7538656a3812a53eb44b0faa16ce69f9f0ef791abae7e6"
+  },
+  "dataset_membership_sha256": "7c2a0cb813dc84f9a3a6e8e2c31551b37ac081162a6f22cda51db5df2cd903f5",
+  "environment": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "pillow": "12.3.0",
+    "platform": "Windows-10-10.0.22631-SP0",
+    "python": "3.10.20",
+    "scipy": "1.15.3"
+  },
+  "inputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\dataset_audit\\dataset_manifest.json",
+      "sha256": "a004680d2ac59a0b66c7c36ce3d09fd9da988f2e256cad550801e97c2d4245bb"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\dataset_audit\\dataset_inventory.csv",
+      "sha256": "b74ec5e69747a88dace57e6b2117af9b4c919c946b3a28e3c997ef23550abbd0"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\thesis\\generated\\results_values.tex",
+      "sha256": "682fed6ada294a659728a24ae8eac47487375655833aba84965d0ae9d4274b3f"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\dataset_quality_audit\\sequence_summary.csv",
+      "sha256": "5945e9fefcd5374185e6c8e9e3ccefb9b695efbed75f8c6fea2cf83b86b9e432"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\dataset_quality_audit\\sequence_hashes.csv",
+      "sha256": "b459c791eaa4778d82ea5c1eb5dea12f46836207f40caa9bf752db040153e60b"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\dataset_quality_audit\\duplicate_groups.csv",
+      "sha256": "b96a8fbd933b9fd2f5e70503f53e8c580830f1d0470ee4f24600943f3c6a579b"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\dataset_quality_audit\\quality_issues.csv",
+      "sha256": "a0529a90301b36932db265f2c1b8291ceb1e93accf8c6c6893f668aeb800a039"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\dataset_quality_audit\\quality_summary.json",
+      "sha256": "98b5aced73095bc1c591e2e3393337362bd16fbedbdd54471255c9bd48418008"
+    }
+  ],
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\code\\dataset_quality_audit.py",
+    "sha256": "70e2417409ba183b337e5ebc3c8b324e7af7e6ed3a36dbd6e1d07540bb3b5fd2"
+  }
+}

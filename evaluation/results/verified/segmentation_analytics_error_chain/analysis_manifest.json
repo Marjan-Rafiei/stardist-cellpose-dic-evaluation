@@ -1,0 +1,105 @@
+{
+  "actions_performed": {
+    "classifier_fitting": false,
+    "model_inference": false,
+    "model_training": false,
+    "threshold_tuning": false
+  },
+  "command": [
+    "<PROJECT_ROOT>\\code\\segmentation_analytics_error_chain.py",
+    "--results-root",
+    "results/verified",
+    "--sequence",
+    "MI05",
+    "--output-dir",
+    "results/verified/segmentation_analytics_error_chain"
+  ],
+  "inputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_auto\\classifier_metrics.json",
+      "sha256": "c17dcf2a8f8c2516d17b4ac4043b014d84d0ab0bd48319fff381d07f92615502"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_auto\\error_cases.csv",
+      "sha256": "1608f49dd301234a86d2952d975c61667ae32ba49287714d67727e4e0f1ee2de"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_auto\\matched_instances.csv",
+      "sha256": "f34b41431e33e6102f58533b4f93f8ab2c4e9abf86065957fb72eb6e8fcb9ca9"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_auto\\metrics_by_frame.csv",
+      "sha256": "f707b01fa575ad0b73511f199c10a26541b4cf89f869f3c39420591fdbf5f23a"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_fixed\\classifier_metrics.json",
+      "sha256": "3eb5cd137d090bfb60eda0f4560049336c12fe4574680cb48f1d515b0edc37bd"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_fixed\\error_cases.csv",
+      "sha256": "495991de4625d8c981e760b3ba6f7209630615774b45e2edc425520f1a544e1c"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_fixed\\matched_instances.csv",
+      "sha256": "5de81e91fbbfc829d53770655added19e53412c353e54d5eed8e446df81ee8e4"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_fixed\\metrics_by_frame.csv",
+      "sha256": "731ae9b053f94ebdcb53ee97d4de23bbd2e9b4467305e28a40a66b98dd3f5581"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\classifier_metrics.json",
+      "sha256": "7275c47efd35b0d263b180b0dedcb92e261de3295e3258f2129cfb4afe6787a8"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\error_cases.csv",
+      "sha256": "85c824df6b41ebfe9d43331e9638fb31d578240cfc1bbe60c1e8e61e8d3a9156"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\matched_instances.csv",
+      "sha256": "58daeff3eb28904d8a2c171bfe746db366f21cb85f699ed36956884cf62a8e32"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\metrics_by_frame.csv",
+      "sha256": "7b887c3a4734a338cff79927858e3d42decee234cddcc3239fcb59bd31648332"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\segmentation_analytics_error_chain\\error_chain_summary.csv",
+      "sha256": "252fc816b81a045baf4008e56a805d761b9e3460d5f5351165a5989417121941"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\segmentation_analytics_error_chain\\mitotic_ratio_bridge.csv",
+      "sha256": "6323e453848e92a9140f7f3e4d1ccf342da9c1eb5110fdfbdb54b36471819cfa"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\segmentation_analytics_error_chain\\count_decomposition.csv",
+      "sha256": "07e60a295bbd8de7a6f2b3b206482740c561e32b74c8a7fbe2b7c5e795edd628"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\segmentation_analytics_error_chain\\error_chain_table.tex",
+      "sha256": "5df78a9411311f1eb6ddb8065f0736fa7774c70dc507d95d497120af200530e6"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\segmentation_analytics_error_chain\\analysis_summary.json",
+      "sha256": "e6d067c046bf25fd7f8015333c30faaea77b120bb3e87051302f4816a21c0296"
+    }
+  ],
+  "packages": {
+    "Pillow": "12.3.0",
+    "joblib": "1.6.0",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scikit-image": "0.25.2",
+    "scikit-learn": "1.7.2",
+    "scipy": "1.15.3"
+  },
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\code\\segmentation_analytics_error_chain.py",
+    "sha256": "946a34c7145cfa13fc303742071d9faa46666b0c6aec6635afe7d3b3e95050b8"
+  },
+  "sequence": "MI05",
+  "status": "verified MI05 segmentation-to-analytics accounting analysis"
+}

@@ -1,0 +1,70 @@
+{
+  "as_gray_dtypes": [
+    "uint8"
+  ],
+  "as_gray_values": [
+    0,
+    128,
+    255
+  ],
+  "corrected_branch_tests": {
+    "normalized_float_input": [
+      0.0,
+      0.5019607843137255,
+      1.0
+    ],
+    "normalized_float_output": [
+      0,
+      128,
+      255
+    ],
+    "uint8_input": [
+      0,
+      128,
+      255
+    ],
+    "uint8_output": [
+      0,
+      128,
+      255
+    ]
+  },
+  "corrected_class_exact_matches": 345,
+  "corrected_instance_exact_matches": 345,
+  "corrected_interphase_components": 3432,
+  "corrected_mitotic_components": 636,
+  "evidence_status": {
+    "current_converted_masks": "verified by exact array comparison",
+    "fault_mechanism": "verified on actual data with the documented expression",
+    "pre_fix_production_source": "not preserved or versioned",
+    "specific_historical_training_run_impact": "unresolved"
+  },
+  "example_frame": "M_MI01_0001",
+  "fault_consequence": {
+    "mitotic_threshold": "prepared mask > 200",
+    "value_255_after_fault": 1,
+    "value_255_pixels_remaining_above_200": 0,
+    "verified_interpretation": "All raw 255 pixels fail the later mitotic threshold after the reproduced unconditional uint8 multiplication."
+  },
+  "faulty_value_mapping": {
+    "0": 0,
+    "128": 128,
+    "255": 1
+  },
+  "masks_with_value_255": 261,
+  "schema_version": "1.0",
+  "scope": "all raw masks and current converted masks in MI01 to MI05",
+  "status": "verified computational fault mechanism and verified current outputs",
+  "total_masks": 345,
+  "total_value_255_pixels": 873314,
+  "validations": {
+    "all_as_gray_reads_are_uint8": true,
+    "all_as_gray_values_are_0_128_255": true,
+    "all_current_class_masks_match": true,
+    "all_current_instance_masks_match": true,
+    "all_faulty_255_pixels_fail_mitotic_threshold": true,
+    "faulty_mapping_is_0_128_1": true,
+    "normalized_branch_is_correct": true,
+    "uint8_branch_is_correct": true
+  }
+}

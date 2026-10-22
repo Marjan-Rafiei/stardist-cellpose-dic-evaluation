@@ -1,0 +1,2 @@
+training_rows,validation_rows,accuracy,balanced_accuracy,macro_f1,interphase_f1,mitotic_f1
+2747,556,0.9028776978,0.8921140401,0.8945786517,0.9241573034,0.865

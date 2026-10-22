@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "dataset_root": "PATH/TO/ALFI_DATA",
+  "sequence": "MI05",
+  "expected_frames": 69,
+  "expected_shape": [320, 400],
+  "sources": {
+    "cellpose_auto": "Cellpose_masks",
+    "cellpose_fixed": "Cellpose_masks_v2"
+  }
+}

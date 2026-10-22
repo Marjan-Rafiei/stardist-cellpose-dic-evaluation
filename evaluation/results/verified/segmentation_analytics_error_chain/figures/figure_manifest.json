@@ -1,0 +1,32 @@
+{
+  "inputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\segmentation_analytics_error_chain\\analysis_manifest.json",
+      "sha256": "13159d333c13aae7fd4d8a7455aaffa1c40b1182e249eb51be940741acf56da1"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\segmentation_analytics_error_chain\\error_chain_summary.csv",
+      "sha256": "252fc816b81a045baf4008e56a805d761b9e3460d5f5351165a5989417121941"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\segmentation_analytics_error_chain\\mitotic_ratio_bridge.csv",
+      "sha256": "6323e453848e92a9140f7f3e4d1ccf342da9c1eb5110fdfbdb54b36471819cfa"
+    }
+  ],
+  "notes": "Verified MI05 accounting chain. Ratio steps are sequential and path-dependent; no biological causality is inferred.",
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\segmentation_analytics_error_chain\\figures\\mi05_segmentation_analytics_error_chain.pdf",
+      "sha256": "5a22b1ce46cbf257066b5e8e5f406fff0bdc6830d6e1e581913c1e44fdd00eae"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\segmentation_analytics_error_chain\\figures\\mi05_segmentation_analytics_error_chain.png",
+      "sha256": "a9477f47cca13a67b7477a43b84167a7e964d9a2fb99429990f6cce96413cfd3"
+    }
+  ],
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\scripts_figures\\plot_segmentation_analytics_error_chain.py",
+    "sha256": "d5f1882e9561a6edd4faa2f9804a9e630f6728845333765ab5cabb3e28b3ce0b"
+  }
+}

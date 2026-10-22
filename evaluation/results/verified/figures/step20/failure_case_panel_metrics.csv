@@ -1,0 +1,7 @@
+frame_id,system,true_positives,false_negatives,false_positives,mean_matched_iou
+MI05_0055,stardist_saved,5,8,3,0.67618197252
+MI05_0055,cellpose_auto,1,12,6,0.8169398907
+MI05_0055,cellpose_fixed,1,12,7,0.7370689655
+MI05_0069,stardist_saved,7,6,3,0.6990421451285715
+MI05_0069,cellpose_auto,1,12,6,0.7342931937
+MI05_0069,cellpose_fixed,1,12,8,0.699378882

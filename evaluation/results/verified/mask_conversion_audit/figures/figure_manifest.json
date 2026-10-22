@@ -1,0 +1,40 @@
+{
+  "inputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\mask_conversion_audit\\conversion_summary.json",
+      "sha256": "c8503d04f55a3ab298cf8c315cb8f39154a595d69d7bd6742fab7d12296b4209"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\mask_conversion_audit\\value_mapping.csv",
+      "sha256": "07f6af258681a950d29ce493ff2fba581063684631a48de312bd7a3c4fd2c5c9"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\mask_conversion_audit\\mask_comparison.csv",
+      "sha256": "dd6e390175d5dcc593a72388294297bac87b42a5511751b0305de8a066f25a4a"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\mask_conversion_audit\\analysis_manifest.json",
+      "sha256": "bd2984fbb4ea1a7cd83b1a808f179a4c140c87bd032035928023872cb72b2c05"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI01\\Masks\\M_MI01_0001.png",
+      "sha256": "944e6f9c84818d98500afa4e53f4e9c2ed59d8429a345ad6586da4f8361259e2"
+    }
+  ],
+  "notes": "Discrete colors expose the overflowed value 1; counts are read from the complete 345-mask audit.",
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\mask_conversion_audit\\figures\\mask_conversion_audit.pdf",
+      "sha256": "09c36053dc88c4c0f4c86bd67e5d78ba8b4b5b344745acd3cff552b961436c40"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\mask_conversion_audit\\figures\\mask_conversion_audit.png",
+      "sha256": "3f4a5baa0ec7415fb73e675dbbb0fd9452f4f8bfd83746a51b4f123ea63b167b"
+    }
+  ],
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\scripts_figures\\plot_mask_conversion_audit.py",
+    "sha256": "033df32223c553801ec72e50fb6b56c43776682e95717faa0e84ebeee336f707"
+  }
+}

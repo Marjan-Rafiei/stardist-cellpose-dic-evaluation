@@ -1,0 +1,61 @@
+{
+  "classes": {
+    "1": "interphase",
+    "2": "mitotic"
+  },
+  "classification_only": {
+    "accuracy": 0.6512096774193549,
+    "balanced_accuracy": 0.5174309015919228,
+    "macro_f1": 0.49312114929084927,
+    "per_class": {
+      "interphase": {
+        "f1": 0.7761966364812419,
+        "fn": 37,
+        "fp": 136,
+        "precision": 0.6880733944954128,
+        "recall": 0.8902077151335311,
+        "tp": 300
+      },
+      "mitotic": {
+        "f1": 0.2100456621004566,
+        "fn": 136,
+        "fp": 37,
+        "precision": 0.38333333333333336,
+        "recall": 0.14465408805031446,
+        "tp": 23
+      }
+    },
+    "support": 496
+  },
+  "classification_only_confusion_matrix": [
+    [
+      300,
+      37
+    ],
+    [
+      136,
+      23
+    ]
+  ],
+  "end_to_end": {
+    "macro_f1": 0.3651331538001197,
+    "per_class": {
+      "interphase": {
+        "f1": 0.5385996409335727,
+        "fn": 264,
+        "fp": 250,
+        "precision": 0.5454545454545454,
+        "recall": 0.5319148936170213,
+        "tp": 300
+      },
+      "mitotic": {
+        "f1": 0.19166666666666668,
+        "fn": 153,
+        "fp": 41,
+        "precision": 0.359375,
+        "recall": 0.13068181818181818,
+        "tp": 23
+      }
+    }
+  }
+}

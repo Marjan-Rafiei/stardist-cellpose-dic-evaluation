@@ -1,0 +1,176 @@
+{
+  "analysis": "paired morphology domain shift from ground-truth to predicted masks",
+  "common_subset": {
+    "matched_gt_instances": 178,
+    "purpose": "secondary cross-method sensitivity check on annotated objects matched by all three systems"
+  },
+  "descriptively_systematic_features": {
+    "cellpose_auto": [
+      {
+        "direction_consistency": 1.0,
+        "dominant_direction": "positive",
+        "feature": "area",
+        "median_relative_difference_percent": 35.45150501672241
+      },
+      {
+        "direction_consistency": 1.0,
+        "dominant_direction": "positive",
+        "feature": "perimeter",
+        "median_relative_difference_percent": 18.30470247229839
+      },
+      {
+        "direction_consistency": 1.0,
+        "dominant_direction": "positive",
+        "feature": "major_axis_length",
+        "median_relative_difference_percent": 17.05281174128433
+      },
+      {
+        "direction_consistency": 0.9765258215962441,
+        "dominant_direction": "positive",
+        "feature": "minor_axis_length",
+        "median_relative_difference_percent": 16.524523536626006
+      }
+    ],
+    "cellpose_fixed": [
+      {
+        "direction_consistency": 1.0,
+        "dominant_direction": "positive",
+        "feature": "area",
+        "median_relative_difference_percent": 36.830357142857146
+      },
+      {
+        "direction_consistency": 1.0,
+        "dominant_direction": "positive",
+        "feature": "perimeter",
+        "median_relative_difference_percent": 18.50547584583284
+      },
+      {
+        "direction_consistency": 1.0,
+        "dominant_direction": "positive",
+        "feature": "major_axis_length",
+        "median_relative_difference_percent": 16.935678628403416
+      },
+      {
+        "direction_consistency": 0.9952153110047847,
+        "dominant_direction": "positive",
+        "feature": "minor_axis_length",
+        "median_relative_difference_percent": 16.62537133658248
+      }
+    ],
+    "stardist_saved": [
+      {
+        "direction_consistency": 0.8951612903225806,
+        "dominant_direction": "positive",
+        "feature": "area",
+        "median_relative_difference_percent": 35.3912647181878
+      },
+      {
+        "direction_consistency": 0.8911290322580645,
+        "dominant_direction": "positive",
+        "feature": "perimeter",
+        "median_relative_difference_percent": 16.403620048226074
+      },
+      {
+        "direction_consistency": 0.8326612903225806,
+        "dominant_direction": "positive",
+        "feature": "extent",
+        "median_relative_difference_percent": 4.89807275858812
+      },
+      {
+        "direction_consistency": 0.7540322580645161,
+        "dominant_direction": "positive",
+        "feature": "major_axis_length",
+        "median_relative_difference_percent": 11.659089553921092
+      },
+      {
+        "direction_consistency": 0.8830645161290323,
+        "dominant_direction": "positive",
+        "feature": "minor_axis_length",
+        "median_relative_difference_percent": 18.905615465543818
+      }
+    ]
+  },
+  "interpretation_limits": [
+    "Matched MI05 objects are temporally and spatially related and are not independent experiments.",
+    "Relative differences for eccentricity can be sensitive to small ground-truth values; raw signed and absolute differences remain available.",
+    "Observed feature shifts do not by themselves identify the segmentation mechanism or establish biological change.",
+    "The classifier was trained on ground-truth morphology, so predicted-mask feature distributions constitute an input-domain shift."
+  ],
+  "schema_version": "1.0",
+  "sequence": "MI05",
+  "systematic_direction_rule": {
+    "definition": "descriptive flag when at least 75% of paired differences share one sign; not a hypothesis test or independent-experiment inference",
+    "threshold": 0.75
+  },
+  "validations": {
+    "cellpose_auto": {
+      "all_feature_values_finite": true,
+      "common_subset_support_reconciles": true,
+      "feature_delta_checks": {
+        "area": true,
+        "aspect_ratio": true,
+        "eccentricity": true,
+        "extent": true,
+        "major_axis_length": true,
+        "minor_axis_length": true,
+        "perimeter": true,
+        "solidity": true
+      },
+      "matched_support_matches_step9": true,
+      "step9_transitions_reconcile": true,
+      "stored_deltas_reconcile": true,
+      "transition_checks": {
+        "correct_to_correct": true,
+        "correct_to_incorrect": true,
+        "incorrect_to_correct": true,
+        "incorrect_to_incorrect": true
+      }
+    },
+    "cellpose_fixed": {
+      "all_feature_values_finite": true,
+      "common_subset_support_reconciles": true,
+      "feature_delta_checks": {
+        "area": true,
+        "aspect_ratio": true,
+        "eccentricity": true,
+        "extent": true,
+        "major_axis_length": true,
+        "minor_axis_length": true,
+        "perimeter": true,
+        "solidity": true
+      },
+      "matched_support_matches_step9": true,
+      "step9_transitions_reconcile": true,
+      "stored_deltas_reconcile": true,
+      "transition_checks": {
+        "correct_to_correct": true,
+        "correct_to_incorrect": true,
+        "incorrect_to_correct": true,
+        "incorrect_to_incorrect": true
+      }
+    },
+    "stardist_saved": {
+      "all_feature_values_finite": true,
+      "common_subset_support_reconciles": true,
+      "feature_delta_checks": {
+        "area": true,
+        "aspect_ratio": true,
+        "eccentricity": true,
+        "extent": true,
+        "major_axis_length": true,
+        "minor_axis_length": true,
+        "perimeter": true,
+        "solidity": true
+      },
+      "matched_support_matches_step9": true,
+      "step9_transitions_reconcile": true,
+      "stored_deltas_reconcile": true,
+      "transition_checks": {
+        "correct_to_correct": true,
+        "correct_to_incorrect": true,
+        "incorrect_to_correct": true,
+        "incorrect_to_incorrect": true
+      }
+    }
+  }
+}

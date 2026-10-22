@@ -1,0 +1,208 @@
+{
+  "inputs": [
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0032.png",
+      "sha256": "233d0391a7d9da76e83054d4176012f8d79674e70b4064e443f1453341cc1899"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0047.png",
+      "sha256": "1b3e6bc66380faedc1b7e163f82d70415eb7d968b4df558809a440223de9796f"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0055.png",
+      "sha256": "c66972050c1025d345cdc0a7bbb2f85e310e1494b560d148776f24e23c6f4e6a"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks\\C_MI05_0057.png",
+      "sha256": "7280d217a6c78a01a3a4b4d6db9cbef0ff8354921f4db5923255992753694d13"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0016.png",
+      "sha256": "d4189f5e741f2aa687152e45794fd8a714c30edc5b11ff8c83b56e40ae62f548"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0054.png",
+      "sha256": "db0b6ea267234b82e5cd47bfdf24327e076478f8778f2cc0deb67bb17473f96d"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0055.png",
+      "sha256": "82faeb781e7b0864ac1ad10435ff8fd9b9fb0fa91a9dd21e2bcf03c7f4d94dec"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Cellpose_masks_v2\\C_MI05_0069.png",
+      "sha256": "1bc77c121543b69da2138c6c5fcc8eeb9f66df61effca14bf80a07eafc32a310"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0001.png",
+      "sha256": "8a8d84b83393f771876f8906e0b8a34b59e323a81b6225b820811a2dad139ae4"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0015.png",
+      "sha256": "ca36d7d84765fcdf5c206cb5f94f57c737622d3da3f81478062c907294c0e896"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0016.png",
+      "sha256": "d9ded219db9ce23c52a6d3cf42d733e28e57a574394f8689f17f5eb545beff60"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0031.png",
+      "sha256": "e2f3858e1f07a48c8252e75ba8a8764976c5814a1fcf851ae096f4bf0089b6ff"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0032.png",
+      "sha256": "f1b4dfba1ccbd6af6e0c2fd38fb93938179f798289d26814c1532454bc88ac62"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0047.png",
+      "sha256": "ecf40b667ba0f81bc42b954aaa99dcf55185bbc04d6b575d6bc36ed3a578745c"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0051.png",
+      "sha256": "b83548c654b131bf8057fddf22b404b95e56f4388cdc9e0aa12eee62a0ec54a7"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0054.png",
+      "sha256": "45a5954efc3938283716f1430a6d570354631d47404f43c18899356d8ab6c2a9"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0055.png",
+      "sha256": "5db2c87a93fc7401449acb5300d072583da224dc7b8a16645a9fa884aeff18ff"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0057.png",
+      "sha256": "c035f42c3d2f996606324fe5612bb75bc822560989b6308b3587e84f015d0ea1"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Images\\I_MI05_0069.png",
+      "sha256": "95f00bb6b872b763319ab53a1d358540ac51c500905e156e73d2c53bd96e3252"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0001.png",
+      "sha256": "05dabe298c228e4e235599f9b207b2d21c980780c48aaaaa3c036a830893a52e"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0015.png",
+      "sha256": "b2084221ac3e15e607c8afd660b6ffe4f6997344689a9f65781bf11ce91ec9c1"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0016.png",
+      "sha256": "ef864615fb6ef7c63634cb1c99bf69c2d1132dd97aecdfd37b4b6fc9724d1414"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0031.png",
+      "sha256": "ce44434002a78b8cde689fd3cedb4bc7f381488477d8cff891125bef1a94009a"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0032.png",
+      "sha256": "e87b15f3fd567f85ee23d5c72b1097ce0ffcdfa437eaaf599c918c71802c216e"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0047.png",
+      "sha256": "4f3f8d8688fedb7715ab0e4d8217827a64823c739e8c133248904181847c1630"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0051.png",
+      "sha256": "2464c0874af958fa6f8a2bd7e31b5e436c522db3d706ed4ed6f2e40ee0a87f0f"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0054.png",
+      "sha256": "ec92a5601e3e16b26e25a48f62fa47985ae3fa4855aedd370c8600e919a19916"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0055.png",
+      "sha256": "2235725dcb02356fafc9cfe80dd0130cb06df5c2d45236dbd7ff0f52d3a1f10a"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0057.png",
+      "sha256": "40588fdce168350c22fda8d4231edabaa01e418a3eaaf35ef26ce62d61d301d4"
+    },
+    {
+      "path": "<ALFI_DATA>\\MI05\\Masks_converted\\M_MI05_0069.png",
+      "sha256": "2a14ba8eb054da5d18a7a49e65e25751e5eb809a0208235ea69ab63711e311d2"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_auto\\error_cases.csv",
+      "sha256": "1608f49dd301234a86d2952d975c61667ae32ba49287714d67727e4e0f1ee2de"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_auto\\matched_instances.csv",
+      "sha256": "f34b41431e33e6102f58533b4f93f8ab2c4e9abf86065957fb72eb6e8fcb9ca9"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_fixed\\error_cases.csv",
+      "sha256": "495991de4625d8c981e760b3ba6f7209630615774b45e2edc425520f1a544e1c"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_fixed\\matched_instances.csv",
+      "sha256": "5de81e91fbbfc829d53770655added19e53412c353e54d5eed8e446df81ee8e4"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\error_cases.csv",
+      "sha256": "85c824df6b41ebfe9d43331e9638fb31d578240cfc1bbe60c1e8e61e8d3a9156"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\matched_instances.csv",
+      "sha256": "58daeff3eb28904d8a2c171bfe746db366f21cb85f699ed36956884cf62a8e32"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0001.png",
+      "sha256": "d28fdac7be1924bd72742691d7faf14bf47cdfc3155e13e6611927acbd83a8dd"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0015.png",
+      "sha256": "c8e14c31d06e541588e8b19cd67c9e0cdaaf19ac8d96e9ae4d6c47fc0d93e8c9"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0031.png",
+      "sha256": "2c8e3ba8e5d0d842e5338643642d8002dd80b6843a881160ee68ed61bc1bc342"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\predictions\\S_MI05_0051.png",
+      "sha256": "6e3bdc12bbd5252f701a625e5c80830ed335570581dfee2a6cdf66e119cf08b8"
+    }
+  ],
+  "notes": "Selections are deterministic and source frames are hashed; panels show DIC images with verified ground-truth and prediction boundaries.",
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\error_analysis\\error_type_counts.csv",
+      "sha256": "aa9c340a777e9c283bd2f7e973da513e9a8658e8dc1e96eb3dde806f9d3645e2"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\error_analysis\\failure_case_selection.csv",
+      "sha256": "749cf830a5fbbc5d068ee913a2170ca86cb0749406966b243bc597d5bbf80ac8"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\error_analysis\\failure_cases_cellpose_auto.pdf",
+      "sha256": "539e5064bf97f2dd960dbbb834510087726872d6a6856fbbe06c1745f14fc15f"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\error_analysis\\failure_cases_cellpose_auto.png",
+      "sha256": "3729f1780475513484d5ba068b16d39b7aed515d636393b425f3162e423c3035"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\error_analysis\\failure_cases_cellpose_fixed.pdf",
+      "sha256": "91b73764f3ed3d0515463f05efc8578f7c3d8b4fb7bb4882dde9cffa0100bd4a"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\error_analysis\\failure_cases_cellpose_fixed.png",
+      "sha256": "c7182e7416fce9eadf83a59f1f87ba59a4e6e8080aeeaa60af51bfed4c1d7b5c"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\error_analysis\\failure_cases_stardist_saved.pdf",
+      "sha256": "4f2b23500b2d27a8ead539327c02697165906bd3a7e97916113bc2427a4f33df"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\error_analysis\\failure_cases_stardist_saved.png",
+      "sha256": "bc08eaa2b683ea02b22aceb05db41a7a60fd490a1bb4fa5546a34a997460c41d"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\error_analysis\\ranked_error_frames.csv",
+      "sha256": "bf68501a0e87c612cb9051703006d78bc2716133a73c8156d830024364be0514"
+    }
+  ],
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\scripts_figures\\build_error_analysis.py",
+    "sha256": "59416255d99f453594c7af58f3951981a27f46f13e364239653733cca3042f10"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "check_counts": {
+    "annotation_only_set_checks": 5,
+    "class_values_checks": 345,
+    "file_dtype_checks": 1378,
+    "file_shape_checks": 1378,
+    "frame_set_checks": 20,
+    "instance_class_mapping_checks": 345,
+    "instance_ids_connected_checks": 345,
+    "instance_ids_contiguous_checks": 345,
+    "raw_class_mapping_checks": 345,
+    "raw_values_checks": 345
+  },
+  "dataset_membership_sha256": "7c2a0cb813dc84f9a3a6e8e2c31551b37ac081162a6f22cda51db5df2cd903f5",
+  "dataset_root": "PATH/TO/ALFI_DATA",
+  "duplicate_groups": 0,
+  "interpretation": {
+    "exclusion": "MI01_0001 and MI01_0062 are annotation-only and excluded from image-dependent analysis",
+    "inclusion": "a frame is included in image-dependent analysis only when image, raw mask, instance mask, and class mask share the same frame identifier",
+    "random_frame_split": "prohibited because adjacent frames can place nearly repeated cells in development and evaluation subsets",
+    "temporal_dependence": "frames within a sequence are repeated observations of one field of view and are not independent"
+  },
+  "known_annotation_only_frames": [
+    "MI01_0001",
+    "MI01_0062"
+  ],
+  "prior_audit_reconciliation": {
+    "counts_match": true,
+    "inventory_hash_matches_manifest": true,
+    "total_aligned_matches": true
+  },
+  "quality_issue_count": 0,
+  "representation": {
+    "dtypes": {
+      "class_mask": "uint8",
+      "image": "uint8",
+      "instance_mask": "uint16",
+      "raw_mask": "uint8"
+    },
+    "raw_to_class_mapping": {
+      "0": 0,
+      "128": 1,
+      "255": 2
+    },
+    "shape": [
+      320,
+      400
+    ],
+    "value_unions": {
+      "class_mask": [
+        0,
+        1,
+        2
+      ],
+      "raw_mask": [
+        0,
+        128,
+        255
+      ]
+    }
+  },
+  "schema_version": "1.0",
+  "sequence_roles": {
+    "MI01": "classifier_training",
+    "MI02": "classifier_training",
+    "MI03": "classifier_training",
+    "MI04": "classifier_validation_and_lock",
+    "MI05": "retrospective_final_comparison"
+  },
+  "status": "pass",
+  "thesis_reconciliation": {
+    "MIOneAnnotationFiles": {
+      "expected": "69",
+      "matches": true,
+      "observed_macro": "69"
+    },
+    "MIOneImages": {
+      "expected": "67",
+      "matches": true,
+      "observed_macro": "67"
+    },
+    "TestFrames": {
+      "expected": "69",
+      "matches": true,
+      "observed_macro": "69"
+    },
+    "TotalAlignedFrames": {
+      "expected": "343",
+      "matches": true,
+      "observed_macro": "343"
+    },
+    "TrainingAlignedFrames": {
+      "expected": "205",
+      "matches": true,
+      "observed_macro": "205"
+    },
+    "ValidationFrames": {
+      "expected": "69",
+      "matches": true,
+      "observed_macro": "69"
+    }
+  },
+  "totals": {
+    "aligned_frames": 343,
+    "class_masks": 345,
+    "images": 343,
+    "instance_masks": 345,
+    "raw_masks": 345,
+    "training_aligned_frames": 205
+  },
+  "unit_of_observation": {
+    "image_level": "aligned frame",
+    "object_level": "annotated or predicted instance nested within a frame",
+    "split_level": "complete time-lapse sequence"
+  },
+  "validations": {
+    "class_value_union_exact": true,
+    "known_annotation_only_exact": true,
+    "no_exact_duplicate_files_within_or_across_sequences": true,
+    "no_quality_issues": true,
+    "prior_audit_reconciled": true,
+    "raw_value_union_exact": true,
+    "thesis_numbers_reconciled": true
+  }
+}

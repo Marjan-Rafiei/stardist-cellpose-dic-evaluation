@@ -1,0 +1,104 @@
+{
+  "actions_performed": {
+    "classifier_training": false,
+    "feature_selection": false,
+    "hyperparameter_tuning": false,
+    "mi05_use": false,
+    "validation_only_permutation": true
+  },
+  "command": [
+    "<PROJECT_ROOT>\\code\\feature_importance_audit.py",
+    "--dataset-root",
+    "<ALFI_DATA>",
+    "--classifier",
+    "results/verified/classifier_v1/classifier.joblib",
+    "--training-rows",
+    "results/verified/classifier_v1/training_rows.csv",
+    "--validation",
+    "results/verified/classifier_v1/validation_predictions.csv",
+    "--current-importance",
+    "results/verified/classifier_v1/diagnostics/permutation_importance.csv",
+    "--output-dir",
+    "results/verified/feature_importance_audit",
+    "--seed-start",
+    "42",
+    "--runs",
+    "5",
+    "--repeats",
+    "20"
+  ],
+  "inputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classifier_v1\\classifier.joblib",
+      "sha256": "da730e43228d5cb3f1fbff3e776837234912e8be97afae517c24cf942e42c4f3"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classifier_v1\\training_rows.csv",
+      "sha256": "25a0b4d7c1ff69122752fe799b45b7a4e11bd2164bee4d900c78c75e53a2f160"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classifier_v1\\validation_predictions.csv",
+      "sha256": "3cb57c4e86240baba64a4dc7c91af31868cd9e09310ebde241b96d4b3f169597"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classifier_v1\\diagnostics\\permutation_importance.csv",
+      "sha256": "e55aff84c2ceef1789727a24855f236823224a10335a7ae2dcce13b8a679c02f"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\feature_importance_audit\\individual_importance_runs.csv",
+      "sha256": "39dafdc0583b3b02720ba85a7c5252db6fbeb513566feddb1e1fff5a923df06f"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\feature_importance_audit\\individual_importance_draws.csv",
+      "sha256": "08b8d61f59e3eb0d7ca3d206873cee98cf5b7380a5e4eef0ea155002ff1eac79"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\feature_importance_audit\\individual_importance_stability.csv",
+      "sha256": "e1cdbde8e7b7ce38b278319abc3658cb806e05777921aad9bb717fc26f49687c"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\feature_importance_audit\\grouped_importance_runs.csv",
+      "sha256": "a94357a5029ae62e58dbb0851e21f3fa7bab852bea3ba164a7b002e46c88d81b"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\feature_importance_audit\\grouped_importance_draws.csv",
+      "sha256": "882b5ad21ea714f6f197a94fbf95ad73b0a13065acb895f25c2e658ccd5f2fad"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\feature_importance_audit\\grouped_importance_summary.csv",
+      "sha256": "c02f8961d8e6881b64f779edb1faf96f2b4d5feb9bb8cccd2291741b2d8987ff"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\feature_importance_audit\\feature_correlations.csv",
+      "sha256": "18391b29fb6cd9ac21ef3b63e9f577c584c186acaacf15f8b17de852b8ccf81a"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\feature_importance_audit\\high_correlation_pairs.csv",
+      "sha256": "d2448673b9f8afba06ea3a82664a0c3eb136cd76396837ed962f1d154e4d3e9a"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\feature_importance_audit\\audit_summary.json",
+      "sha256": "1451531a4d806ec10ee118bd7c3bf3741350a4941a7667e082ea04e6ad858ba5"
+    }
+  ],
+  "parameters": {
+    "dataset_root": "PATH/TO/ALFI_DATA",
+    "repeats": 20,
+    "runs": 5,
+    "scoring": "balanced_accuracy",
+    "seed_start": 42,
+    "training_sequences": [
+      "MI01",
+      "MI02",
+      "MI03"
+    ]
+  },
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\code\\feature_importance_audit.py",
+    "sha256": "e3c0f664941ddcca25be70cac8824d2d754a95e10f35bfb147b6c2f64c362583"
+  },
+  "status": "verified MI04 permutation-importance correlation and stability audit"
+}

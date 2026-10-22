@@ -1,0 +1,63 @@
+{
+  "accuracy": 0.9028776978417267,
+  "balanced_accuracy": 0.8921140401066161,
+  "classification_report": {
+    "accuracy": 0.9028776978417267,
+    "interphase": {
+      "f1-score": 0.9241573033707865,
+      "precision": 0.9164345403899722,
+      "recall": 0.9320113314447592,
+      "support": 353.0
+    },
+    "macro avg": {
+      "f1-score": 0.8945786516853933,
+      "precision": 0.8973035646112297,
+      "recall": 0.8921140401066161,
+      "support": 556.0
+    },
+    "mitotic": {
+      "f1-score": 0.865,
+      "precision": 0.8781725888324873,
+      "recall": 0.8522167487684729,
+      "support": 203.0
+    },
+    "weighted avg": {
+      "f1-score": 0.9025585037587908,
+      "precision": 0.9024647990839121,
+      "recall": 0.9028776978417267,
+      "support": 556.0
+    }
+  },
+  "classifier_sha256": "da730e43228d5cb3f1fbff3e776837234912e8be97afae517c24cf942e42c4f3",
+  "confusion_matrix": [
+    [
+      329,
+      24
+    ],
+    [
+      30,
+      173
+    ]
+  ],
+  "confusion_matrix_labels": [
+    1,
+    2
+  ],
+  "interpretation_limit": "ALFI interphase masks are nuclei and mitotic masks are whole-cell regions",
+  "macro_f1": 0.8945786516853933,
+  "normalized_confusion_matrix": [
+    [
+      0.9320113314447592,
+      0.0679886685552408
+    ],
+    [
+      0.1477832512315271,
+      0.8522167487684729
+    ]
+  ],
+  "schema_version": "1.0",
+  "seed": 42,
+  "sequence": "MI04",
+  "support": 556,
+  "validation_sha256": "3cb57c4e86240baba64a4dc7c91af31868cd9e09310ebde241b96d4b3f169597"
+}

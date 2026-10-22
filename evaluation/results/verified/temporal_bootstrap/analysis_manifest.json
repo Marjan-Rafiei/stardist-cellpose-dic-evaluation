@@ -1,0 +1,84 @@
+{
+  "command": [
+    "<PROJECT_ROOT>\\code\\temporal_bootstrap_audit.py",
+    "--results-root",
+    "results/verified",
+    "--sequence",
+    "MI05",
+    "--block-length",
+    "5",
+    "--block-length",
+    "7",
+    "--block-length",
+    "10",
+    "--block-length",
+    "14",
+    "--chosen-block-length",
+    "10",
+    "--replicates",
+    "2000",
+    "--seed",
+    "42",
+    "--max-lag",
+    "15",
+    "--output-dir",
+    "results/verified/temporal_bootstrap"
+  ],
+  "inputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_auto\\metrics_by_frame.csv",
+      "sha256": "f707b01fa575ad0b73511f199c10a26541b4cf89f869f3c39420591fdbf5f23a"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_fixed\\metrics_by_frame.csv",
+      "sha256": "731ae9b053f94ebdcb53ee97d4de23bbd2e9b4467305e28a40a66b98dd3f5581"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\metrics_by_frame.csv",
+      "sha256": "7b887c3a4734a338cff79927858e3d42decee234cddcc3239fcb59bd31648332"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\temporal_bootstrap\\autocorrelation.csv",
+      "sha256": "d2e6468a829f29b04686ff4f4b191848e2daab500adc8d18f300ec27e7b0e635"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\temporal_bootstrap\\bootstrap_replicates.csv",
+      "sha256": "c16722afd1bf0c36087bc20b7dd81e4e4f9b0760d2a8bf96b18de3cdc80b0e0f"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\temporal_bootstrap\\bootstrap_interval_sensitivity.csv",
+      "sha256": "84b0df62b04e53d62ac0982f3b7ba1ec0dc72059c754dfc62d58f38b95949fc7"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\temporal_bootstrap\\bootstrap_interval_table.tex",
+      "sha256": "6143c00ffd2a8e62ed14d7c7e09b6ccd3dd170b464f9e1b2a38cb242af98d362"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\temporal_bootstrap\\analysis_summary.json",
+      "sha256": "c2f59d3f56a0bacdd6bfbae892affdbea6c8e3388fa4cdfde8dd3a334e5f04aa"
+    }
+  ],
+  "packages": {
+    "Pillow": "12.3.0",
+    "joblib": "1.6.0",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scikit-image": "0.25.2",
+    "scikit-learn": "1.7.2",
+    "scipy": "1.15.3"
+  },
+  "prohibited_actions": {
+    "model_inference": false,
+    "model_training": false,
+    "threshold_tuning": false
+  },
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\code\\temporal_bootstrap_audit.py",
+    "sha256": "ae5d032ed0f53863a72e862c445b77b7270221a79d866289bf2feb25a816ea2e"
+  },
+  "sequence": "MI05",
+  "status": "verified descriptive temporal-dependence and bootstrap-sensitivity audit"
+}

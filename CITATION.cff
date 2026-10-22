@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Numerical Evaluation of Cell Segmentation Methods: a Comparison between StarDist and Cellpose in DIC Microscopy"
+type: software
+authors:
+  - family-names: Rafiei
+    given-names: Marjan
+date-released: 2026-10-28
+license: MIT

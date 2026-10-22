@@ -1,0 +1,32 @@
+{
+  "inputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\dataset_audit\\dataset_manifest.json",
+      "sha256": "a004680d2ac59a0b66c7c36ce3d09fd9da988f2e256cad550801e97c2d4245bb"
+    }
+  ],
+  "notes": "Method diagrams generated from the verified dataset manifest and the approved workflow specification encoded in this script.",
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\methods\\dataset_split.pdf",
+      "sha256": "b2e781d0f77e7ff7100db7215d0d97f01df7c8741e2f3d826691c5f8b183f886"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\methods\\dataset_split.png",
+      "sha256": "9a80da35d6c26ff4f34b9285af07809a53d007b99aa1defd996a4f25fee50c23"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\methods\\evaluation_pipeline.pdf",
+      "sha256": "ea6a13be99277438bbc0627db715404bd571051e3d0b34dec10a39e3fa9aff41"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\methods\\evaluation_pipeline.png",
+      "sha256": "2d37a8400b44b29b84244b86362615d60e951cca383a999a684948c44955db6f"
+    }
+  ],
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\scripts_figures\\build_method_diagrams.py",
+    "sha256": "7ea6fdb7b680b1b4c69edfd2a58699c0941ecc2461b1713921a5002639ae8788"
+  }
+}

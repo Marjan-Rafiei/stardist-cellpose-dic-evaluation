@@ -1,0 +1,99 @@
+{
+  "actions_performed": {
+    "classifier_fitting": false,
+    "model_inference": false,
+    "morphology_domain_shift_analysis": false,
+    "threshold_tuning": false
+  },
+  "command": [
+    "<PROJECT_ROOT>\\code\\classification_transition_analysis.py",
+    "--results-root",
+    "results/verified",
+    "--sequence",
+    "MI05",
+    "--error-chain-summary",
+    "results/verified/segmentation_analytics_error_chain/error_chain_summary.csv",
+    "--output-dir",
+    "results/verified/classification_transitions"
+  ],
+  "inputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_auto\\classifier_metrics.json",
+      "sha256": "c17dcf2a8f8c2516d17b4ac4043b014d84d0ab0bd48319fff381d07f92615502"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_auto\\error_cases.csv",
+      "sha256": "1608f49dd301234a86d2952d975c61667ae32ba49287714d67727e4e0f1ee2de"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_auto\\matched_instances.csv",
+      "sha256": "f34b41431e33e6102f58533b4f93f8ab2c4e9abf86065957fb72eb6e8fcb9ca9"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_fixed\\classifier_metrics.json",
+      "sha256": "3eb5cd137d090bfb60eda0f4560049336c12fe4574680cb48f1d515b0edc37bd"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_fixed\\error_cases.csv",
+      "sha256": "495991de4625d8c981e760b3ba6f7209630615774b45e2edc425520f1a544e1c"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_fixed\\matched_instances.csv",
+      "sha256": "5de81e91fbbfc829d53770655added19e53412c353e54d5eed8e446df81ee8e4"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\segmentation_analytics_error_chain\\error_chain_summary.csv",
+      "sha256": "252fc816b81a045baf4008e56a805d761b9e3460d5f5351165a5989417121941"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\classifier_metrics.json",
+      "sha256": "7275c47efd35b0d263b180b0dedcb92e261de3295e3258f2129cfb4afe6787a8"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\error_cases.csv",
+      "sha256": "85c824df6b41ebfe9d43331e9638fb31d578240cfc1bbe60c1e8e61e8d3a9156"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\matched_instances.csv",
+      "sha256": "58daeff3eb28904d8a2c171bfe746db366f21cb85f699ed36956884cf62a8e32"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classification_transitions\\transition_summary.csv",
+      "sha256": "3de219ae0f81f1e4ba055ae76a120e0fc3c8d9a3786d02e6c161373a80cf1ee0"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classification_transitions\\transition_counts.csv",
+      "sha256": "ef5ee0085cb14ad567fc17fb07cb01c67a846a921df6afff289f67f7a0977a43"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classification_transitions\\transition_by_class.csv",
+      "sha256": "874337e8742acb44fab59be3deea61baf2154ca4c4092b2b4385ce4a3ade9610"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classification_transitions\\transition_matrix_table.tex",
+      "sha256": "fd95ca188ec09c9c7439d55c06a5a7de0f14d7fbceb10423704af641e1739ee2"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\classification_transitions\\analysis_summary.json",
+      "sha256": "ce7e26da91a166e85349557481477e89c1d4c84b0fed4faccf3a0e595828b078"
+    }
+  ],
+  "packages": {
+    "Pillow": "12.3.0",
+    "joblib": "1.6.0",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scikit-image": "0.25.2",
+    "scikit-learn": "1.7.2",
+    "scipy": "1.15.3"
+  },
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\code\\classification_transition_analysis.py",
+    "sha256": "9f9fc6c754f37fcec8b0614fa781ecbb43e1c888f0f9fdd3ef3c4508dab775c8"
+  },
+  "sequence": "MI05",
+  "status": "verified matched-instance classification transition analysis"
+}

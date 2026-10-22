@@ -1,0 +1,36 @@
+{
+  "inputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_auto\\metrics_by_frame.csv",
+      "sha256": "f707b01fa575ad0b73511f199c10a26541b4cf89f869f3c39420591fdbf5f23a"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\cellpose_fixed\\metrics_by_frame.csv",
+      "sha256": "731ae9b053f94ebdcb53ee97d4de23bbd2e9b4467305e28a40a66b98dd3f5581"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\stardist_saved\\metrics_by_frame.csv",
+      "sha256": "7b887c3a4734a338cff79927858e3d42decee234cddcc3239fcb59bd31648332"
+    }
+  ],
+  "notes": "Per-frame plots generated only from verified metrics_by_frame.csv files.",
+  "outputs": [
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\per_frame\\per_frame_metrics.pdf",
+      "sha256": "e3bb935d2c02c5a9f2ed8c7d581779456ae82522fa33072bb79e3138278c46f3"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\per_frame\\per_frame_metrics.png",
+      "sha256": "c108cdf0cdcb4f3e7228a1f899fb9fdc6d95f7a671fe2477df07342efa6fe2aa"
+    },
+    {
+      "path": "<PROJECT_ROOT>\\results\\verified\\figures\\per_frame\\per_frame_plot_data.csv",
+      "sha256": "a148b9d52b7c69a9f0bfbc1172881b7d0c80b79acb338e03817228248b8117c0"
+    }
+  ],
+  "schema_version": "1.0",
+  "script": {
+    "path": "<PROJECT_ROOT>\\scripts_figures\\plot_per_frame_metrics.py",
+    "sha256": "c0b393e4e62055f105a09044b096108927cd8d7e1691f5b503b96f3686df6a21"
+  }
+}

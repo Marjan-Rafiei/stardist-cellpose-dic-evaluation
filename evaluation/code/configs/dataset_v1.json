@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "dataset_root": "PATH/TO/ALFI_DATA",
+  "sequences": ["MI01", "MI02", "MI03", "MI04", "MI05"],
+  "expected_image_counts": {
+    "MI01": 67,
+    "MI02": 69,
+    "MI03": 69,
+    "MI04": 69,
+    "MI05": 69
+  },
+  "expected_mask_counts": {
+    "MI01": 69,
+    "MI02": 69,
+    "MI03": 69,
+    "MI04": 69,
+    "MI05": 69
+  },
+  "allowed_raw_values": [0, 128, 255],
+  "allowed_class_values": [0, 1, 2],
+  "known_annotation_only_frames": ["MI01_0001", "MI01_0062"]
+}

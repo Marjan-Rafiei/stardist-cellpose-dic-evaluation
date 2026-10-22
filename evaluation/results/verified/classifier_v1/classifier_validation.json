@@ -1,0 +1,70 @@
+{
+  "classification_report": {
+    "accuracy": 0.9028776978417267,
+    "interphase": {
+      "f1-score": 0.9241573033707865,
+      "precision": 0.9164345403899722,
+      "recall": 0.9320113314447592,
+      "support": 353.0
+    },
+    "macro avg": {
+      "f1-score": 0.8945786516853933,
+      "precision": 0.8973035646112297,
+      "recall": 0.8921140401066161,
+      "support": 556.0
+    },
+    "mitotic": {
+      "f1-score": 0.865,
+      "precision": 0.8781725888324873,
+      "recall": 0.8522167487684729,
+      "support": 203.0
+    },
+    "weighted avg": {
+      "f1-score": 0.9025585037587908,
+      "precision": 0.9024647990839121,
+      "recall": 0.9028776978417267,
+      "support": 556.0
+    }
+  },
+  "classifier": {
+    "path": "<PROJECT_ROOT>\\results\\verified\\classifier_v1\\classifier.joblib",
+    "sha256": "da730e43228d5cb3f1fbff3e776837234912e8be97afae517c24cf942e42c4f3"
+  },
+  "config": {
+    "path": "<PROJECT_ROOT>\\code\\configs\\classifier_v1.json",
+    "sha256": "9ea0906a115a3aa881c1d3f1345d58c799576b0911d4803ef85d4bc8c8c55471"
+  },
+  "confusion_matrix": [
+    [
+      329,
+      24
+    ],
+    [
+      30,
+      173
+    ]
+  ],
+  "confusion_matrix_labels": [
+    1,
+    2
+  ],
+  "features": [
+    "area",
+    "perimeter",
+    "eccentricity",
+    "solidity",
+    "extent",
+    "major_axis_length",
+    "minor_axis_length",
+    "aspect_ratio"
+  ],
+  "seed": 42,
+  "training_rows": 2747,
+  "training_sequences": [
+    "MI01",
+    "MI02",
+    "MI03"
+  ],
+  "validation_rows": 556,
+  "validation_sequence": "MI04"
+}
